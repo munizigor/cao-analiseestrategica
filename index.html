@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise Estratégica - CAO CBMDF</title>
+    <style>
+        :root {
+            --cor-primaria: #b22222;
+            /* Vermelho Bombeiro */
+            --cor-secundaria: #ffd700;
+            /* Ouro/Amarelo */
+            --cor-fundo: #f4f4f4;
+            --cor-texto: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+        }
+
+        header {
+            background-color: var(--cor-primaria);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--cor-secundaria);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: var(--cor-primaria);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+
+        .aula-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid #eee;
+            transition: background 0.3s;
+        }
+
+        .aula-item:hover {
+            background-color: #fff9e6;
+        }
+
+        .aula-info h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        .aula-info p {
+            margin: 0.2rem 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .btn-link {
+            background-color: var(--cor-primaria);
+            color: white;
+            text-decoration: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: opacity 0.3s;
+        }
+
+        .btn-link:hover {
+            opacity: 0.8;
+        }
+
+        .badge-r {
+            color: #d9534f;
+            font-weight: bold;
+        }
+
+        /* Reforçador */
+        .badge-b {
+            color: #5bc0de;
+            font-weight: bold;
+        }
+
+        /* Balanceador */
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Análise Estratégica</h1>
+        <p>Curso de Aperfeiçoamento de Oficiais (CAO) - CBMDF</p>
+        <p>Instrutor: Ten-Cel QOBM/Comb. Igor <strong>MUNIZ</strong> da Silva</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Repositório de Aulas</h2>
+
+            <!-- Aula 01 -->
+            <div class="aula-item">
+                <div class="aula-info">
+                    <h3>UNIDADE I / AULA 1 – O Ecossistema CBMDF e o Pensamento Sistêmico</h3>
+                    <p><strong>Carga-Horária:</strong> 5 h/a | <strong>Modalidade:</strong> Presencial</p>
+                    <p><strong>Dinâmica Interativa:</strong> "Role-play" de formação. A turma será dividida em grupos
+                        de trabalho: 1 grupo representará o CBMDF e os outros representarão
+                        Stakeholders críticos (Sociedade, GDF, Forças de Segurança, Imprensa).</p>
+                    <p><strong>Conteúdo:</strong><br>
+                        1.1. Introdução ao Pensamento Sistêmico (Base: Thinking in Systems de Donella Meadows):
+                        entendendo o CBMDF como um organismo complexo.<br>
+                        1.2. Mapeamento do Negócio, Missão e Visão sob a ótica dos múltiplos atores.<br>
+                        1.3. Análise da teia de Stakeholders e o impacto de seus interesses no planejamento estratégico.
+                    </p>
+                </div>
+                <a href="https://docs.google.com/presentation/d/1gRMpoE_hVWTAapzU2y5Y4OR_fvamcMdx/edit?usp=sharing"
+                    class="btn-link" target="_blank">Acessar Slides</a>
+            </div>
+
+            <!-- Aula 02 -->
+            <div class="aula-item">
+                <div class="aula-info">
+                    <h3>UNIDADE II / AULA 2 – Diagnóstico Estratégico e a Cultura Analítica</h3>
+                    <p><strong>Carga-Horária:</strong> 5 h/a | <strong>Modalidade:</strong> Presencial</p>
+                    <p><strong>Dinâmica Interativa:</strong> "Oficina de Cenários". Os grupos de Stakeholders confrontam
+                        o grupo CBMDF, usando matrizes estratégicas para negociação e priorização.
+                    </p>
+                    <p><strong>Conteúdo:</strong><br>
+                        2.1. Ferramentas dinâmicas de Análise do Ambiente (SWOT cruzada e Elaboração de Cenários).<br>
+                        2.2. A transição da "Cultura de Bater Metas" para a "Cultura de Insights Acionáveis".<br>
+                        2.3. Como dados brutos se transformam em decisões estratégicas na segurança pública.</p>
+                </div>
+                <span class="btn-link" style="background-color: #ccc;">Aguardando</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Destaques da Disciplina</h2>
+            <ul>
+                <li><strong>Ciclos Reforçadores (R):</strong> Exemplo da má gestão de RH que gera déficit de
+                    competências.</li>
+                <li><strong>Ciclos Balanceadores (B):</strong> Foco em estabilidade, metas institucionais e governança
+                    de riscos (SSCIP).</li>
+                <li><strong>Objetivo:</strong> Mitigação de riscos e alcance do nível de segurança desejado para a
+                    sociedade.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        Corpo de Bombeiros Militar do Distrito Federal<br>
+        Vidas alheias e riquezas a salvar.
+    </footer>
+
+</body>
+
+</html>
