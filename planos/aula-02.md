@@ -44,7 +44,8 @@ Ao final da aula, cada grupo será capaz de:
    dizendo o que cada um exige do CBMDF.
 4. **Redigir uma Carta de Posição** com exigências, contrapartidas, melhor alternativa em caso de
    impasse e linha vermelha.
-5. **Distinguir** a cultura de "bater meta" da cultura de insight acionável.
+5. **Posicionar o portfólio de serviços** do CBMDF numa matriz BCG adaptada ao serviço público.
+6. **Distinguir** a cultura de "bater meta" da cultura de insight acionável.
 
 ## 4. Conteúdo da ementa coberto
 
@@ -54,6 +55,7 @@ Ao final da aula, cada grupo será capaz de:
 | 9.2 Levantamento e definição dos interesses dos stakeholders (Un. IV) | Entrega 3 — Carta de Posição |
 | 10.2 Matriz SWOT (Un. V) | Micro-conteúdo A + Entrega 1 |
 | 10.3 Elaboração de cenários (Un. V) | Micro-conteúdo B + Entrega 2 |
+| 10.1 Matriz BCG (Un. V) *e* 1.2 Produtos da organização (Un. I) | Micro-conteúdo D |
 
 ## 5. A missão do grupo
 
@@ -68,8 +70,8 @@ Ao final da aula, cada grupo será capaz de:
 
 | Etapa | Tempo | Entrega |
 |---|---|---|
-| Micro-conteúdos A, B e C | 1 h | — |
-| SWOT cruzada sob a ótica do grupo | 1 h 30 | **Entrega 1** (T3, parte A) |
+| Micro-conteúdos A, B, C e D | 1 h 15 | — |
+| SWOT cruzada sob a ótica do grupo | 1 h 15 | **Entrega 1** (T3, parte A) |
 | Matriz de cenários 2×2 | 1 h | **Entrega 2** (T3, parte B) |
 | Carta de Posição | 1 h | **Entrega 3** (T4) |
 | Fórum "Provocações" | 30 min | Post individual |
@@ -162,7 +164,35 @@ Página curta, e é a ponte para toda a segunda metade da disciplina:
 > amanhã?* Se a resposta é não, o indicador é decoração — e vocês vão reencontrar essa frase na
 > Aula 6.
 
-### 6.6 · Entrega 1 — SWOT cruzada *(T3, parte A)*
+### 6.6 · Micro-conteúdo D — Matriz BCG do portfólio de serviços
+
+A BCG nasceu para portfólio de produtos, com fatia de mercado e taxa de crescimento. O CBMDF não tem
+mercado nem concorrente — mas tem **portfólio de serviços**, e a lógica se transporta trocando os
+dois eixos:
+
+- **Eixo vertical — crescimento da demanda social** pelo serviço: a demanda sobe ou cai?
+- **Eixo horizontal — capacidade instalada do CBMDF** naquele serviço: somos fortes ou frágeis nisso?
+
+| | **Alta capacidade** | **Baixa capacidade** |
+|---|---|---|
+| **Demanda crescente** | ⭐ **ESTRELA** — sustente o investimento; é a vitrine e consome recurso | ❓ **INTERROGAÇÃO** — decida: investir para dominar, ou articular com outro órgão |
+| **Demanda estável ou em queda** | 🐄 **VACA LEITEIRA** — mantenha com eficiência; é o que financia a legitimidade da corporação | 🐕 **ABACAXI** — questione: ainda é nosso? ainda faz sentido? |
+
+**Aplicação:** posicione os principais serviços do CBMDF — combate a incêndio urbano e florestal,
+atendimento pré-hospitalar, salvamento, prevenção e vistoria (SCIP), resposta a desastres, educação
+pública em segurança e perícia. *O mapa de produtos do* **T2, parte B**, *feito na Aula 1, é o insumo
+direto deste exercício.*
+
+**Duas perguntas que costumam incomodar — e é para incomodar mesmo:**
+
+1. *"O APH é estrela do CBMDF ou é interrogação disputada com o SAMU?"*
+2. *"Qual é o nosso abacaxi que ninguém tem coragem de nomear?"*
+
+> 🎯 **Amarração com o papel:** em que quadrante está o serviço que o **seu ator** mais cobra? Exigir
+> algo sobre um serviço-estrela é muito mais fácil de sustentar na mesa da Aula 3 — e o grupo CBMDF,
+> por sua vez, tem argumento orçamentário mais forte ali do que num abacaxi.
+
+### 6.7 · Entrega 1 — SWOT cruzada *(T3, parte A)*
 
 Cada grupo entrega a SWOT do CBMDF **sob a ótica do seu ator**, com os quatro quadrantes preenchidos
 **e ao menos uma estratégia em cada cruzamento** (FO, FA, DO, DA).
@@ -173,7 +203,7 @@ Cada grupo entrega a SWOT do CBMDF **sob a ótica do seu ator**, com os quatro q
 - [ ] A SWOT está escrita do ponto de vista do nosso papel, e não do ponto de vista de um oficial?
 - [ ] Cada cruzamento gerou uma estratégia redigida como **ação**, e não como adjetivo?
 
-### 6.7 · Entrega 2 — Matriz de cenários *(T3, parte B)*
+### 6.8 · Entrega 2 — Matriz de cenários *(T3, parte B)*
 
 Dois eixos escolhidos e justificados, quatro cenários nomeados e, para cada um, o que ele exige do
 CBMDF.
@@ -185,7 +215,7 @@ CBMDF.
 - [ ] Algum cenário é claramente favorável ao nosso ator e desfavorável ao CBMDF? *(É a munição da
       Aula 3.)*
 
-### 6.8 · Entrega 3 — Carta de Posição *(T4)*
+### 6.9 · Entrega 3 — Carta de Posição *(T4)*
 
 Uma página, e é o documento que vai à mesa na Aula 3:
 
@@ -202,7 +232,7 @@ Uma página, e é o documento que vai à mesa na Aula 3:
 > atores, o que vocês esperam que ele exija e qual será sua resposta — inclusive **onde vocês não
 > poderão ceder**, e por quê. Vocês vão responder a todos, um depois do outro.
 
-### 6.9 · Fórum "Provocações"
+### 6.10 · Fórum "Provocações"
 
 Post individual, curto:
 

@@ -55,7 +55,6 @@ Ao final da aula, cada grupo será capaz de:
 | 7.1 Critérios para seleção de indicadores (Un. III) | Bloco 5 |
 | 7.2 Exemplos de indicadores do CBMDF e suas métricas (Un. III) | Blocos 4 e 5 |
 | 8.1 / 8.3 / 8.4 PE, integração e alinhamento de indicadores (Un. IV) | Bloco 4 |
-| 10.1 Matriz BCG (Un. V) *e* 1.2 Produtos da organização (Un. I) | **Bloco 4B — opcional**, ver nota no bloco |
 | 13.1 Considerações éticas na utilização de indicadores (Un. VI) | Bloco 6 (semeadura vivencial) |
 
 ## 5. Materiais
@@ -202,45 +201,6 @@ sistema X"), o que faz a organização medir a entrega do meio e nunca o resulta
 
 ---
 
-### Bloco 4B *(OPCIONAL)* — Matriz BCG do portfólio do CBMDF · 15 min
-
-> ⚙️ **Bloco de encaixe.** Serve para cobrir o item **10.1 da ementa (Matriz BCG)**, que é o único
-> item do conteúdo programático não contemplado no arco Dor → Indicador → Decisão. **Só inclua se a
-> Matriz BCG não tiver sido tratada na Aula 2.** Ver a nota de cobertura no [`README.md`](README.md).
->
-> **Custo de tempo:** +15 min. Para caber nos 240 min, reduza o bloco 1 de 20 para 15 min (dot voting
-> de 5 min em vez de 8) e o bloco 7 de 30 para 20 min (dispensando a etapa de confronto entre os dois
-> métodos de ponderação).
-
-**Micro-exposição (5 min).** A matriz BCG foi criada para portfólio de produtos com fatia de mercado
-e crescimento. O CBMDF não tem mercado nem concorrentes — mas tem **portfólio de serviços**, e a
-lógica se transporta com dois eixos adaptados:
-
-- **Eixo vertical — crescimento da demanda social** pelo serviço (a demanda sobe ou cai?).
-- **Eixo horizontal — domínio/capacidade instalada** do CBMDF naquele serviço (somos fortes ou
-  frágeis nisso?).
-
-| | **Alta capacidade** | **Baixa capacidade** |
-|---|---|---|
-| **Demanda crescente** | ⭐ **ESTRELA** — sustente o investimento; é a vitrine e consome recurso | ❓ **INTERROGAÇÃO** — decida: investir para dominar, ou articular com outro órgão |
-| **Demanda estável ou em queda** | 🐄 **VACA LEITEIRA** — mantenha com eficiência; financia o resto da corporação em legitimidade | 🐕 **ABACAXI** — questione: ainda é nosso? Ainda faz sentido? |
-
-**Atividade (8 min).** Em plenário, no quadro, a turma posiciona os principais serviços do CBMDF:
-combate a incêndio urbano e florestal, atendimento pré-hospitalar, salvamento, prevenção e vistoria
-(SCIP), resposta a desastres, educação pública em segurança, perícia. *Isso cobre também o item 1.2
-da ementa — definição dos principais produtos da organização.*
-
-**Debrief (2 min) — duas perguntas que costumam incomodar, e é para incomodar mesmo:**
-
-1. *"O APH é estrela do CBMDF ou é interrogação disputada com o SAMU?"* — retoma diretamente o
-   confronto de stakeholders da Aula 1.
-2. *"Qual é o nosso abacaxi que ninguém tem coragem de nomear?"*
-
-**Amarração:** em que quadrante está o serviço afetado pela dor do seu grupo? Dor em serviço-estrela
-tem argumento orçamentário muito mais forte na RAE da Aula 6 — e saber disso muda o pitch.
-
----
-
 ### Bloco 5 — A Ficha do Indicador · 55 min
 
 **Micro-exposição (12 min) — a anatomia de um indicador.** Base: Francischini & Francischini,
@@ -346,9 +306,12 @@ esses pesos?* Fica em aberto; volta na RAE da Aula 6.
 briefing é, portanto, a última oportunidade de tirar dúvida. Conduza-o assim:
 
 1. **(12 min) Moodle projetado, tour ao vivo.** Percorra na tela cada recurso da Aula 5: a página
-   *Missão*, o **Caso-Modelo Resolvido**, o **FAQ + Kit de Desbloqueio**, o fórum *Ajuda Mútua*, os
-   três checkpoints e a revisão cruzada. Mostre onde clicar. Deixe explícito: **nenhum grupo pode
-   parar por falta de autorização — o Kit de Desbloqueio já autoriza tudo.**
+   *Missão*, o **FAQ + Kit de Desbloqueio**, o fórum *Ajuda Mútua*, os três checkpoints e a revisão
+   cruzada. Mostre onde clicar. Deixe explícito: **nenhum grupo pode parar por falta de autorização —
+   o Kit de Desbloqueio já autoriza tudo.**
+   O **Caso-Modelo Resolvido** é a única peça ainda ausente: mostre o espaço reservado a ele e
+   **anuncie a data e a hora em que estará publicado** — ele só pode ser montado depois de hoje,
+   porque precisa tratar de uma dor diferente das que os grupos acabaram de eleger.
 2. **(8 min) "Perguntem agora tudo o que travaria vocês."** Anote no quadro cada dúvida levantada.
    Compromisso: essas dúvidas entram no FAQ do Moodle antes da liberação da aula.
 3. **(5 min) Papéis.** Cada grupo define ali, na hora, seu **coordenador de sprint** (posta os
@@ -378,6 +341,15 @@ Cada grupo sai com, em mãos:
 Estes cinco artefatos são o insumo da Aula 5. **Fotografe tudo antes de a turma sair** e poste no
 Moodle no mesmo dia — grupo que perde o T8 na sexta não consegue trabalhar no fim de semana, e não
 haverá instrutor para socorrer.
+
+### ⏱️ E, na mesma noite: escolher e montar o Caso-Modelo
+
+Com as **oito dores eleitas no bloco 2** à vista, escolha entre os quatro candidatos da
+[seção 6.3 da Aula 5](aula-05.md) **um caso que nenhum grupo tenha escolhido** — se coincidir, aquele
+grupo copia a resposta em vez da estrutura. Monte as sete peças (cerca de 3 h) e publique **em até
+24 h**, antes de o CP1 abrir.
+
+É a última tarefa do instrutor antes de a Aula 5 correr sozinha.
 
 ## 8. Avaliação
 

@@ -221,7 +221,7 @@ responsabilidade.
 - há entregas **sem dono claro**, distribuídas entre duas ou três diretorias;
 - há entregas que a sociedade percebe e a corporação não contabiliza — e o contrário também.
 
-> 📌 Guarde este mapa. Ele é o insumo direto do **bloco 4B opcional da Aula 4** (Matriz BCG do
+> 📌 Guarde este mapa. Ele é o insumo direto do **micro-conteúdo D da Aula 2** (Matriz BCG do
 > portfólio de serviços) e ajuda os grupos a ancorarem suas dores na Aula 4.
 
 ---

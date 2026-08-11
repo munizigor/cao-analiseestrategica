@@ -154,5 +154,5 @@ Posicione **todos os oito atores** da sala:
 
 ---
 
-*As partes A e B alimentam o bloco 4B da Aula 4 (Matriz BCG). A parte D volta na Aula 6, bloco 4,
+*As partes A e B alimentam o micro-conteúdo D da Aula 2 (Matriz BCG). A parte D volta na Aula 6, bloco 4,
 quando o grupo mapear quem resistirá ao seu indicador.*

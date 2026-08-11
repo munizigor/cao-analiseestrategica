@@ -64,14 +64,15 @@ Numerados na **ordem de uso** ao longo da disciplina.
 
 ## Matriz de rastreabilidade — ementa × aula
 
-Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = tratado · 🔁 = retomado.
+Os 16 itens do conteúdo programático do plano de disciplina, mapeados — **todos cobertos**.
+✅ = tratado · 🔁 = retomado.
 
 ### Unidade I — 5 h/a
 
 | Item | Onde | |
 |---|---|---|
 | 1.1 Análise do organograma institucional | **Aula 1** blocos 1 e 6 | ✅ |
-| 1.2 Definição dos principais produtos da organização | **Aula 1** bloco 6 · 🔁 Aula 4 bloco 4B *(opcional)* | ✅ |
+| 1.2 Definição dos principais produtos da organização | **Aula 1** bloco 6 · 🔁 **Aula 2** micro-conteúdo D | ✅ |
 | 2.1 Análise da legislação da Corporação | **Aula 1** bloco 5 | ✅ |
 | 2.2 Definição prévia da visão institucional | **Aula 1** blocos 8 e 9 | ✅ |
 
@@ -110,7 +111,7 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 
 | Item | Onde | |
 |---|---|---|
-| 10.1 Matriz BCG | **Aula 4** bloco 4B — ⚠️ **opcional, ver nota abaixo** | ⚠️ |
+| 10.1 Matriz BCG | **Aula 2** micro-conteúdo D (BCG do portfólio de serviços) | ✅ |
 | 10.2 Matriz SWOT | **Aula 2** micro-conteúdo A + entrega 1 (SWOT cruzada) | ✅ |
 | 10.3 Elaboração de cenários | **Aula 2** micro-conteúdo B + entrega 2 · **Aula 3** bloco 2 | ✅ |
 | 11.1 Técnicas de comunicação eficaz de resultados | **Aula 6** bloco 1 | ✅ |
@@ -127,20 +128,6 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 | 14. Análise dos indicadores já criados pelo CBMDF | **Aula 5** CP1 e fórum Achados · **Aula 6** blocos 1 e 3 | ✅ |
 | 15. Exercício prático | **Aula 5** integral · **Aula 6** bloco 2 | ✅ |
 | 16. Avaliação | **Aula 6** bloco 5c + [`avaliacao.md`](avaliacao.md) | ✅ |
-
-### ⚠️ Nota de cobertura — item 10.1 (Matriz BCG)
-
-É o **único item do conteúdo programático que exige decisão do instrutor**. A Aula 2 tratou de SWOT
-cruzada e elaboração de cenários; se a Matriz BCG não foi abordada ali, ela fica sem cobertura no
-arco Dor → Indicador → Decisão, porque BCG é ferramenta de análise de portfólio e não de análise de
-indicador.
-
-**Solução pronta:** o [bloco 4B da Aula 4](aula-04.md#bloco-4b-opcional--matriz-bcg-do-portfólio-do-cbmdf--15-min)
-traz uma BCG adaptada ao serviço público — eixos *crescimento da demanda social* × *capacidade
-instalada do CBMDF* — aplicada ao portfólio de serviços da corporação, em 15 minutos, com as
-instruções de qual bloco encurtar para manter as 5 h/a. Ele cobre de uma vez os itens 10.1 e 1.2.
-
-**Decisão do instrutor:** ☐ BCG já foi tratada na Aula 2 — dispensar o bloco 4B · ☐ Incluir o bloco 4B.
 
 ---
 

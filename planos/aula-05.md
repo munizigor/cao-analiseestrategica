@@ -140,23 +140,70 @@ Recurso de links. Fontes oficiais, todas alinhadas às referências básicas da 
 ### 6.3 · Página — "📘 Caso-Modelo Resolvido" *(mecanismo ①)*
 
 O item mais importante do ambiente. É um **exemplo completo, de ponta a ponta, com comentários
-explicando as escolhas** — não um modelo em branco. Use uma dor **fictícia e propositalmente
-diferente** das dores dos grupos, para que ninguém copie a resposta; a estrutura é que deve ser
-copiada.
+explicando as escolhas** — não um modelo em branco.
 
-Sugestão de caso: *"Retrabalho na vistoria de projetos de SCIP: projetos reprovados voltam três, quatro
-vezes, e o tempo de análise estoura."* Monte o caso com:
+#### (a) A regra de escolha — o caso só é definido na Aula 4
 
-1. a **árvore de causa-raiz** já pronta (herdando o formato do T7);
-2. a **ficha completa** (T8) de um indicador *lagging* — *taxa de reprovação em primeira análise* — e
-   de um *leading* — *% de projetos protocolados com checklist prévio preenchido*;
-3. o **contraindicador** e a explicação de qual burla ele bloqueia;
-4. uma **série de 8 períodos** com os números visíveis e as contas feitas **e mostradas** (média,
-   mediana, amplitude, desvio-padrão, variação %, tendência);
-5. o **gráfico** da série com a linha de base marcada;
-6. o **Painel de 1 página** e a **Nota Técnica de 1 página** finalizados;
-7. ao lado de cada bloco, um **comentário em caixa** no formato *"por que preenchemos assim"* — é
-   isso que transforma o exemplo em aula.
+> ⏱️ **Este é o único item do Moodle que não pode ser montado antes da Aula 4**, e há um motivo: o
+> caso-modelo precisa ser **diferente de todas as dores eleitas pelos oito grupos**. Se coincidir com
+> a dor de algum grupo, aquele grupo copia a resposta em vez da estrutura — e é a estrutura que se
+> quer ensinar.
+
+O procedimento, ao final da Aula 4:
+
+1. No bloco 2 daquela aula, cada grupo elege **uma dor**. Anote as oito.
+2. Escolha, entre os quatro candidatos abaixo, **um que nenhum grupo tenha escolhido**.
+3. Monte e publique **em até 24 h**, sempre antes de o CP1 abrir.
+4. No bloco 8 da Aula 4, anuncie à turma a data e a hora da publicação.
+
+#### (b) Os quatro candidatos
+
+Todos já vêm com o par *leading*/*lagging* e o contraindicador resolvidos — o trabalho que sobra é
+produzir a série, o gráfico e os comentários.
+
+| | **① Chamadas abandonadas no 193** | **② Retrabalho na análise de projetos (SCIP)** |
+|---|---|---|
+| **A dor** | O cidadão liga e desliga antes de ser atendido | Projetos reprovados voltam três, quatro vezes e o prazo de análise estoura |
+| ***Lagging*** | % de chamadas abandonadas antes do atendimento | Taxa de reprovação em primeira análise |
+| ***Leading*** | Tempo médio de espera em fila (segundos) | % de projetos protocolados com checklist prévio preenchido |
+| **Contraindicador** | Rechamada do mesmo número em até 10 min | Tempo total até a aprovação final |
+| **Burla que ele bloqueia** | Atender rápido e derrubar a ligação para "zerar" o abandono | Baixar o rigor da análise: aprova de primeira, e o número melhora enquanto a segurança piora |
+| **Farol do dado** | 🟢 a central telefônica gera automaticamente | 🟢/🟡 sistema de análise de projetos |
+| **Ensina melhor** | A **carta de controle** — variação comum × especial. A série é mensal e farta, e um mês de temporal dá uma causa especial crível. É exatamente o micro-conteúdo do CP2. | O indicador que, **otimizado ingenuamente, destrói o próprio propósito** |
+| **Risco de coincidir com a dor de um grupo** | Baixo | Médio |
+
+| | **③ Indisponibilidade da frota** | **④ Militar capacitado fora da especialidade** |
+|---|---|---|
+| **A dor** | A viatura quebra e ninguém sabe quando volta | Investe-se no curso e o militar é alocado em função alheia à especialização |
+| ***Lagging*** | Taxa de disponibilidade operacional da frota | % de militares atuando na especialidade em que foram capacitados |
+| ***Leading*** | % de manutenções preventivas executadas no prazo | % de vagas de curso preenchidas com perfil aderente à necessidade da unidade |
+| **Contraindicador** | Retorno à oficina em até 15 dias | Taxa de evasão e desistência em cursos |
+| **Burla que ele bloqueia** | Declarar disponível a viatura que a guarnição recusa | Preencher vaga de curso com quem estiver livre, só para não devolver a vaga |
+| **Farol do dado** | 🔴/🟡 raramente consolidado | 🟡 disperso entre as diretorias de ensino e de pessoal |
+| **Ensina melhor** | O caminho da **decisão D1**: dado inexistente, série simulada declarada e *"implantar a coleta"* como primeira iniciativa da nota técnica | Amarra com o **ciclo reforçador de má gestão de RH** já apresentado na Aula 1 — fecha a narrativa da disciplina |
+| **Risco de coincidir com a dor de um grupo** | Alto | Alto |
+
+> 💡 **Se puder escolher livremente, o ① é o mais completo**: dado abundante permite demonstrar a
+> estatística inteira sem recorrer a simulação, e é o menos provável de colidir com as dores da
+> turma. O ③ é a escolha certa se você quiser que os grupos vejam **como se procede quando o dado não
+> existe** — que é a situação que a maioria deles vai enfrentar.
+
+#### (c) O que montar
+
+Sete peças, na ordem em que o grupo vai lê-las:
+
+| | Peça | Esforço |
+|---|---|---|
+| 1 | **Árvore de causa-raiz** já pronta, no formato do [T7](templates/T7-arvore-causa-raiz.md) | 20 min |
+| 2 | **Ficha completa** ([T8](templates/T8-ficha-indicador.md)) do indicador *lagging* e do *leading* | 40 min |
+| 3 | **Contraindicador**, com a explicação de qual burla ele bloqueia | 10 min |
+| 4 | **Série de 8 períodos** com os números visíveis e as contas feitas **e mostradas**: média, mediana, amplitude, desvio-padrão, variação % e tendência | 40 min |
+| 5 | **Gráfico** da série com a linha de base marcada e a faixa de ±2 desvios | 20 min |
+| 6 | **Painel de 1 página** e **Nota Técnica de 1 página** ([T10](templates/T10-painel-e-nota-tecnica.md)) finalizados | 40 min |
+| 7 | Ao lado de cada bloco, um **comentário em caixa** no formato *"por que preenchemos assim"* | 30 min |
+
+**Cerca de 3 h de trabalho.** É o item mais caro da preparação e o que mais evita travamento —
+reserve a noite da Aula 4 para ele.
 
 > Inclua **de propósito um campo mal preenchido** e sinalize: *"repare que este campo está fraco — e
 > por quê"*. O contraexemplo ensina tanto quanto o exemplo, e evita a cópia acrítica do formato.
@@ -367,8 +414,10 @@ Individual, respostas **não visíveis aos colegas**. Instrumento pronto em
 **Antes (bloco crítico):**
 
 - [ ] Montar todos os recursos de 6.1 a 6.12.
-- [ ] Escrever o **Caso-Modelo** por inteiro. É o item que dá mais trabalho e o que mais evita
-      travamento — não deixe para depois.
+- [ ] ⏱️ Escrever o **Caso-Modelo** por inteiro — **o único item que não pode ser feito antes da
+      Aula 4**, porque o caso só é escolhido depois de conhecidas as dores dos grupos (ver 6.3).
+      Cerca de 3 h de trabalho, a publicar **em até 24 h após a Aula 4** e sempre antes de o CP1
+      abrir. É o item que dá mais trabalho e o que mais evita travamento.
 - [ ] Acrescentar ao FAQ as dúvidas levantadas no bloco 8 da Aula 4.
 - [ ] Conferir, um a um, se os links do Kit de dados estão no ar.
 - [ ] Postar as fotos dos T6–T9 da Aula 4.
