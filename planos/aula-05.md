@@ -14,7 +14,7 @@
 | **Modalidade** | A distância, **assíncrona** |
 | **Ambiente** | Moodle institucional (único ambiente — não há Meet, Teams ou mural digital) |
 | **Presença do instrutor** | ❌ **Nenhuma.** Não há plantão, não há resposta em tempo real, não há devolutiva durante a aula. |
-| **Pré-requisito** | Aula 4 concluída; T1 a T4 preenchidos e fotografados no Moodle |
+| **Pré-requisito** | Aula 4 concluída; T6 a T9 preenchidos e fotografados no Moodle |
 
 ## 2. A restrição que define este plano
 
@@ -147,8 +147,8 @@ copiada.
 Sugestão de caso: *"Retrabalho na vistoria de projetos de SCIP: projetos reprovados voltam três, quatro
 vezes, e o tempo de análise estoura."* Monte o caso com:
 
-1. a **árvore de causa-raiz** já pronta (herdando o formato do T2);
-2. a **ficha completa** (T3) de um indicador *lagging* — *taxa de reprovação em primeira análise* — e
+1. a **árvore de causa-raiz** já pronta (herdando o formato do T7);
+2. a **ficha completa** (T8) de um indicador *lagging* — *taxa de reprovação em primeira análise* — e
    de um *leading* — *% de projetos protocolados com checklist prévio preenchido*;
 3. o **contraindicador** e a explicação de qual burla ele bloqueia;
 4. uma **série de 8 períodos** com os números visíveis e as contas feitas **e mostradas** (média,
@@ -251,6 +251,7 @@ Preencher também: **fonte exata** (nome do sistema, relatório, boletim ou pág
 dado** e **com que frequência**.
 
 *Checklist de autoverificação do CP1:*
+
 - [ ] Os dois indicadores têm farol atribuído?
 - [ ] A fonte está citada de forma que outra pessoa a encontraria sozinha?
 - [ ] Se algum ficou 🔴 ou 🟡, a decisão do Kit de Desbloqueio aplicada está registrada?
@@ -289,6 +290,7 @@ dado** e **com que frequência**.
 5. **Linha de base e meta**, com a justificativa da meta (ver FAQ 7).
 
 *Checklist de autoverificação do CP2:*
+
 - [ ] A série tem ≥ 6 períodos e a origem de cada número é rastreável?
 - [ ] Média **e** mediana calculadas? *(Se elas divergem muito, há valor extremo — comente-o.)*
 - [ ] A meta tem número, prazo e **justificativa**?
@@ -298,7 +300,9 @@ dado** e **com que frequência**.
 ### 6.9 · Atividade — "🔄 Revisão cruzada" *(mecanismo ④)*
 
 *Disparada logo após o CP2.* Configure a distribuição em anel: **G1→G2, G2→G3, …, Gn→G1**, publicada
-na descrição da atividade para não depender de o instrutor distribuir nada.
+na descrição da atividade para não depender de o instrutor distribuir nada. **Publique o anel com os
+nomes reais dos grupos**, não com a fórmula — "G1→G2" obriga o aluno a descobrir qual é o G1 dele, e
+numa aula sem instrutor não há a quem perguntar.
 
 Cada grupo lê o CP2 do grupo seguinte e devolve um parecer de **até 10 linhas**, usando a **mesma
 rubrica** com que ambos serão avaliados na Aula 6 (ver [`avaliacao.md`](avaliacao.md)):
@@ -317,13 +321,14 @@ aprende um critério de avaliação. Ninguém entende uma rubrica lendo; entende
 
 *Liberada somente após o envio do CP2.*
 
-1. **Painel Estratégico — 1 página.** Modelo em [T5](templates/T5-painel-e-nota-tecnica.md).
+1. **Painel Estratégico — 1 página.** Modelo em [T10](templates/T10-painel-e-nota-tecnica.md).
 2. **Nota Técnica — 1 página.** Estrutura obrigatória: problema · evidência · indicadores (com
    pesos) · linha de base e meta · **decisão recomendada** · custo e risco · contraindicador de
    integridade.
 3. **Até 5 slides** para a defesa na Aula 6 — 5 min de pitch.
 
 *Checklist de autoverificação do CP3:*
+
 - [ ] A Nota Técnica recomenda **uma decisão**, não um estudo?
 - [ ] Um oficial que não acompanhou a disciplina entende o painel em 1 minuto?
 - [ ] O que a revisão cruzada apontou foi corrigido — ou a discordância foi justificada?
@@ -360,16 +365,18 @@ Individual, respostas **não visíveis aos colegas**. Instrumento pronto em
 ## 8. O que o instrutor faz — antes e depois, nunca durante
 
 **Antes (bloco crítico):**
+
 - [ ] Montar todos os recursos de 6.1 a 6.12.
 - [ ] Escrever o **Caso-Modelo** por inteiro. É o item que dá mais trabalho e o que mais evita
       travamento — não deixe para depois.
 - [ ] Acrescentar ao FAQ as dúvidas levantadas no bloco 8 da Aula 4.
 - [ ] Conferir, um a um, se os links do Kit de dados estão no ar.
-- [ ] Postar as fotos dos T1–T4 da Aula 4.
+- [ ] Postar as fotos dos T6–T9 da Aula 4.
 
 **Durante:** nada. É esse o desenho.
 
 **Depois, antes da Aula 6:**
+
 - [ ] Ler as entregas e levantar os **3 erros recorrentes** → abrem a Aula 6.
 - [ ] Ler o fórum Achados e separar os **3 melhores achados** → abrem a Aula 6, com crédito nominal
       aos autores.

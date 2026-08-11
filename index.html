@@ -96,6 +96,30 @@
             font-weight: bold;
             font-size: 0.9rem;
             transition: opacity 0.3s;
+            white-space: nowrap;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        .aula-acoes {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            align-items: stretch;
+            flex-shrink: 0;
+            margin-left: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .aula-item {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .aula-acoes {
+                flex-direction: row;
+                margin: 1rem 0 0;
+            }
         }
 
         .btn-link:hover {
@@ -143,9 +167,10 @@
                     <h3>UNIDADE I / AULA 1 – O Ecossistema CBMDF e o Pensamento Sistêmico</h3>
                     <p><strong>Carga-Horária:</strong> 5 h/a | <strong>Modalidade:</strong> <span
                             class="badge-r">Presencial</span></p>
-                    <p><strong>Dinâmica Interativa:</strong> "Role-play" de formação. A turma será dividida em grupos
-                        de trabalho: 1 grupo representará o CBMDF e os outros representarão
-                        Stakeholders críticos (Sociedade, GDF, Forças de Segurança, SAMU, Imprensa).</p>
+                    <p><strong>Dinâmica Interativa:</strong> "Role-play" de formação e a "teia de barbante". A turma é
+                        dividida em 8 grupos: 1 representa o CBMDF e os demais, Stakeholders críticos (Sociedade, GDF,
+                        Forças de Segurança, SAMU/SES, Imprensa, Setor produtivo e Órgãos de controle). Os papéis valem
+                        pelas seis aulas.</p>
                     <p><strong>Conteúdo:</strong><br>
                         1.1. Introdução ao Pensamento Sistêmico (Base: Thinking in Systems de Donella Meadows):
                         entendendo o CBMDF como um organismo complexo.<br>
@@ -153,8 +178,11 @@
                         1.3. Análise da teia de Stakeholders e o impacto de seus interesses no planejamento estratégico.
                     </p>
                 </div>
-                <a href="https://docs.google.com/presentation/d/1gRMpoE_hVWTAapzU2y5Y4OR_fvamcMdx/edit?usp=sharing"
-                    class="btn-link" target="_blank">Acessar Slides</a>
+                <div class="aula-acoes">
+                    <a href="planos/aula-01.html" class="btn-link">Plano de Aula</a>
+                    <a href="https://docs.google.com/presentation/d/1gRMpoE_hVWTAapzU2y5Y4OR_fvamcMdx/edit?usp=sharing"
+                        class="btn-link" style="background-color: #8b1a1a;" target="_blank">Slides</a>
+                </div>
             </div>
 
             <!-- Aula 02 -->
@@ -171,7 +199,9 @@
                         2.2. A transição da "Cultura de Bater Metas" para a "Cultura de Insights Acionáveis".<br>
                         2.3. Como dados brutos se transformam em decisões estratégicas na segurança pública.</p>
                 </div>
-                <span class="btn-link" style="background-color: #ccc;">Executada</span>
+                <div class="aula-acoes">
+                    <a href="planos/aula-02.html" class="btn-link">Plano de Aula</a>
+                </div>
             </div>
 
             <!-- Aula 03 -->
@@ -188,7 +218,9 @@
                         3.2. Coleta das dores institucionais sob a ótica de cada ator.<br>
                         3.3. Clusterização das dores: da queixa dispersa ao problema com nome.</p>
                 </div>
-                <span class="btn-link" style="background-color: #ccc;">Executada</span>
+                <div class="aula-acoes">
+                    <a href="planos/aula-03.html" class="btn-link">Plano de Aula</a>
+                </div>
             </div>
 
             <!-- Aula 04 -->
@@ -206,7 +238,9 @@
                         4.3. Ficha técnica do indicador (leading e lagging) e atribuição de pesos (AHP simplificado).
                     </p>
                 </div>
-                <a href="planos/aula-04.html" class="btn-link">Plano de Aula</a>
+                <div class="aula-acoes">
+                    <a href="planos/aula-04.html" class="btn-link">Plano de Aula</a>
+                </div>
             </div>
 
             <!-- Aula 05 -->
@@ -223,7 +257,9 @@
                         5.2. Série histórica e estatística descritiva: variação comum × variação especial.<br>
                         5.3. Linha de base, meta justificada e síntese em Painel e Nota Técnica.</p>
                 </div>
-                <a href="planos/aula-05.html" class="btn-link">Plano de Aula</a>
+                <div class="aula-acoes">
+                    <a href="planos/aula-05.html" class="btn-link">Plano de Aula</a>
+                </div>
             </div>
 
             <!-- Aula 06 -->
@@ -240,7 +276,9 @@
                         6.2. Tomada de decisão sob restrição e o "Tribunal do Indicador" (ética e integridade).<br>
                         6.3. Gestão da mudança: plano de 90 dias, ações corretivas e preventivas.</p>
                 </div>
-                <a href="planos/aula-06.html" class="btn-link">Plano de Aula</a>
+                <div class="aula-acoes">
+                    <a href="planos/aula-06.html" class="btn-link">Plano de Aula</a>
+                </div>
             </div>
         </div>
 

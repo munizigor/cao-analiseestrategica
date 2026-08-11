@@ -1,4 +1,4 @@
-# T1 — Priorização de Dores
+# T6 — Priorização de Dores
 
 **Aula 4 · Bloco 2** · Grupo: ______________________ · Data: ____/____/______
 
@@ -92,4 +92,4 @@ Posicione cada cluster (use o número da tabela acima) no quadrante corresponden
 
 ---
 
-*Este template alimenta o [T2](T2-arvore-causa-raiz.md). Fotografe antes de sair da sala.*
+*Este template alimenta o [T7](T7-arvore-causa-raiz.md). Fotografe antes de sair da sala.*

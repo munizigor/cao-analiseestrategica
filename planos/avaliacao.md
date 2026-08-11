@@ -15,7 +15,7 @@ realizadas… dinâmicas em classe (individuais ou em grupo)… avaliação a cr
 |---|---|---|---|
 | **A · Produto do grupo** — Painel + Nota Técnica | **40%** | grupo | Entregue no CP3 (Aula 5) |
 | **B · Defesa na RAE** | **20%** | grupo | Aula 6, bloco 2 |
-| **C · Participação** — dinâmicas das Aulas 4 e 6 + fóruns e revisão cruzada da Aula 5 | **20%** | individual | Aulas 4, 5 e 6 |
+| **C · Participação** — role-play das Aulas 1 e 3, dinâmicas das Aulas 4 e 6, fóruns e revisão cruzada da Aula 5 | **20%** | individual | Todas as aulas |
 | **D · Autoavaliação e peer review intragrupo** | **20%** | individual | Questionário da Aula 5, fechado na Aula 6 |
 
 ### Fórmula
@@ -108,10 +108,11 @@ cinco.
 
 | Fonte | Peso dentro de C | O que observar |
 |---|---|---|
-| **Aula 4** — dinâmicas | 30% | Qualidade dos **vetos** no júri dos 5 Porquês e das **burlas** no Red Team. Distinguem quem entendeu o mecanismo de quem preencheu formulário. |
-| **Aula 5** — fórum *Ajuda Mútua* | 25% | **Respostas dadas a outros grupos**, não perguntas feitas. Resposta que destravou colega pontua alto. |
+| **Aulas 1 e 3** — role-play | 20% | Quem **assume o papel** e quem continua respondendo como oficial do CBMDF. Na Aula 3, quem sustenta a posição com argumento e cenário — e, no grupo CBMDF, quem consegue **recusar com fundamento** em vez de prometer o que não pode entregar. |
+| **Aula 4** — dinâmicas | 20% | Qualidade dos **vetos** no júri dos 5 Porquês e das **burlas** no Red Team. Distinguem quem entendeu o mecanismo de quem preencheu formulário. |
+| **Aula 5** — fórum *Ajuda Mútua* | 20% | **Respostas dadas a outros grupos**, não perguntas feitas. Resposta que destravou colega pontua alto. |
 | **Aula 5** — fórum *Achados* | 15% | Post individual com fonte citada e relevância explicada. |
-| **Aula 5** — **revisão cruzada** | 30% | Parecer específico e acionável. **Parecer genérico ("está bom, parabéns") pontua zero.** |
+| **Aula 5** — **revisão cruzada** | 25% | Parecer específico e acionável. **Parecer genérico ("está bom, parabéns") pontua zero.** |
 
 > A revisão cruzada tem o maior peso dentro da participação de propósito: numa aula EAD sem
 > instrutor, ela é o que sustenta a qualidade coletiva.

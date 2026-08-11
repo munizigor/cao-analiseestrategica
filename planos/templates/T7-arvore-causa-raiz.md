@@ -1,10 +1,10 @@
-# T2 — Árvore de Causa-Raiz
+# T7 — Árvore de Causa-Raiz
 
 **Aula 4 · Bloco 3** · Grupo: ______________________ · Grupo-juiz: ______________________
 
 ---
 
-## A dor eleita no T1
+## A dor eleita no T6
 
 ```
 
@@ -117,4 +117,4 @@ _________________                            _________________
 
 ---
 
-*Este template alimenta o [T3](T3-ficha-indicador.md) e o CP1 da Aula 5.*
+*Este template alimenta o [T8](T8-ficha-indicador.md) e o CP1 da Aula 5.*

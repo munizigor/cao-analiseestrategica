@@ -17,16 +17,21 @@ presencial    EAD          presencial   presencial   EAD           presencial
 ```
 
 A disciplina é conduzida como **um único projeto contínuo**, e não como seis aulas independentes:
-cada encontro consome o produto do anterior. O fio condutor das três últimas aulas é o arco
+cada encontro consome o produto do anterior. As três primeiras aulas fazem o **diagnóstico do
+ambiente** e desembocam nas dores clusterizadas; as três últimas percorrem o arco
 **Dor → Indicador → Decisão**.
+
+**Dimensionamento de referência:** turma de **30 ou mais alunos**, organizada em **8 grupos** de 4 a 5
+— 1 grupo CBMDF e 7 de stakeholders. Os papéis são sorteados na Aula 1 e valem até o fim da
+disciplina. Onde o número de grupos altera o cronômetro, o plano traz a tabela de dimensionamento.
 
 ## Índice
 
 | Aula | Título | Modalidade | Plano |
 |---|---|---|---|
-| 1 | O Ecossistema CBMDF e o Pensamento Sistêmico | Presencial | [slides](https://docs.google.com/presentation/d/1gRMpoE_hVWTAapzU2y5Y4OR_fvamcMdx/edit?usp=sharing) |
-| 2 | Diagnóstico Estratégico e a Cultura Analítica | EAD | *executada* |
-| 3 | Oficina de Cenários e Clusterização das Dores | Presencial | *executada* |
+| **1** | **O Ecossistema CBMDF e o Pensamento Sistêmico** | **Presencial** | [`aula-01.md`](aula-01.md) · [slides](https://docs.google.com/presentation/d/1gRMpoE_hVWTAapzU2y5Y4OR_fvamcMdx/edit?usp=sharing) |
+| **2** | **Diagnóstico Estratégico e a Cultura Analítica** | **EAD** | [`aula-02.md`](aula-02.md) |
+| **3** | **Oficina de Cenários e a Escuta das Dores** | **Presencial** | [`aula-03.md`](aula-03.md) |
 | **4** | **Da Dor ao Indicador** | **Presencial** | [`aula-04.md`](aula-04.md) |
 | **5** | **Sprint do Painel** *(autônoma, sem instrutor)* | **EAD** | [`aula-05.md`](aula-05.md) |
 | **6** | **Reunião de Análise Estratégica** | **Presencial** | [`aula-06.md`](aula-06.md) |
@@ -34,14 +39,21 @@ cada encontro consome o produto do anterior. O fio condutor das três últimas a
 
 ### Templates dos alunos
 
+Numerados na **ordem de uso** ao longo da disciplina.
+
 | | Template | Usado em |
 |---|---|---|
-| **T1** | [Priorização de dores](templates/T1-priorizacao-dores.md) — GUT + Impacto × Governabilidade | Aula 4, bloco 2 |
-| **T2** | [Árvore de causa-raiz](templates/T2-arvore-causa-raiz.md) — 5 Porquês com juiz + Ishikawa | Aula 4, bloco 3 |
-| **T3** | [Ficha do indicador](templates/T3-ficha-indicador.md) — anatomia do KPI + contraindicador | Aula 4, blocos 4 a 6 |
-| **T4** | [Atribuição de pesos](templates/T4-atribuicao-pesos.md) — 100 pontos + AHP simplificado | Aula 4, bloco 7 |
-| **T5** | [Painel + Nota Técnica](templates/T5-painel-e-nota-tecnica.md) — entregável final | Aula 5, CP3 |
-| **T6** | [Plano de 90 dias](templates/T6-plano-90-dias.md) — implantação e gestão da mudança | Aula 6, bloco 4 |
+| **T1** | [Dossiê de papel do stakeholder](templates/T1-dossie-de-papel.md) — as 8 personas + dossiê do grupo | Aula 1, bloco 2 *(vale pelas 6 aulas)* |
+| **T2** | [Mapa sistêmico e teia](templates/T2-mapa-sistemico-e-teia.md) — ciclo R/B, produtos, poder × interesse | Aula 1, blocos 4 a 7 |
+| **T3** | [SWOT cruzada e cenários](templates/T3-swot-e-cenarios.md) — FO/FA/DO/DA + matriz 2×2 | Aula 2, entregas 1 e 2 |
+| **T4** | [Carta de posição](templates/T4-carta-de-posicao.md) — exigências, contrapartidas e linha vermelha | Aula 2, entrega 3 |
+| **T5** | [Oficina e colheita de dores](templates/T5-oficina-e-dores.md) — rodadas, post-its e clusterização | Aula 3, blocos 1 a 5 |
+| **T6** | [Priorização de dores](templates/T6-priorizacao-dores.md) — GUT + Impacto × Governabilidade | Aula 4, bloco 2 |
+| **T7** | [Árvore de causa-raiz](templates/T7-arvore-causa-raiz.md) — 5 Porquês com juiz + Ishikawa | Aula 4, bloco 3 |
+| **T8** | [Ficha do indicador](templates/T8-ficha-indicador.md) — anatomia do KPI + contraindicador | Aula 4, blocos 4 a 6 |
+| **T9** | [Atribuição de pesos](templates/T9-atribuicao-pesos.md) — 100 pontos + AHP simplificado | Aula 4, bloco 7 |
+| **T10** | [Painel + Nota Técnica](templates/T10-painel-e-nota-tecnica.md) — entregável final | Aula 5, CP3 |
+| **T11** | [Plano de 90 dias](templates/T11-plano-90-dias.md) — implantação e gestão da mudança | Aula 6, bloco 4 |
 
 > 🛠️ **Como editar.** Os arquivos **`.md` são a fonte**; as páginas `.html` são geradas a partir
 > deles. Depois de alterar qualquer plano, rode `python3 build.py` na raiz do repositório para
@@ -58,17 +70,17 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 
 | Item | Onde | |
 |---|---|---|
-| 1.1 Análise do organograma institucional | Aula 1 | ✅ |
-| 1.2 Definição dos principais produtos da organização | Aula 1 · 🔁 Aula 4 bloco 4B *(opcional)* | ✅ |
-| 2.1 Análise da legislação da Corporação | Aula 1 | ✅ |
-| 2.2 Definição prévia da visão institucional | Aula 1 | ✅ |
+| 1.1 Análise do organograma institucional | **Aula 1** blocos 1 e 6 | ✅ |
+| 1.2 Definição dos principais produtos da organização | **Aula 1** bloco 6 · 🔁 Aula 4 bloco 4B *(opcional)* | ✅ |
+| 2.1 Análise da legislação da Corporação | **Aula 1** bloco 5 | ✅ |
+| 2.2 Definição prévia da visão institucional | **Aula 1** blocos 8 e 9 | ✅ |
 
 ### Unidade II — 5 h/a
 
 | Item | Onde | |
 |---|---|---|
 | 3.1 Conceito de indicadores de desempenho | **Aula 4** bloco 5 | ✅ |
-| 3.2 Importância da análise de indicadores no CBMDF | **Aula 4** blocos 4 e 5 · 🔁 **Aula 5** | ✅ |
+| 3.2 Importância da análise de indicadores no CBMDF | **Aula 2** micro-conteúdo C · **Aula 4** blocos 4 e 5 · 🔁 **Aula 5** | ✅ |
 | 4.1 Técnicas para atribuir pesos aos indicadores | **Aula 4** bloco 7 | ✅ |
 | 4.2 Importância da priorização estratégica dos indicadores | **Aula 4** blocos 2 e 7 | ✅ |
 | 5.1 Métodos estatísticos básicos aplicados a indicadores | **Aula 5** CP2 | ✅ |
@@ -87,24 +99,24 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 
 | Item | Onde | |
 |---|---|---|
-| 8.1 Modelo de elaboração do PE | Aula 1 · 🔁 **Aula 4** bloco 4 | ✅ |
-| 8.2 Análise do PE do CBMDF | Aula 1 · 🔁 **Aula 4** bloco 4 (inclui lacunas do PLANES) | ✅ |
+| 8.1 Modelo de elaboração do PE | **Aula 1** blocos 5 e 8 · 🔁 **Aula 4** bloco 4 | ✅ |
+| 8.2 Análise do PE do CBMDF | **Aula 1** bloco 5 · 🔁 **Aula 4** bloco 4 (inclui lacunas do PLANES) | ✅ |
 | 8.3 Integração dos indicadores ao PE do CBMDF | **Aula 4** bloco 4 · **Aula 5** CP3 | ✅ |
 | 8.4 Alinhamento de indicadores com metas organizacionais | **Aula 5** CP2 e CP3 | ✅ |
-| 9.1 Análise e definição dos principais stakeholders | Aula 1 · 🔁 **Aula 6** bloco 4 | ✅ |
-| 9.2 Levantamento dos interesses dos stakeholders | Aulas 1 e 2 · 🔁 **Aula 6** bloco 2 (banca) | ✅ |
+| 9.1 Análise e definição dos principais stakeholders | **Aula 1** blocos 2 e 7 · **Aula 3** bloco 2 · 🔁 **Aula 6** bloco 4 | ✅ |
+| 9.2 Levantamento dos interesses dos stakeholders | **Aula 1** bloco 7 · **Aula 2** Carta de Posição · **Aula 3** blocos 1 e 2 · 🔁 **Aula 6** bloco 2 | ✅ |
 
 ### Unidade V — 5 h/a
 
 | Item | Onde | |
 |---|---|---|
 | 10.1 Matriz BCG | **Aula 4** bloco 4B — ⚠️ **opcional, ver nota abaixo** | ⚠️ |
-| 10.2 Matriz SWOT | Aula 2 (SWOT cruzada) | ✅ |
-| 10.3 Elaboração de cenários | Aulas 2 e 3 (Oficina de Cenários) | ✅ |
+| 10.2 Matriz SWOT | **Aula 2** micro-conteúdo A + entrega 1 (SWOT cruzada) | ✅ |
+| 10.3 Elaboração de cenários | **Aula 2** micro-conteúdo B + entrega 2 · **Aula 3** bloco 2 | ✅ |
 | 11.1 Técnicas de comunicação eficaz de resultados | **Aula 6** bloco 1 | ✅ |
 | 11.2 Relatórios e apresentações para diferentes públicos | **Aula 6** blocos 1 e 2 · **Aula 5** CP3 | ✅ |
 | 12.1 Uso dos indicadores para identificar oportunidades de melhoria | **Aula 6** bloco 4 | ✅ |
-| 12.2 Implementação de ações corretivas e preventivas | **Aula 6** bloco 4 (T6, parte D) | ✅ |
+| 12.2 Implementação de ações corretivas e preventivas | **Aula 6** bloco 4 (T11, parte D) | ✅ |
 
 ### Unidade VI — 5 h/a
 
@@ -140,12 +152,12 @@ diferente, o que preserva a conformidade com a carga horária aprovada.
 
 | Aula | Modalidade | h/a | Tempo de atividade |
 |---|---|---|---|
-| 1 | Presencial | 5 | — |
-| 2 | **EAD** | 5 | — |
-| 3 | Presencial | 5 | — |
+| 1 | Presencial | 5 | 240 min + 2 intervalos |
+| 2 | **EAD** | 5 | assíncrono, 3 entregas |
+| 3 | Presencial | 5 | 240 min + 1 intervalo |
 | 4 | Presencial | 5 | 240 min + 2 intervalos |
 | 5 | **EAD** | 5 | assíncrono, 3 checkpoints |
-| 6 | Presencial | 5 | 235 min + 1 intervalo |
+| 6 | Presencial | 5 | 240 min + 1 intervalo |
 | | | **30 h/a** | **10 h/a EAD + 20 h/a presenciais** ✅ |
 
 ---
@@ -187,7 +199,7 @@ e a turma escuta**. As decisões que decorrem disso:
 
 ## Continuidade
 
-Ao final da Aula 6, **fotografe todos os artefatos** — painéis, T6, linha do tempo. Este acervo é o
+Ao final da Aula 6, **fotografe todos os artefatos** — painéis, T11, linha do tempo. Este acervo é o
 material de partida da próxima turma, e é o registro de que a disciplina produziu diagnóstico real
 sobre dores reais do CBMDF.
 

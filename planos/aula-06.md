@@ -10,7 +10,7 @@
 | | |
 |---|---|
 | **Unidade** | III, V e VI — ver matriz em [`README.md`](README.md) |
-| **Carga-horária** | 5 h/a (235 min de atividade + 1 intervalo de 10 min) |
+| **Carga-horária** | 5 h/a (240 min de atividade + 1 intervalo de 10 min) |
 | **Modalidade** | Presencial |
 | **Pré-requisito** | CP3 da Aula 5 entregue; instrutor com as entregas e os fóruns **já lidos** |
 | **Formato** | Simulação. O bloco central ocupa 90 min e a turma conduz — o instrutor é membro de banca, não expositor. |
@@ -62,9 +62,9 @@ Ao final da aula, cada oficial será capaz de:
   perdidos em troca de notebook por grupo custam 25 minutos da aula).
 - **Fichas dos casos do Tribunal do Indicador**, impressas, uma por grupo (textos na seção 6, bloco
   3).
-- Cópias do [T6](templates/T6-plano-90-dias.md).
+- Cópias do [T11](templates/T11-plano-90-dias.md).
 - **Todos os artefatos das seis aulas** para o painel do bloco 5: mapa de stakeholders (Aula 1),
-  matrizes de cenários (Aula 2), clusters de dores (Aula 3), T1–T4 (Aula 4), painéis e notas técnicas
+  matrizes de cenários (Aula 2), clusters de dores (Aula 3), T6–T9 (Aula 4), painéis e notas técnicas
   (Aula 5), e as fichas do bilhete de saída da Aula 4.
 - Post-its para o fechamento.
 
@@ -72,7 +72,7 @@ Ao final da aula, cada oficial será capaz de:
 
 ## 6. Roteiro
 
-### Bloco 1 — Raio-x da Aula 5 + Storytelling em 3 frases · 25 min
+### Bloco 1 — Raio-x da Aula 5 + Storytelling em 3 frases · 30 min
 
 #### 1a · A devolutiva que não coube na EAD (8 min)
 
@@ -97,7 +97,7 @@ delas pode ser falsa.
 | **Imprensa / sociedade** | O que isso muda para a vida das pessoas. Quer conflito. | Falar em siglas e taxas. Nenhum cidadão sabe o que é "índice de cobertura operacional". |
 | **A tropa** | O que muda no meu turno, na minha guarnição. | Falar em estratégia. A tropa pergunta: *e o meu trabalho?* |
 
-**Atividade (12 min).** Cada grupo escreve a **mesma** mensagem do seu painel em três versões — 2
+**Atividade (17 min).** Cada grupo escreve a **mesma** mensagem do seu painel em três versões — 2
 frases para cada público. Três grupos leem em voz alta as três versões seguidas. A turma identifica
 onde alguma versão **deixou de ser verdadeira** para ficar mais simpática. Esse é o limite ético da
 comunicação, e ele reaparece no bloco 3.
@@ -129,16 +129,23 @@ está apresentando** + o instrutor como presidente silencioso. Papéis com placa
 É a restrição que transforma o exercício em decisão estratégica de verdade. Sem escassez, todo mundo
 concorda com todo mundo e ninguém aprende a decidir.
 
-#### Rodadas (10 min por grupo · ~75 min para 5 a 7 grupos)
+#### Rodadas · dimensionar pelo número de grupos
 
-- **5 min de pitch** — o grupo apresenta painel e recomendação. Cronômetro visível; ao sinal, para.
-- **5 min de sabatina** — cada membro da banca faz ao menos uma pergunta. **A pergunta sobre origem
-  do dado é dirigida ao guardião do dado** do grupo, nominalmente.
+| Grupos | Pitch | Sabatina | Total das rodadas | Cabe nos 90 min? |
+|---|---|---|---|---|
+| até 6 | 5 min | 5 min | 60 min | ✅ com 25 min de folga para montagem, alocação e debrief |
+| **7 a 8** | **4 min** | **4 min** | **56 a 64 min** | ✅ montagem 5 + alocação e debrief 15 |
+| 9 ou mais | 3 min | 3 min | 54+ min | ⚠️ considere dois comitês em paralelo e uma final entre os dois melhores de cada |
+
+- **Pitch** — o grupo apresenta painel e recomendação. Cronômetro visível; ao sinal, para. *Cortar no
+  meio da frase é pedagógico: é o que acontece numa reunião de verdade.*
+- **Sabatina** — cada membro da banca faz ao menos uma pergunta. **A pergunta sobre origem do dado é
+  dirigida ao guardião do dado** do grupo, nominalmente.
 - **Rodízio:** ao terminar, a banca é substituída por 3 novos alunos sorteados. Ao final, quase todos
   terão sentado dos dois lados da mesa — que é o ponto pedagógico: *decidir é diferente de propor, e
   quem só propôs a vida inteira não sabe o quanto dói recusar.*
 
-#### Alocação e debrief (10 min)
+#### Alocação e debrief · 15 min
 
 A banca final aloca as 100 fichas em voz alta, justificando cada decisão. Em seguida, o instrutor
 conduz o debrief com três perguntas — nesta ordem:
@@ -161,7 +168,7 @@ resposta costuma ser "critério explícito" — e é uma boa dor para deixar com
 
 ---
 
-### Bloco 3 — Tribunal do Indicador · 40 min
+### Bloco 3 — Tribunal do Indicador · 45 min
 
 **Formato:** júri. Cada grupo recebe os quatro casos impressos e julga cada um em uma de quatro
 categorias:
@@ -192,7 +199,7 @@ categorias:
 > melhorou 8%. É verdade. O relatório não menciona que em três regiões administrativas periféricas o
 > tempo **piorou** 20%, compensadas pela melhora no Plano Piloto. Nada foi falsificado.
 
-**Julgamento em grupo (15 min) · Plenário (15 min).** Cada grupo defende seus vereditos; onde houver
+**Julgamento em grupo (18 min) · Plenário (17 min).** Cada grupo defende seus vereditos; onde houver
 divergência entre grupos, o instrutor força o argumento em vez de dar a resposta.
 
 *Gabarito para condução — não para distribuir:* **A** é o caso mais rico, porque começa como gaming e
@@ -238,7 +245,7 @@ motivos:
 > beneficiavam da ordem antiga, e por tíbios defensores todos os que se beneficiariam da nova."* É a
 > descrição mais precisa que existe de implantação de indicador em organização pública.
 
-**Atividade (25 min).** Com o **T6**, cada grupo desenha o **plano de 90 dias** do seu indicador:
+**Atividade (25 min).** Com o **T11**, cada grupo desenha o **plano de 90 dias** do seu indicador:
 
 - **Quem vai resistir e por quê** — usando a teia de stakeholders da Aula 1, agora voltada para
   dentro: qual seção, qual unidade, qual nível hierárquico perde com esta medição? *Perder o quê:
@@ -263,7 +270,7 @@ incomoda?"* Deixe a pergunta sem resposta.
 
 ---
 
-### Bloco 5 — Linha do tempo + avaliação · 35 min
+### Bloco 5 — Linha do tempo + avaliação · 40 min
 
 #### 5a · O painel dos seis encontros (15 min)
 
@@ -299,13 +306,13 @@ E o recado final da disciplina, em uma frase:
 > **Indicador não é para prestar contas do passado. É para mudar a decisão de amanhã. Se o número não
 > muda nenhuma decisão, ele não é um indicador — é uma estatística.**
 
-#### 5c · Avaliação (12 min)
+#### 5c · Avaliação (17 min)
 
 - Aplicação do **questionário de autoavaliação e peer review** para quem ainda não respondeu no
   Moodle (ver [`avaliacao.md`](avaliacao.md)).
 - Devolutiva das **notas dos produtos** com a rubrica aberta — cada grupo recebe a sua linha
   preenchida e sabe exatamente onde perdeu ponto.
-- Recolhimento dos T6 e dos painéis. **Fotografe tudo**: este acervo é o material da próxima turma.
+- Recolhimento dos T11 e dos painéis. **Fotografe tudo**: este acervo é o material da próxima turma.
 
 ---
 
@@ -313,7 +320,7 @@ E o recado final da disciplina, em uma frase:
 
 - [ ] Alocação orçamentária da RAE, com as justificativas registradas.
 - [ ] Vereditos do Tribunal do Indicador e os quatro princípios escritos pela turma.
-- [ ] **T6** — plano de implantação de 90 dias, por grupo.
+- [ ] **T11** — plano de implantação de 90 dias, por grupo.
 - [ ] Questionários de autoavaliação e peer review respondidos.
 - [ ] Registro fotográfico da linha do tempo.
 

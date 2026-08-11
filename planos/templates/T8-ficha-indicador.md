@@ -1,4 +1,4 @@
-# T3 — Ficha Técnica do Indicador
+# T8 — Ficha Técnica do Indicador
 
 **Aula 4 · Bloco 5** · Grupo: ______________________
 
@@ -120,4 +120,4 @@ se as guarnições estão "chegando" antes de chegar, os rechamados sobem.
 > **Efeito cobra:** recompensa mal desenhada faz o problema crescer, porque passa a valer a pena
 > produzir o problema.
 
-*Este template alimenta o [T4](T4-atribuicao-pesos.md) e todos os checkpoints da Aula 5.*
+*Este template alimenta o [T9](T9-atribuicao-pesos.md) e todos os checkpoints da Aula 5.*

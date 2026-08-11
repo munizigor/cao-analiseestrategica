@@ -61,14 +61,16 @@ Ao final da aula, cada grupo será capaz de:
 ## 5. Materiais
 
 **Da aula anterior**
+
 - Painéis com os clusters de dores da Aula 3, afixados na parede antes da chegada da turma.
 
 **A providenciar**
+
 - Adesivos redondos coloridos — 3 por aluno.
 - Folhas A3 (2 por grupo), canetões, fita crepe.
-- Cópias impressas dos templates: [T1](templates/T1-priorizacao-dores.md),
-  [T2](templates/T2-arvore-causa-raiz.md), [T3](templates/T3-ficha-indicador.md) (2 vias por grupo),
-  [T4](templates/T4-atribuicao-pesos.md).
+- Cópias impressas dos templates: [T6](templates/T6-priorizacao-dores.md),
+  [T7](templates/T7-arvore-causa-raiz.md), [T8](templates/T8-ficha-indicador.md) (2 vias por grupo),
+  [T9](templates/T9-atribuicao-pesos.md).
 - **Mapa estratégico do PLANES 2017-2024 impresso em A1** ou projetado — é o material mais usado da
   aula.
 - Exemplares (impressos ou em tela) do *Caderno de Indicadores Estratégicos* e do *Caderno de
@@ -106,6 +108,7 @@ reconstrói sozinha o que produziu, e o resultado da votação vira insumo do bl
 **Micro-exposição (10 min).** Duas ferramentas de priorização:
 
 **Matriz GUT** — nota de 1 a 5 em cada eixo, prioridade = G × U × T:
+
 - **Gravidade** — o tamanho do estrago se nada for feito.
 - **Urgência** — o custo de esperar. *Pressa não é urgência: urgência é a janela que se fecha.*
 - **Tendência** — o comportamento do problema se ninguém intervier: piora, estabiliza ou melhora
@@ -121,7 +124,7 @@ sobre isso, ou depende de terceiro?* Quatro quadrantes:
 | **Baixo impacto** | **DELEGUE** — resolve no nível tático | **REGISTRE E MONITORE** — não consome capital político |
 
 **Atividade (15 min).** Cada grupo aplica GUT + Governabilidade aos 5 clusters mais votados no bloco
-1, usando o **T1**.
+1, usando o **T6**.
 
 **Debrief (dentro dos 25 min).** O instrutor coloca lado a lado o ranking do dot voting e o ranking
 estruturado e pergunta:
@@ -137,11 +140,11 @@ internamente. **Onde os dois rankings discordam, mora a política institucional.
 
 ---
 
-### Bloco 3 — Cinco Porquês com juiz · 30 min
+### Bloco 3 — Cinco Porquês com juiz · 35 min
 
 **Formato:** grupos em pares (grupo A ↔ grupo B).
 
-Cada grupo desce os 5 porquês sobre a sua dor prioritária no **T2**. A regra que muda tudo:
+Cada grupo desce os 5 porquês sobre a sua dor prioritária no **T7**. A regra que muda tudo:
 
 > **A cada "porquê", o grupo-juiz pode vetar a resposta com uma única pergunta:
 > "isso é opinião ou você tem evidência?"**
@@ -151,7 +154,7 @@ Cada grupo desce os 5 porquês sobre a sua dor prioritária no **T2**. A regra q
 Sobra, ao final, uma **árvore causa → problema → efeito** e uma lista de hipóteses não verificadas —
 que é exatamente a pauta de coleta de dados da aula 5.
 
-**Amarração com a Aula 1 (5 min finais).** Pergunta ao plenário:
+**Amarração com a Aula 1 (8 min finais).** Pergunta ao plenário:
 
 > *"A causa-raiz que vocês encontraram está dentro de um ciclo reforçador?"*
 
@@ -163,7 +166,7 @@ justamente esse ponto.
 
 > 📎 **Fonte de apoio:** apostilas de *Análise e Melhoria de Processos* / MASP já disponíveis no
 > acervo do instrutor — o Ishikawa (6M) pode substituir os 5 Porquês para grupos que travarem, e o
-> T2 traz o espelho das duas ferramentas.
+> T7 traz o espelho das duas ferramentas.
 
 ---
 
@@ -195,7 +198,7 @@ achado provável e valioso. Grupos nessa situação escrevem qual objetivo *deve
 O erro clássico do gestor público: escrever a **iniciativa** no lugar do **objetivo** ("implantar o
 sistema X"), o que faz a organização medir a entrega do meio e nunca o resultado do fim.
 
-**Produto do bloco:** a frase de ancoragem, colada no T3.
+**Produto do bloco:** a frase de ancoragem, colada no T8.
 
 ---
 
@@ -238,7 +241,7 @@ tem argumento orçamentário muito mais forte na RAE da Aula 6 — e saber disso
 
 ---
 
-### Bloco 5 — A Ficha do Indicador · 45 min
+### Bloco 5 — A Ficha do Indicador · 55 min
 
 **Micro-exposição (12 min) — a anatomia de um indicador.** Base: Francischini & Francischini,
 *Indicadores de desempenho*. Um indicador só existe de verdade quando estes campos estão preenchidos:
@@ -259,6 +262,7 @@ tem argumento orçamentário muito mais forte na RAE da Aula 6 — e saber disso
 O último campo é o que ninguém preenche e o que separa o indicador maduro do indicador ingênuo.
 
 **Leading × lagging** — o par indispensável:
+
 - **Indicador de resultado (*lagging*)** — mede o fim. Confiável, mas chega tarde: quando piora, o
   estrago já aconteceu. *Ex.: nº de óbitos em incêndios estruturais.*
 - **Indicador de esforço/processo (*leading*)** — mede o meio, antecipa o resultado. Chega a tempo de
@@ -268,7 +272,7 @@ O último campo é o que ninguém preenche e o que separa o indicador maduro do 
 > Medir só o *lagging* é dirigir olhando o retrovisor. Medir só o *leading* é acreditar que se está
 > indo bem porque se está muito ocupado.
 
-**Atividade (30 min).** Cada grupo preenche o **T3** para **dois indicadores** da sua dor: um
+**Atividade (40 min).** Cada grupo preenche o **T8** para **dois indicadores** da sua dor: um
 *leading* e um *lagging*. Os cadernos de indicadores do CBMDF ficam à disposição — **reusar um
 indicador que já existe é preferível a inventar um novo**, e isso deve ser dito explicitamente à
 turma.
@@ -284,8 +288,8 @@ O bloco mais importante da aula. Os grupos **trocam as fichas** (A→B, B→C, �
 > *"Você é um comandante ambicioso e sem escrúpulos. Sua promoção depende de bater esta meta. Você
 > não vai resolver a dor — vai bater a meta assim mesmo. **Como?**"*
 
-**Apresentação (8 min):** cada grupo tem 1 minuto para expor a burla que descobriu. A turma vai rir,
-e vai rir porque reconhece.
+**Apresentação (8 min):** cada grupo expõe a burla que descobriu — **1 minuto com até 6 grupos, 45
+segundos com 7 ou 8**. A turma vai rir, e vai rir porque reconhece.
 
 **Reação (7 min):** a ficha volta ao dono, que preenche o campo **contraindicador**: um segundo
 indicador que só se mantém saudável se a burla *não* estiver acontecendo.
@@ -295,6 +299,7 @@ despacho. Contraindicador: % de ocorrências com registro de chegada validado po
 mais simples, a **taxa de reincidência de chamado no mesmo endereço em 24 h**.
 
 **Fechamento (2 min) — nomear o que acabou de acontecer:**
+
 - **Lei de Goodhart:** *"quando uma medida se torna meta, ela deixa de ser uma boa medida."*
 - **Efeito cobra:** a recompensa mal desenhada faz o problema crescer, porque passa a valer a pena
   produzir o problema.
@@ -324,7 +329,8 @@ mais simples, a **taxa de reincidência de chamado no mesmo endereço em 24 h**.
    corporação militar, este ponto merece meio minuto de atenção: peso atribuído em voz alta na frente
    do superior não é peso, é concordância.*
 
-**Atividade (20 min).** Com o **T4**, cada grupo:
+**Atividade (20 min).** Com o **T9**, cada grupo:
+
 1. distribui 100 pontos entre seus indicadores (5 min);
 2. refaz por comparação par a par (10 min);
 3. compara os dois resultados e responde: mudou a ordem? Onde estava a inconsistência? (5 min).
@@ -334,18 +340,18 @@ esses pesos?* Fica em aberto; volta na RAE da Aula 6.
 
 ---
 
-### Bloco 8 — Briefing da Aula 5 + bilhete de saída · 20 min
+### Bloco 8 — Briefing da Aula 5 + bilhete de saída · 25 min
 
 ⚠️ **A Aula 5 é 100% autônoma: não haverá instrutor de plantão, nem síncrono nem assíncrono.** Este
 briefing é, portanto, a última oportunidade de tirar dúvida. Conduza-o assim:
 
-1. **(10 min) Moodle projetado, tour ao vivo.** Percorra na tela cada recurso da Aula 5: a página
+1. **(12 min) Moodle projetado, tour ao vivo.** Percorra na tela cada recurso da Aula 5: a página
    *Missão*, o **Caso-Modelo Resolvido**, o **FAQ + Kit de Desbloqueio**, o fórum *Ajuda Mútua*, os
    três checkpoints e a revisão cruzada. Mostre onde clicar. Deixe explícito: **nenhum grupo pode
    parar por falta de autorização — o Kit de Desbloqueio já autoriza tudo.**
-2. **(7 min) "Perguntem agora tudo o que travaria vocês."** Anote no quadro cada dúvida levantada.
+2. **(8 min) "Perguntem agora tudo o que travaria vocês."** Anote no quadro cada dúvida levantada.
    Compromisso: essas dúvidas entram no FAQ do Moodle antes da liberação da aula.
-3. **(3 min) Papéis.** Cada grupo define ali, na hora, seu **coordenador de sprint** (posta os
+3. **(5 min) Papéis.** Cada grupo define ali, na hora, seu **coordenador de sprint** (posta os
    checkpoints e controla o relógio) e seu **guardião do dado** (responde de onde veio cada número).
    Anote os nomes.
 
@@ -363,14 +369,14 @@ voltam no painel da linha do tempo na Aula 6.
 
 Cada grupo sai com, em mãos:
 
-- [ ] **T1** preenchido — 5 clusters priorizados por GUT e Governabilidade, com a dor eleita.
-- [ ] **T2** preenchido — árvore de causa-raiz + lista de hipóteses a verificar na Aula 5.
+- [ ] **T6** preenchido — 5 clusters priorizados por GUT e Governabilidade, com a dor eleita.
+- [ ] **T7** preenchido — árvore de causa-raiz + lista de hipóteses a verificar na Aula 5.
 - [ ] Frase de ancoragem no PLANES (ou registro fundamentado de lacuna).
-- [ ] **T3 × 2** — fichas de um indicador *leading* e um *lagging*, com contraindicador.
-- [ ] **T4** preenchido — pesos por dois métodos, com a análise da divergência.
+- [ ] **T8 × 2** — fichas de um indicador *leading* e um *lagging*, com contraindicador.
+- [ ] **T9** preenchido — pesos por dois métodos, com a análise da divergência.
 
 Estes cinco artefatos são o insumo da Aula 5. **Fotografe tudo antes de a turma sair** e poste no
-Moodle no mesmo dia — grupo que perde o T3 na sexta não consegue trabalhar no fim de semana, e não
+Moodle no mesmo dia — grupo que perde o T8 na sexta não consegue trabalhar no fim de semana, e não
 haverá instrutor para socorrer.
 
 ## 8. Avaliação
@@ -379,7 +385,7 @@ Nada aqui é nota fechada; a aula alimenta os componentes descritos em [`avaliac
 
 - **Participação nas dinâmicas** — observar sobretudo a qualidade dos vetos no bloco 3 e das burlas
   no bloco 6, que revelam quem entendeu o mecanismo e quem está preenchendo formulário.
-- **Produto do grupo** — os T3 e T4 desta aula são a primeira versão do que será avaliado ao final.
+- **Produto do grupo** — os T8 e T9 desta aula são a primeira versão do que será avaliado ao final.
 
 ## 9. Referências
 

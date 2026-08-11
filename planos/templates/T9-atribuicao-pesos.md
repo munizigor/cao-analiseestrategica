@@ -1,4 +1,4 @@
-# T4 — Atribuição de Pesos aos Indicadores
+# T9 — Atribuição de Pesos aos Indicadores
 
 **Aula 4 · Bloco 7** · Grupo: ______________________
 
@@ -124,4 +124,4 @@ primeiro e pressão do grupo.*
 
 ---
 
-*Este template alimenta o Painel do CP3 da Aula 5 ([T5](T5-painel-e-nota-tecnica.md)).*
+*Este template alimenta o Painel do CP3 da Aula 5 ([T10](T10-painel-e-nota-tecnica.md)).*

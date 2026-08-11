@@ -1,11 +1,10 @@
-# T5 — Painel Estratégico + Nota Técnica
+# T10 — Painel Estratégico + Nota Técnica
 
 **Aula 5 · CP3 — entrega final** · Grupo: ______________________
 
 > **Limite rígido:** Painel = 1 página. Nota Técnica = 1 página. Slides = até 5.
 > Passar disso **conta contra**: síntese é competência avaliada. Um Comandante-Geral tem 90 segundos.
 
----
 ---
 
 # PARTE 1 · PAINEL ESTRATÉGICO *(1 página)*
@@ -91,7 +90,6 @@ e branco.*
     P1    P2    P3    P4    P5    P6    P7    P8
 ```
 
----
 ---
 
 # PARTE 2 · NOTA TÉCNICA *(1 página)*
@@ -187,7 +185,6 @@ explicitada; divergência escondida aparece na sabatina.*
 
 ```
 
----
 ---
 
 ## ✅ Checklist antes de enviar o CP3
