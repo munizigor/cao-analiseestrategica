@@ -1,6 +1,7 @@
 # T3 — Ficha Técnica do Indicador
 
 **Aula 4 · Bloco 5** · Grupo: ______________________
+
 **Imprima duas vias por grupo:** uma para o indicador *leading*, outra para o *lagging*.
 
 ---

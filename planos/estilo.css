@@ -1,0 +1,313 @@
+/* =========================================================
+   Análise Estratégica — CAO/CBMDF
+   Folha de estilo dos planos de aula.
+   Mantém a identidade do index.html: vermelho bombeiro + ouro.
+   ========================================================= */
+
+:root {
+    --cor-primaria: #b22222;
+    /* Vermelho Bombeiro */
+    --cor-secundaria: #ffd700;
+    /* Ouro/Amarelo */
+    --cor-fundo: #f4f4f4;
+    --cor-texto: #333;
+    --cor-borda: #e3e3e3;
+    --cor-suave: #fff9e6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/* ---------- Cabeçalho ---------- */
+
+header {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 5px solid var(--cor-secundaria);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-weight: 300;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    padding: 0.35rem 0.9rem;
+    transition: background 0.3s;
+}
+
+.voltar:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* ---------- Layout ---------- */
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow-wrap: break-word;
+}
+
+/* ---------- Tipografia ---------- */
+
+.card h1 {
+    display: none;
+    /* o título já aparece no cabeçalho da página */
+}
+
+.card h2 {
+    color: var(--cor-primaria);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+.card h2:first-of-type {
+    margin-top: 0;
+}
+
+.card h3 {
+    color: #8b1a1a;
+    margin-top: 2rem;
+    font-size: 1.15rem;
+}
+
+.card h4 {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.card p,
+.card li {
+    font-size: 0.97rem;
+}
+
+.card a {
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--cor-borda);
+    margin: 2.5rem 0;
+}
+
+/* ---------- Tabelas ---------- */
+
+.tabela-rolavel {
+    overflow-x: auto;
+    margin: 1.2rem 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 480px;
+    font-size: 0.9rem;
+}
+
+th,
+td {
+    border: 1px solid var(--cor-borda);
+    padding: 0.55rem 0.7rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+thead th {
+    background-color: var(--cor-primaria);
+    color: white;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+tbody tr:hover {
+    background-color: var(--cor-suave);
+}
+
+/* ---------- Citações e código ---------- */
+
+blockquote {
+    margin: 1.2rem 0;
+    padding: 0.8rem 1.2rem;
+    background-color: var(--cor-suave);
+    border-left: 4px solid var(--cor-secundaria);
+    color: #5a4a1a;
+}
+
+blockquote p:first-child {
+    margin-top: 0;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+pre {
+    background-color: #f7f7f7;
+    border: 1px solid var(--cor-borda);
+    border-radius: 4px;
+    padding: 1rem;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    line-height: 1.45;
+}
+
+code {
+    background-color: #f2f2f2;
+    padding: 0.12rem 0.35rem;
+    border-radius: 3px;
+    font-size: 0.88em;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+}
+
+/* ---------- Listas de conferência ---------- */
+
+.card input[type="checkbox"] {
+    margin-right: 0.4rem;
+}
+
+li:has(> input[type="checkbox"]) {
+    list-style: none;
+    margin-left: -1.2rem;
+}
+
+/* ---------- Rodapé ---------- */
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* ---------- Telas pequenas ---------- */
+
+@media (max-width: 600px) {
+    .card {
+        padding: 1.2rem;
+    }
+
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        margin: 1rem auto;
+    }
+}
+
+/* ---------- Impressão ----------
+   Os templates T1 a T6 são impressos e preenchidos à mão pelos alunos.
+   ------------------------------- */
+
+@media print {
+    body {
+        background: white;
+        font-size: 11pt;
+    }
+
+    header {
+        background: white !important;
+        color: black;
+        border-bottom: 2px solid black;
+        padding: 0 0 0.5rem;
+        text-align: left;
+    }
+
+    header h1 {
+        font-size: 15pt;
+    }
+
+    .voltar,
+    footer {
+        display: none;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        box-shadow: none;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .tabela-rolavel {
+        overflow: visible;
+    }
+
+    table {
+        min-width: 0;
+    }
+
+    thead th {
+        background: #ddd !important;
+        color: black;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    blockquote {
+        background: none;
+        border-left: 3px solid #999;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    table,
+    pre,
+    blockquote {
+        page-break-inside: avoid;
+    }
+}

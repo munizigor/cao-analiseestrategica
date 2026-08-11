@@ -43,6 +43,11 @@ cada encontro consome o produto do anterior. O fio condutor das três últimas a
 | **T5** | [Painel + Nota Técnica](templates/T5-painel-e-nota-tecnica.md) — entregável final | Aula 5, CP3 |
 | **T6** | [Plano de 90 dias](templates/T6-plano-90-dias.md) — implantação e gestão da mudança | Aula 6, bloco 4 |
 
+> 🛠️ **Como editar.** Os arquivos **`.md` são a fonte**; as páginas `.html` são geradas a partir
+> deles. Depois de alterar qualquer plano, rode `python3 build.py` na raiz do repositório para
+> regerar as páginas. Não edite os `.html` à mão — eles são sobrescritos. *(Requer
+> `pip install markdown`.)*
+
 ---
 
 ## Matriz de rastreabilidade — ementa × aula

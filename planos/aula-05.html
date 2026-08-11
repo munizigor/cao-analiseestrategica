@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 5 — Sprint do Painel (EAD autônoma) | Análise Estratégica - CAO CBMDF</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>AULA 5 — Sprint do Painel (EAD autônoma)</h1>
+        <p>Análise Estratégica · CAO/CBMDF · CEPED<br>Instrutor: Ten-Cel QOBM/Comb. Igor <strong>MUNIZ</strong> da Silva</p>
+        <a href="../index.html" class="voltar">&larr; Repositório de Aulas</a>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h1 id="aula-5-sprint-do-painel-ead-autonoma">AULA 5 — Sprint do Painel <em>(EAD autônoma)</em></h1>
+            <h2 id="1-identificacao">1. Identificação</h2>
+            <div class="tabela-rolavel"><table>
+            
+            <tbody>
+            <tr>
+            <td><strong>Unidade</strong></td>
+            <td>II (parcial), IV e VI (parcial) — ver matriz em <a href="README.html"><code>README.html</code></a></td>
+            </tr>
+            <tr>
+            <td><strong>Carga-horária</strong></td>
+            <td>5 h/a</td>
+            </tr>
+            <tr>
+            <td><strong>Modalidade</strong></td>
+            <td>A distância, <strong>assíncrona</strong></td>
+            </tr>
+            <tr>
+            <td><strong>Ambiente</strong></td>
+            <td>Moodle institucional (único ambiente — não há Meet, Teams ou mural digital)</td>
+            </tr>
+            <tr>
+            <td><strong>Presença do instrutor</strong></td>
+            <td>❌ <strong>Nenhuma.</strong> Não há plantão, não há resposta em tempo real, não há devolutiva durante a aula.</td>
+            </tr>
+            <tr>
+            <td><strong>Pré-requisito</strong></td>
+            <td>Aula 4 concluída; T1 a T4 preenchidos e fotografados no Moodle</td>
+            </tr>
+            </tbody>
+            </table></div>
+            <h2 id="2-a-restricao-que-define-este-plano">2. A restrição que define este plano</h2>
+            <blockquote>
+            <p><strong>O instrutor não estará disponível durante a aula.</strong> Os alunos agirão de forma autônoma.</p>
+            </blockquote>
+            <p>Isso não é uma limitação a contornar com um aviso — é o requisito de projeto. Uma aula EAD sem
+            monitoria falha sempre pelo mesmo motivo: <strong>um grupo trava numa dúvida pequena e para</strong>. Trava
+            perguntando "posso usar dado simulado?", "quantos períodos são suficientes?", "que formato tem que
+            ter a entrega?" — e como não há a quem perguntar, ou o grupo entrega qualquer coisa, ou não entrega.</p>
+            <p>Toda a arquitetura abaixo existe para eliminar o travamento. Quatro mecanismos, <strong>todos publicados
+            antes de a aula começar</strong>, substituem o instrutor:</p>
+            <div class="tabela-rolavel"><table>
+            <thead>
+            <tr>
+            <th>Mecanismo</th>
+            <th>Substitui</th>
+            <th>Princípio</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td><strong>① Caso-Modelo Resolvido</strong></td>
+            <td>"como é que faz?"</td>
+            <td>Um exemplo completo vale mais que dez instruções</td>
+            </tr>
+            <tr>
+            <td><strong>② FAQ + Kit de Desbloqueio</strong></td>
+            <td>"posso fazer assim?"</td>
+            <td>Toda decisão que exigiria autorização já vem autorizada</td>
+            </tr>
+            <tr>
+            <td><strong>③ Fórum Ajuda Mútua (com reciprocidade)</strong></td>
+            <td>o plantão de dúvidas</td>
+            <td>A turma tem 30 cabeças; nenhuma dúvida é só de um grupo</td>
+            </tr>
+            <tr>
+            <td><strong>④ Revisão cruzada entre grupos</strong></td>
+            <td>a devolutiva do instrutor</td>
+            <td>Aplicar a rubrica no material alheio ensina mais que recebê-la</td>
+            </tr>
+            </tbody>
+            </table></div>
+            <p>⚠️ <strong>Critério de aceite antes de liberar a aula:</strong> leia esta página na pele de um grupo às 22 h de um
+            domingo, sem ninguém a quem recorrer. Se existir <strong>um único ponto</strong> em que a saída seria ligar para o
+            instrutor, esse ponto ainda precisa entrar no FAQ, no Kit de Desbloqueio ou no Caso-Modelo.</p>
+            <h2 id="3-objetivos-de-aprendizagem">3. Objetivos de aprendizagem</h2>
+            <p>Ao final da aula, cada grupo será capaz de:</p>
+            <ol>
+            <li><strong>Confrontar o indicador desenhado com a realidade do dado</strong> — descobrir se o número que ele exige
+               existe, está disperso ou simplesmente não é coletado pelo CBMDF.</li>
+            <li><strong>Construir uma série histórica</strong> e aplicar estatística descritiva básica (média, mediana,
+               amplitude, desvio-padrão, variação percentual, tendência).</li>
+            <li><strong>Distinguir variação comum de variação especial</strong> — e com isso parar de reagir a cada oscilação
+               mensal.</li>
+            <li><strong>Definir linha de base e meta justificada</strong>, sabendo dizer <em>por que aquele número</em>.</li>
+            <li><strong>Sintetizar</strong> tudo num Painel de uma página e numa Nota Técnica de uma página que sustentem uma
+               decisão.</li>
+            <li><strong>Avaliar criticamente o trabalho de outro grupo</strong> aplicando a rubrica da disciplina.</li>
+            </ol>
+            <h2 id="4-conteudo-da-ementa-coberto">4. Conteúdo da ementa coberto</h2>
+            <div class="tabela-rolavel"><table>
+            <thead>
+            <tr>
+            <th>Item da ementa</th>
+            <th>Onde é tratado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>5.1 Métodos estatísticos básicos aplicados a indicadores (Un. II)</td>
+            <td>CP2</td>
+            </tr>
+            <tr>
+            <td>5.2 Interpretação de dados e identificação de tendências (Un. II)</td>
+            <td>CP2 + micro-conteúdo da carta de controle</td>
+            </tr>
+            <tr>
+            <td>8.3 / 8.4 Integração e alinhamento de indicadores ao PE (Un. IV)</td>
+            <td>CP3 — Nota Técnica</td>
+            </tr>
+            <tr>
+            <td>14. Análise dos indicadores de desempenho já criados pelo CBMDF (Un. VI)</td>
+            <td>CP1 + fórum Achados</td>
+            </tr>
+            <tr>
+            <td>15. Exercício prático (Un. VI)</td>
+            <td>A aula inteira</td>
+            </tr>
+            </tbody>
+            </table></div>
+            <h2 id="5-a-missao-do-grupo">5. A missão do grupo</h2>
+            <blockquote>
+            <p>Vocês têm dois indicadores desenhados no papel. Até o fim desta aula, eles precisam virar
+            <strong>números reais, com fonte, série histórica e meta defensável</strong> — reunidos num <strong>Painel de 1
+            página</strong> e numa <strong>Nota Técnica de 1 página</strong> capazes de convencer um comitê a lhes dar dinheiro.
+            Na Aula 6, vocês vão defender isso diante de uma banca que <strong>não tem recurso para todos os
+            grupos</strong>.</p>
+            </blockquote>
+            <p><strong>Cronograma sugerido das 5 h/a</strong> — sugerido, não obrigatório: o grupo se organiza como quiser, só os
+            checkpoints têm prazo.</p>
+            <div class="tabela-rolavel"><table>
+            <thead>
+            <tr>
+            <th>Etapa</th>
+            <th>Tempo</th>
+            <th>Entrega</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>Ler a Missão, o Caso-Modelo e o Kit de dados</td>
+            <td>1 h</td>
+            <td>—</td>
+            </tr>
+            <tr>
+            <td><strong>CP1 — Realidade dos dados</strong></td>
+            <td><em>(incluso acima)</em></td>
+            <td>Tarefa CP1</td>
+            </tr>
+            <tr>
+            <td>Coleta, tratamento e cálculo</td>
+            <td>2 h</td>
+            <td>—</td>
+            </tr>
+            <tr>
+            <td><strong>CP2 — Série e estatística</strong></td>
+            <td><em>(incluso acima)</em></td>
+            <td>Tarefa CP2</td>
+            </tr>
+            <tr>
+            <td><strong>Revisão cruzada</strong> do material de outro grupo</td>
+            <td>30 min</td>
+            <td>Parecer no CP2</td>
+            </tr>
+            <tr>
+            <td>Síntese: Painel + Nota Técnica + 5 slides</td>
+            <td>1 h</td>
+            <td><strong>CP3 — entrega final</strong></td>
+            </tr>
+            <tr>
+            <td>Autoavaliação e peer review individual</td>
+            <td>30 min</td>
+            <td>Questionário</td>
+            </tr>
+            </tbody>
+            </table></div>
+            <hr />
+            <h2 id="6-roteiro-de-montagem-do-moodle">6. Roteiro de montagem do Moodle</h2>
+            <blockquote>
+            <p>Esta seção é uma <strong>lista de construção</strong>. Monte tudo <strong>antes</strong> da Aula 4, porque no bloco 8 daquela
+            aula você vai projetar este ambiente e navegar por ele ao vivo com a turma.</p>
+            </blockquote>
+            <h3 id="61-pagina-missao-da-aula-5">6.1 · Página — "Missão da Aula 5" 📄</h3>
+            <p>Primeiro item do tópico. Texto pronto para colar:</p>
+            <blockquote>
+            <p><strong>AULA 5 — SPRINT DO PAINEL</strong></p>
+            <p>Esta aula é de vocês. Não haverá instrutor de plantão: <strong>eu não estarei disponível durante a aula</strong>,
+            nem por fórum, nem por mensagem. Isso é intencional — o oficial superior decide com a informação
+            que tem, no prazo que tem, sem ligar para o professor.</p>
+            <p>Em compensação, <strong>está tudo aqui</strong>. Antes de procurar ajuda externa:</p>
+            <div class="tabela-rolavel"><table>
+            <thead>
+            <tr>
+            <th>Se a sua dúvida é…</th>
+            <th>Vá para…</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>"como preencher isto?" / "que cara tem a entrega?"</td>
+            <td>📘 <strong>Caso-Modelo Resolvido</strong></td>
+            </tr>
+            <tr>
+            <td>"posso fazer assim?" / "e se o dado não existir?"</td>
+            <td>🔑 <strong>FAQ + Kit de Desbloqueio</strong></td>
+            </tr>
+            <tr>
+            <td>"será que o nosso está bom?"</td>
+            <td>✅ <strong>Checklist de autoverificação</strong> de cada checkpoint</td>
+            </tr>
+            <tr>
+            <td>qualquer outra coisa</td>
+            <td>💬 <strong>Fórum Ajuda Mútua</strong> — a turma responde</td>
+            </tr>
+            </tbody>
+            </table></div>
+            <p><strong>Nenhum grupo pode parar por falta de autorização minha. O Kit de Desbloqueio já autoriza tudo o
+            que vocês precisariam me perguntar.</strong></p>
+            <p><strong>Prazos:</strong> CP1 até <code>___/___</code>, CP2 até <code>___/___</code>, revisão cruzada até <code>___/___</code>, CP3 até <code>___/___</code>.</p>
+            <p><strong>Papéis</strong> definidos na Aula 4: <em>coordenador de sprint</em> (posta as entregas, controla o relógio) e
+            <em>guardião do dado</em> (responde de onde veio cada número — e vai ser sabatinado na Aula 6).</p>
+            </blockquote>
+            <h3 id="62-pasta-kit-de-dados">6.2 · Pasta — "Kit de dados" 🗂️</h3>
+            <p>Recurso de links. Fontes oficiais, todas alinhadas às referências básicas da ementa:</p>
+            <div class="tabela-rolavel"><table>
+            <thead>
+            <tr>
+            <th>Fonte</th>
+            <th>Para que serve</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td><a href="https://www.cbm.df.gov.br/download/plano-estrategico-2017-2024-versao-2-atual/">Plano Estratégico do CBMDF 2017-2024</a></td>
+            <td>Ancorar o objetivo; conferir metas já pactuadas</td>
+            </tr>
+            <tr>
+            <td><a href="https://www.cbm.df.gov.br/download/caderno-de-indicadores-estrategicos-2013-2016-2/">Caderno de Indicadores Estratégicos</a></td>
+            <td><strong>Verificar se o indicador já existe</strong> antes de criar um novo</td>
+            </tr>
+            <tr>
+            <td><a href="https://www.cbm.df.gov.br/download/caderno-de-indicadores-de-governanca-2/">Caderno de Indicadores de Governança</a></td>
+            <td>Indicadores de gestão, TI, pessoal, orçamento</td>
+            </tr>
+            <tr>
+            <td><a href="https://www.cbm.df.gov.br/download/indicadores-institucionais-2/">Indicadores Institucionais — Portaria nº 6/2017</a></td>
+            <td>Redação oficial de fórmula, fonte e periodicidade</td>
+            </tr>
+            <tr>
+            <td><a href="https://www.cbm.df.gov.br/download/projetos-estrategicos-com-entregas-para-2022-acompanhamento-especial-bg_111_14jun2022/">Projetos Estratégicos — BG nº 111, de 14/06/2022</a></td>
+            <td>Saber o que já está em execução — evita propor o que já existe</td>
+            </tr>
+            <tr>
+            <td><a href="https://www.cbm.df.gov.br/governanca/">Governança / Transparência CBMDF</a></td>
+            <td>Relatórios de gestão, dados abertos</td>
+            </tr>
+            <tr>
+            <td><a href="https://planoestrategico.df.gov.br/">Planejamento Estratégico do GDF</a></td>
+            <td>Alinhamento com o nível de governo</td>
+            </tr>
+            </tbody>
+            </table></div>
+            <blockquote>
+            <p><strong>Instrução a colar junto:</strong> <em>comecem pelo Caderno de Indicadores. Reaproveitar um indicador que o
+            CBMDF já mede vale mais que inventar um indicador novo e elegante — porque o dado já existe, a
+            série já corre e o dono já está definido. Criar indicador é a última opção, não a primeira.</em></p>
+            </blockquote>
+            <h3 id="63-pagina-caso-modelo-resolvido-mecanismo-1">6.3 · Página — "📘 Caso-Modelo Resolvido" <em>(mecanismo ①)</em></h3>
+            <p>O item mais importante do ambiente. É um <strong>exemplo completo, de ponta a ponta, com comentários
+            explicando as escolhas</strong> — não um modelo em branco. Use uma dor <strong>fictícia e propositalmente
+            diferente</strong> das dores dos grupos, para que ninguém copie a resposta; a estrutura é que deve ser
+            copiada.</p>
+            <p>Sugestão de caso: <em>"Retrabalho na vistoria de projetos de SCIP: projetos reprovados voltam três, quatro
+            vezes, e o tempo de análise estoura."</em> Monte o caso com:</p>
+            <ol>
+            <li>a <strong>árvore de causa-raiz</strong> já pronta (herdando o formato do T2);</li>
+            <li>a <strong>ficha completa</strong> (T3) de um indicador <em>lagging</em> — <em>taxa de reprovação em primeira análise</em> — e
+               de um <em>leading</em> — <em>% de projetos protocolados com checklist prévio preenchido</em>;</li>
+            <li>o <strong>contraindicador</strong> e a explicação de qual burla ele bloqueia;</li>
+            <li>uma <strong>série de 8 períodos</strong> com os números visíveis e as contas feitas <strong>e mostradas</strong> (média,
+               mediana, amplitude, desvio-padrão, variação %, tendência);</li>
+            <li>o <strong>gráfico</strong> da série com a linha de base marcada;</li>
+            <li>o <strong>Painel de 1 página</strong> e a <strong>Nota Técnica de 1 página</strong> finalizados;</li>
+            <li>ao lado de cada bloco, um <strong>comentário em caixa</strong> no formato <em>"por que preenchemos assim"</em> — é
+               isso que transforma o exemplo em aula.</li>
+            </ol>
+            <blockquote>
+            <p>Inclua <strong>de propósito um campo mal preenchido</strong> e sinalize: <em>"repare que este campo está fraco — e
+            por quê"</em>. O contraexemplo ensina tanto quanto o exemplo, e evita a cópia acrítica do formato.</p>
+            </blockquote>
+            <h3 id="64-pagina-faq-kit-de-desbloqueio-mecanismo-2">6.4 · Página — "🔑 FAQ + Kit de Desbloqueio" <em>(mecanismo ②)</em></h3>
+            <p><strong>Parte A — FAQ.</strong> As dúvidas previsíveis, já respondidas. Acrescente a esta lista tudo o que a turma
+            levantar no bloco 8 da Aula 4:</p>
+            <ol>
+            <li><strong>E se o dado que meu indicador exige simplesmente não existir?</strong> Ótimo achado — registre como
+               🔴 e siga o Kit de Desbloqueio D1. A constatação de que o CBMDF <strong>não mede</strong> algo relevante é um
+               resultado legítimo desta disciplina, não uma falha do grupo.</li>
+            <li><strong>Posso usar dado simulado?</strong> Sim, desde que <strong>declarado como simulado</strong> no painel, com a
+               premissa explicitada. Dado simulado escondido é fraude; dado simulado declarado é modelagem.</li>
+            <li><strong>Posso usar um <em>proxy</em>?</strong> Sim. Explicite qual é a variável desejada, qual é o proxy e por que
+               eles andam juntos.</li>
+            <li><strong>Quantos períodos preciso?</strong> Mínimo de 6. Com menos, não há como enxergar tendência.</li>
+            <li><strong>Mensal, trimestral ou anual?</strong> Escolha a periodicidade em que o fenômeno se move. Um indicador
+               de cultura organizacional não muda em 30 dias; tempo-resposta muda.</li>
+            <li><strong>A meta pode ser qualitativa?</strong> A meta, não. O objetivo pode. Meta sem número não é meta.</li>
+            <li><strong>De onde tiro a meta?</strong> Três caminhos aceitáveis, nesta ordem de preferência: (a) referência
+               externa — outra corporação, norma técnica, PLANES; (b) o melhor desempenho já alcançado pela
+               própria série histórica; (c) percentual de melhoria sobre a linha de base, <strong>com justificativa</strong>.
+               "Reduzir 20%" sem justificar é chute com aparência de rigor.</li>
+            <li><strong>Posso trocar de indicador no meio do caminho?</strong> Pode, e às vezes deve — se o CP1 mostrar que o
+               dado não existe e criar a coleta for inviável. Registre a troca e o motivo no CP1.</li>
+            <li><strong>Nosso grupo discordou internamente. E agora?</strong> Registrem as duas posições na Nota Técnica. Banca
+               valoriza divergência explicitada; divergência escondida aparece na sabatina da Aula 6.</li>
+            <li><strong>Precisa de que ferramenta?</strong> Nenhuma específica. Planilha, editor de texto ou papel
+                fotografado. <strong>O conteúdo é avaliado, não o software.</strong></li>
+            <li><strong>Quantas páginas?</strong> Painel: 1. Nota Técnica: 1. Slides: até 5. Passar disso conta contra —
+                síntese é competência avaliada.</li>
+            <li><strong>Alguém do grupo sumiu. Isso me prejudica?</strong> É para isso que existe o peer review individual.
+                Faça a sua parte e registre honestamente no questionário.</li>
+            </ol>
+            <p><strong>Parte B — Kit de Desbloqueio (decisões pré-autorizadas).</strong> <em>"Se acontecer X, faça Y. Está
+            autorizado, não precisa perguntar."</em></p>
+            <div class="tabela-rolavel"><table>
+            <thead>
+            <tr>
+            <th>#</th>
+            <th>Situação</th>
+            <th>Decisão já autorizada</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td><strong>D1</strong></td>
+            <td>O dado não existe</td>
+            <td>Classifique 🔴, construa série <strong>simulada declarada</strong> com premissa escrita e transforme <em>"implantar a coleta"</em> na <strong>primeira iniciativa</strong> da Nota Técnica. Isso vale nota cheia.</td>
+            </tr>
+            <tr>
+            <td><strong>D2</strong></td>
+            <td>O dado existe, mas está em relatórios dispersos e o prazo não permite consolidar</td>
+            <td>Classifique 🟡, use a amostra que conseguiu (mínimo 6 períodos), declare a limitação e estime o esforço de consolidação.</td>
+            </tr>
+            <tr>
+            <td><strong>D3</strong></td>
+            <td>O link do Kit de dados caiu ou o documento sumiu</td>
+            <td>Use qualquer fonte pública oficial equivalente e <strong>cite-a</strong>. Sem fonte oficial, vá para D1.</td>
+            </tr>
+            <tr>
+            <td><strong>D4</strong></td>
+            <td>O grupo não chega a acordo sobre a dor ou o indicador</td>
+            <td>O <strong>coordenador de sprint</strong> decide e registra a divergência na Nota Técnica. Sprint não para por consenso.</td>
+            </tr>
+            <tr>
+            <td><strong>D5</strong></td>
+            <td>Faltou gente e não dá para entregar tudo</td>
+            <td>Entregue <strong>na ordem</strong>: CP3 (Painel + Nota Técnica) primeiro, slides depois. Slide não entregue se improvisa na Aula 6; nota técnica não.</td>
+            </tr>
+            <tr>
+            <td><strong>D6</strong></td>
+            <td>A série mostra algo que contraria a hipótese do grupo</td>
+            <td><strong>Este é o melhor resultado possível.</strong> Mude a conclusão, não o dado. Escreva na Nota Técnica que a evidência derrubou a hipótese inicial — é o achado mais valorizado na rubrica.</td>
+            </tr>
+            <tr>
+            <td><strong>D7</strong></td>
+            <td>Vocês descobriram que o CBMDF já tem um indicador para essa dor</td>
+            <td>Adote-o, cite a fonte e concentre o trabalho em <strong>criticá-lo e melhorá-lo</strong> (fórmula, meta, contraindicador). Também vale nota cheia.</td>
+            </tr>
+            <tr>
+            <td><strong>D8</strong></td>
+            <td>Estourou o prazo de um checkpoint</td>
+            <td>Poste assim mesmo, marcado como <em>fora do prazo</em>, e siga. Checkpoint em branco trava a liberação do seguinte; checkpoint atrasado, não.</td>
+            </tr>
+            </tbody>
+            </table></div>
+            <h3 id="65-forum-ajuda-mutua-mecanismo-3">6.5 · Fórum — "💬 Ajuda Mútua" <em>(mecanismo ③)</em></h3>
+            <p>Configuração: <strong>fórum de uso geral</strong>, todos veem tudo, um tópico por dúvida.</p>
+            <p><strong>Regra de reciprocidade, a colar na descrição do fórum:</strong></p>
+            <blockquote>
+            <p>Para postar uma dúvida, você precisa antes ter <strong>respondido (ou tentado responder) a dúvida de
+            outro grupo</strong>. Cite no seu post qual foi. Não existe plantão do instrutor nesta aula: o plantão é
+            a turma.</p>
+            <p><strong>Como postar uma dúvida que dá para responder:</strong> ① o que vocês estão tentando fazer; ② o que já
+            tentaram; ③ a pergunta específica. "Estamos travados" não é pergunta.</p>
+            <p>A <strong>qualidade das respostas dadas aos colegas</strong> compõe a nota de participação — ver
+            <a href="avaliacao.html"><code>avaliacao.html</code></a>. O instrutor lê o fórum inteiro depois da aula; o que tiver ficado
+            sem resposta ou com resposta errada abre a Aula 6.</p>
+            </blockquote>
+            <h3 id="66-forum-achados">6.6 · Fórum — "🔎 Achados"</h3>
+            <p>Um post <strong>individual</strong> por aluno, curto:</p>
+            <blockquote>
+            <p>Encontrei no acervo do CBMDF: <strong>[indicador / dado / lacuna]</strong>. Fonte: ______. Por que isso importa
+            para a nossa dor: ______ <em>(2 a 3 linhas)</em>.</p>
+            </blockquote>
+            <p>Serve a três coisas: cumpre o item 14 da ementa (analisar os indicadores já criados pelo CBMDF), cria
+            um inventário coletivo que todos os grupos aproveitam, e dá ao instrutor material concreto para abrir
+            a Aula 6 <strong>creditando os autores</strong> — o que compensa, em parte, a ausência de devolutiva durante a
+            aula.</p>
+            <h3 id="67-tarefa-cp1-realidade-dos-dados">6.7 · Tarefa — "CP1 · Realidade dos dados" ✅</h3>
+            <p><strong>Prazo:</strong> definido na Missão. <strong>Entrega:</strong> meia página por grupo.</p>
+            <p>Para cada um dos dois indicadores, o grupo classifica a disponibilidade do dado:</p>
+            <div class="tabela-rolavel"><table>
+            <thead>
+            <tr>
+            <th>Farol</th>
+            <th>Significado</th>
+            <th>O que fazer</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>🟢</td>
+            <td>O dado existe e é acessível</td>
+            <td>Colete a série e siga</td>
+            </tr>
+            <tr>
+            <td>🟡</td>
+            <td>Existe, mas disperso, incompleto ou de difícil acesso</td>
+            <td>Aplique <strong>D2</strong></td>
+            </tr>
+            <tr>
+            <td>🔴</td>
+            <td>Não é coletado pelo CBMDF</td>
+            <td>Aplique <strong>D1</strong> — e comemore, é um achado</td>
+            </tr>
+            </tbody>
+            </table></div>
+            <p>Preencher também: <strong>fonte exata</strong> (nome do sistema, relatório, boletim ou página), <strong>quem gera o
+            dado</strong> e <strong>com que frequência</strong>.</p>
+            <p><em>Checklist de autoverificação do CP1:</em>
+            - [ ] Os dois indicadores têm farol atribuído?
+            - [ ] A fonte está citada de forma que outra pessoa a encontraria sozinha?
+            - [ ] Se algum ficou 🔴 ou 🟡, a decisão do Kit de Desbloqueio aplicada está registrada?
+            - [ ] Se o grupo trocou de indicador, o motivo está escrito?</p>
+            <h3 id="68-tarefa-cp2-serie-e-estatistica">6.8 · Tarefa — "CP2 · Série e estatística" 📈</h3>
+            <p><em>Liberada por restrição de acesso somente após o envio do CP1.</em></p>
+            <p><strong>Micro-conteúdo assíncrono a publicar junto (página ou vídeo curto gravado previamente):</strong></p>
+            <blockquote>
+            <p><strong>Variação comum × variação especial — o vício de reagir a todo mês</strong></p>
+            <p>Toda série oscila. A pergunta que separa o gestor do agitador é: <em>esta oscilação é ruído do
+            processo ou é sinal de que algo mudou?</em></p>
+            <ul>
+            <li><strong>Variação comum</strong> — o processo respirando dentro da própria faixa. Reagir a ela com plano de
+              ação gera trabalho, gera reunião e <strong>não muda nada</strong>.</li>
+            <li><strong>Variação especial</strong> — algo realmente aconteceu. Aí sim, investigue.</li>
+            </ul>
+            <p><strong>Regra prática (carta de controle simplificada):</strong> calcule a média da série e o desvio-padrão.
+            Trace <code>média ± 2 desvios</code>. Ponto <strong>dentro</strong> da faixa = variação comum, não reaja. Ponto <strong>fora</strong>
+            da faixa, <strong>ou</strong> sete pontos seguidos do mesmo lado da média = variação especial, investigue.</p>
+            <p>É a diferença entre o comandante que muda a estratégia toda vez que o número piora um pouquinho e
+            o que sabe quando o número está lhe dizendo algo.</p>
+            </blockquote>
+            <p><strong>Entrega do CP2:</strong></p>
+            <ol>
+            <li><strong>Série de no mínimo 6 períodos</strong> por indicador (real, proxy ou simulada declarada).</li>
+            <li><strong>Estatística descritiva:</strong> média, mediana, amplitude (mín–máx), desvio-padrão, variação % período
+               a período.</li>
+            <li><strong>Tendência:</strong> a série sobe, desce ou está estável? Aplique a regra dos ±2 desvios e diga se há
+               variação especial.</li>
+            <li><strong>Gráfico</strong> da série, com a <strong>linha de base marcada</strong>.</li>
+            <li><strong>Linha de base e meta</strong>, com a justificativa da meta (ver FAQ 7).</li>
+            </ol>
+            <p><em>Checklist de autoverificação do CP2:</em>
+            - [ ] A série tem ≥ 6 períodos e a origem de cada número é rastreável?
+            - [ ] Média <strong>e</strong> mediana calculadas? <em>(Se elas divergem muito, há valor extremo — comente-o.)</em>
+            - [ ] A meta tem número, prazo e <strong>justificativa</strong>?
+            - [ ] O gráfico é legível impresso em preto e branco?
+            - [ ] O grupo classificou a última oscilação como comum ou especial?</p>
+            <h3 id="69-atividade-revisao-cruzada-mecanismo-4">6.9 · Atividade — "🔄 Revisão cruzada" <em>(mecanismo ④)</em></h3>
+            <p><em>Disparada logo após o CP2.</em> Configure a distribuição em anel: <strong>G1→G2, G2→G3, …, Gn→G1</strong>, publicada
+            na descrição da atividade para não depender de o instrutor distribuir nada.</p>
+            <p>Cada grupo lê o CP2 do grupo seguinte e devolve um parecer de <strong>até 10 linhas</strong>, usando a <strong>mesma
+            rubrica</strong> com que ambos serão avaliados na Aula 6 (ver <a href="avaliacao.html"><code>avaliacao.html</code></a>):</p>
+            <blockquote>
+            <p><strong>O que está forte:</strong> <em>(2 pontos concretos)</em>
+            <strong>O que te derruba na banca:</strong> <em>(2 pontos, com a pergunta que o comitê fará)</em>
+            <strong>Uma pergunta que vocês não vão saber responder na sabatina:</strong> <em>(1)</em></p>
+            </blockquote>
+            <p>Por que isto substitui bem a devolutiva do instrutor: o grupo revisado recebe crítica <strong>a tempo de
+            corrigir</strong> antes do CP3, e o grupo revisor <strong>internaliza a rubrica aplicando-a</strong> — que é como se
+            aprende um critério de avaliação. Ninguém entende uma rubrica lendo; entende usando.</p>
+            <blockquote>
+            <p>A qualidade do parecer emitido vale nota. Parecer genérico ("está bom, parabéns") pontua zero.</p>
+            </blockquote>
+            <h3 id="610-tarefa-cp3-entrega-final">6.10 · Tarefa — "CP3 · Entrega final" 🎯</h3>
+            <p><em>Liberada somente após o envio do CP2.</em></p>
+            <ol>
+            <li><strong>Painel Estratégico — 1 página.</strong> Modelo em <a href="templates/T5-painel-e-nota-tecnica.html">T5</a>.</li>
+            <li><strong>Nota Técnica — 1 página.</strong> Estrutura obrigatória: problema · evidência · indicadores (com
+               pesos) · linha de base e meta · <strong>decisão recomendada</strong> · custo e risco · contraindicador de
+               integridade.</li>
+            <li><strong>Até 5 slides</strong> para a defesa na Aula 6 — 5 min de pitch.</li>
+            </ol>
+            <p><em>Checklist de autoverificação do CP3:</em>
+            - [ ] A Nota Técnica recomenda <strong>uma decisão</strong>, não um estudo?
+            - [ ] Um oficial que não acompanhou a disciplina entende o painel em 1 minuto?
+            - [ ] O que a revisão cruzada apontou foi corrigido — ou a discordância foi justificada?
+            - [ ] O custo está estimado, ainda que em ordem de grandeza?
+            - [ ] O contraindicador está no painel? <em>(Vai ser cobrado no Tribunal do Indicador da Aula 6.)</em>
+            - [ ] Alguém do grupo consegue defender <strong>de cor</strong> de onde veio cada número? <em>(É o guardião do dado
+                  quem responde na sabatina.)</em></p>
+            <h3 id="611-questionario-autoavaliacao-e-peer-review">6.11 · Questionário — "Autoavaliação e peer review" 👤</h3>
+            <p>Individual, respostas <strong>não visíveis aos colegas</strong>. Instrumento pronto em
+            <a href="avaliacao.html"><code>avaliacao.html</code></a>, seção 4.</p>
+            <h3 id="612-configuracao-de-ritmo-como-dar-cadencia-sem-instrutor">6.12 · Configuração de ritmo — como dar cadência sem instrutor</h3>
+            <div class="tabela-rolavel"><table>
+            <thead>
+            <tr>
+            <th>Recurso do Moodle</th>
+            <th>Configuração</th>
+            <th>Efeito</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td><strong>Restrição de acesso</strong></td>
+            <td>CP2 liberado só após envio do CP1; CP3 só após o CP2</td>
+            <td>Impede o grupo de pular para a síntese antes de checar o dado — o erro nº 1</td>
+            </tr>
+            <tr>
+            <td><strong>Conclusão de atividade</strong></td>
+            <td>marcar automaticamente ao enviar</td>
+            <td>O grupo enxerga o próprio avanço sem precisar perguntar</td>
+            </tr>
+            <tr>
+            <td><strong>Datas de entrega</strong></td>
+            <td>prazo em cada checkpoint, <strong>sem bloqueio de envio tardio</strong></td>
+            <td>Ver D8: atraso não pode virar desistência</td>
+            </tr>
+            <tr>
+            <td><strong>Distribuição da revisão cruzada</strong></td>
+            <td>publicada em texto fixo (G1→G2, G2→G3, …)</td>
+            <td>Não depende de ninguém distribuir no dia</td>
+            </tr>
+            </tbody>
+            </table></div>
+            <hr />
+            <h2 id="7-produtos-esperados-da-aula">7. Produtos esperados da aula</h2>
+            <ul>
+            <li><input type="checkbox" disabled> <strong>CP1</strong> — faróis de disponibilidade do dado, com fontes.</li>
+            <li><input type="checkbox" disabled> <strong>CP2</strong> — série histórica, estatística descritiva, gráfico, linha de base e meta justificada.</li>
+            <li><input type="checkbox" disabled> <strong>Parecer de revisão cruzada</strong> emitido para outro grupo.</li>
+            <li><input type="checkbox" disabled> <strong>CP3</strong> — Painel de 1 página + Nota Técnica de 1 página + até 5 slides.</li>
+            <li><input type="checkbox" disabled> <strong>Posts</strong> individuais no fórum Achados e no Ajuda Mútua.</li>
+            <li><input type="checkbox" disabled> <strong>Questionário</strong> individual de autoavaliação e peer review.</li>
+            </ul>
+            <h2 id="8-o-que-o-instrutor-faz-antes-e-depois-nunca-durante">8. O que o instrutor faz — antes e depois, nunca durante</h2>
+            <p><strong>Antes (bloco crítico):</strong>
+            - [ ] Montar todos os recursos de 6.1 a 6.12.
+            - [ ] Escrever o <strong>Caso-Modelo</strong> por inteiro. É o item que dá mais trabalho e o que mais evita
+                  travamento — não deixe para depois.
+            - [ ] Acrescentar ao FAQ as dúvidas levantadas no bloco 8 da Aula 4.
+            - [ ] Conferir, um a um, se os links do Kit de dados estão no ar.
+            - [ ] Postar as fotos dos T1–T4 da Aula 4.</p>
+            <p><strong>Durante:</strong> nada. É esse o desenho.</p>
+            <p><strong>Depois, antes da Aula 6:</strong>
+            - [ ] Ler as entregas e levantar os <strong>3 erros recorrentes</strong> → abrem a Aula 6.
+            - [ ] Ler o fórum Achados e separar os <strong>3 melhores achados</strong> → abrem a Aula 6, com crédito nominal
+                  aos autores.
+            - [ ] Verificar se alguma dúvida ficou sem resposta ou recebeu resposta errada no Ajuda Mútua → vira
+                  correção pública nos primeiros minutos da Aula 6.
+            - [ ] Conferir se todos os grupos entregaram o CP3. Quem não entregou defende assim mesmo na RAE, com
+                  o que tiver.</p>
+            <h2 id="9-avaliacao">9. Avaliação</h2>
+            <p>Ver <a href="avaliacao.html"><code>avaliacao.html</code></a>. Desta aula saem:</p>
+            <ul>
+            <li>o <strong>produto do grupo</strong> (40%), na versão que será defendida;</li>
+            <li>parte da <strong>participação</strong> (20%) — postagens nos fóruns e <strong>qualidade do parecer de revisão
+              cruzada</strong>;</li>
+            <li>o <strong>peer review individual</strong> (20%).</li>
+            </ul>
+            <h2 id="10-referencias">10. Referências</h2>
+            <ul>
+            <li>FRANCISCHINI, A. S. N.; FRANCISCHINI, P. <strong>Indicadores de desempenho: dos objetivos à ação.</strong> Rio
+              de Janeiro: Alta Books, 2017.</li>
+            <li>CBMDF. <strong>Caderno de Indicadores Estratégicos</strong>; <strong>Caderno de Indicadores de Governança</strong>;
+              <strong>Portaria nº 6/2017</strong>; <strong>Plano Estratégico 2017-2024</strong>; <strong>BG nº 111/2022</strong>.</li>
+            <li>FREITAS, M. T. <strong>Business Intelligence para gestão de indicadores de desempenho e suporte à tomada
+              de decisão.</strong> UFOP, 2021. <em>(leitura complementar para os grupos que forem além)</em></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        Corpo de Bombeiros Militar do Distrito Federal<br>
+        Vidas alheias e riquezas a salvar.
+    </footer>
+
+</body>
+
+</html>
