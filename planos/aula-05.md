@@ -161,16 +161,24 @@ O procedimento, ao final da Aula 4:
 Todos já vêm com o par *leading*/*lagging* e o contraindicador resolvidos — o trabalho que sobra é
 produzir a série, o gráfico e os comentários.
 
-| | **① Chamadas abandonadas no 193** | **② Retrabalho na análise de projetos (SCIP)** |
+| | **① Ocorrências acima do tempo-resposta de 8 min** | **② Retrabalho na análise de projetos (SCIP)** |
 |---|---|---|
-| **A dor** | O cidadão liga e desliga antes de ser atendido | Projetos reprovados voltam três, quatro vezes e o prazo de análise estoura |
-| ***Lagging*** | % de chamadas abandonadas antes do atendimento | Taxa de reprovação em primeira análise |
-| ***Leading*** | Tempo médio de espera em fila (segundos) | % de projetos protocolados com checklist prévio preenchido |
-| **Contraindicador** | Rechamada do mesmo número em até 10 min | Tempo total até a aprovação final |
-| **Burla que ele bloqueia** | Atender rápido e derrubar a ligação para "zerar" o abandono | Baixar o rigor da análise: aprova de primeira, e o número melhora enquanto a segurança piora |
-| **Farol do dado** | 🟢 a central telefônica gera automaticamente | 🟢/🟡 sistema de análise de projetos |
-| **Ensina melhor** | A **carta de controle** — variação comum × especial. A série é mensal e farta, e um mês de temporal dá uma causa especial crível. É exatamente o micro-conteúdo do CP2. | O indicador que, **otimizado ingenuamente, destrói o próprio propósito** |
-| **Risco de coincidir com a dor de um grupo** | Baixo | Médio |
+| **A dor** | Parte das ocorrências chega depois dos 8 minutos pactuados, e a corporação não sabe dizer **onde** nem **em qual fatia do percurso** o tempo se perdeu | Projetos reprovados voltam três, quatro vezes e o prazo de análise estoura |
+| ***Lagging*** | % de ocorrências atendidas acima de 8 min | Taxa de reprovação em primeira análise |
+| ***Leading*** | Tempo mediano de despacho — do atendimento da chamada ao acionamento da guarnição | % de projetos protocolados com checklist prévio preenchido |
+| **Contraindicador** | **Nº absoluto** de ocorrências acima de 8 min | Tempo total até a aprovação final |
+| **Burla que ele bloqueia** | O percentual melhora quando o denominador cresce com ocorrências fáceis e próximas — o número de cidadãos mal atendidos pode estar **subindo** enquanto o indicador "melhora". Como segundo contraindicador, % de ocorrências sem horário de chegada registrado: é por ali que o caso ruim deixa de virar registro | Baixar o rigor da análise: aprova de primeira, e o número melhora enquanto a segurança piora |
+| **Farol do dado** | 🟢/🟡 o sistema de despacho registra os horários; a desagregação por região administrativa costuma exigir tratamento | 🟢/🟡 sistema de análise de projetos |
+| **Ensina melhor** | Três coisas de uma vez: a **decomposição do tempo-resposta** em despacho, deslocamento e acesso — e a descoberta de que só a primeira fatia é plenamente governável, o que retoma a matriz Impacto × Governabilidade da Aula 4; a **carta de controle**, com série mensal e um mês de temporal como causa especial crível; e a **armadilha do denominador**, o contraexemplo mais sutil da disciplina | O indicador que, **otimizado ingenuamente, destrói o próprio propósito** |
+| **Risco de coincidir com a dor de um grupo** | Médio-alto — tempo-resposta é dos temas mais prováveis de aparecer nos clusters | Médio |
+
+> 🔗 **O que a escolha do ① traz de brinde.** A turma já viu esse indicador **ser burlado** no Red
+> Team da Aula 4 — registrar a chegada no momento do despacho — e vai julgá-lo outra vez no Tribunal
+> do Indicador da Aula 6, nos casos A e D. O caso-modelo mostra o **tratamento correto do mesmo
+> indicador**: é reconhecimento, não repetição, e vale explorar isso na abertura da Aula 6. Por esse
+> motivo o contraindicador aqui é **deliberadamente diferente** do exemplo já usado no
+> [T8](templates/T8-ficha-indicador.md) — lá é a reincidência de chamado, aqui é a armadilha do
+> denominador.
 
 | | **③ Indisponibilidade da frota** | **④ Militar capacitado fora da especialidade** |
 |---|---|---|
@@ -183,10 +191,11 @@ produzir a série, o gráfico e os comentários.
 | **Ensina melhor** | O caminho da **decisão D1**: dado inexistente, série simulada declarada e *"implantar a coleta"* como primeira iniciativa da nota técnica | Amarra com o **ciclo reforçador de má gestão de RH** já apresentado na Aula 1 — fecha a narrativa da disciplina |
 | **Risco de coincidir com a dor de um grupo** | Alto | Alto |
 
-> 💡 **Se puder escolher livremente, o ① é o mais completo**: dado abundante permite demonstrar a
-> estatística inteira sem recorrer a simulação, e é o menos provável de colidir com as dores da
-> turma. O ③ é a escolha certa se você quiser que os grupos vejam **como se procede quando o dado não
-> existe** — que é a situação que a maioria deles vai enfrentar.
+> 💡 **Como escolher.** O **①** é o mais rico tecnicamente: o dado abundante permite demonstrar a
+> estatística inteira sem recorrer a simulação, e é o único que ensina três mecanismos de uma vez.
+> Mas é também **o tema mais provável de aparecer nas dores dos grupos** — se algum grupo escolher
+> tempo-resposta, vá para o **②**. O **③** é a escolha certa quando você quiser que os grupos vejam
+> **como se procede quando o dado não existe**, que é a situação que a maioria deles vai enfrentar.
 
 #### (c) O que montar
 

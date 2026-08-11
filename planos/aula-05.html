@@ -309,53 +309,62 @@
             <thead>
             <tr>
             <th></th>
-            <th><strong>① Chamadas abandonadas no 193</strong></th>
+            <th><strong>① Ocorrências acima do tempo-resposta de 8 min</strong></th>
             <th><strong>② Retrabalho na análise de projetos (SCIP)</strong></th>
             </tr>
             </thead>
             <tbody>
             <tr>
             <td><strong>A dor</strong></td>
-            <td>O cidadão liga e desliga antes de ser atendido</td>
+            <td>Parte das ocorrências chega depois dos 8 minutos pactuados, e a corporação não sabe dizer <strong>onde</strong> nem <strong>em qual fatia do percurso</strong> o tempo se perdeu</td>
             <td>Projetos reprovados voltam três, quatro vezes e o prazo de análise estoura</td>
             </tr>
             <tr>
             <td><strong><em>Lagging</em></strong></td>
-            <td>% de chamadas abandonadas antes do atendimento</td>
+            <td>% de ocorrências atendidas acima de 8 min</td>
             <td>Taxa de reprovação em primeira análise</td>
             </tr>
             <tr>
             <td><strong><em>Leading</em></strong></td>
-            <td>Tempo médio de espera em fila (segundos)</td>
+            <td>Tempo mediano de despacho — do atendimento da chamada ao acionamento da guarnição</td>
             <td>% de projetos protocolados com checklist prévio preenchido</td>
             </tr>
             <tr>
             <td><strong>Contraindicador</strong></td>
-            <td>Rechamada do mesmo número em até 10 min</td>
+            <td><strong>Nº absoluto</strong> de ocorrências acima de 8 min</td>
             <td>Tempo total até a aprovação final</td>
             </tr>
             <tr>
             <td><strong>Burla que ele bloqueia</strong></td>
-            <td>Atender rápido e derrubar a ligação para "zerar" o abandono</td>
+            <td>O percentual melhora quando o denominador cresce com ocorrências fáceis e próximas — o número de cidadãos mal atendidos pode estar <strong>subindo</strong> enquanto o indicador "melhora". Como segundo contraindicador, % de ocorrências sem horário de chegada registrado: é por ali que o caso ruim deixa de virar registro</td>
             <td>Baixar o rigor da análise: aprova de primeira, e o número melhora enquanto a segurança piora</td>
             </tr>
             <tr>
             <td><strong>Farol do dado</strong></td>
-            <td>🟢 a central telefônica gera automaticamente</td>
+            <td>🟢/🟡 o sistema de despacho registra os horários; a desagregação por região administrativa costuma exigir tratamento</td>
             <td>🟢/🟡 sistema de análise de projetos</td>
             </tr>
             <tr>
             <td><strong>Ensina melhor</strong></td>
-            <td>A <strong>carta de controle</strong> — variação comum × especial. A série é mensal e farta, e um mês de temporal dá uma causa especial crível. É exatamente o micro-conteúdo do CP2.</td>
+            <td>Três coisas de uma vez: a <strong>decomposição do tempo-resposta</strong> em despacho, deslocamento e acesso — e a descoberta de que só a primeira fatia é plenamente governável, o que retoma a matriz Impacto × Governabilidade da Aula 4; a <strong>carta de controle</strong>, com série mensal e um mês de temporal como causa especial crível; e a <strong>armadilha do denominador</strong>, o contraexemplo mais sutil da disciplina</td>
             <td>O indicador que, <strong>otimizado ingenuamente, destrói o próprio propósito</strong></td>
             </tr>
             <tr>
             <td><strong>Risco de coincidir com a dor de um grupo</strong></td>
-            <td>Baixo</td>
+            <td>Médio-alto — tempo-resposta é dos temas mais prováveis de aparecer nos clusters</td>
             <td>Médio</td>
             </tr>
             </tbody>
             </table></div>
+            <blockquote>
+            <p>🔗 <strong>O que a escolha do ① traz de brinde.</strong> A turma já viu esse indicador <strong>ser burlado</strong> no Red
+            Team da Aula 4 — registrar a chegada no momento do despacho — e vai julgá-lo outra vez no Tribunal
+            do Indicador da Aula 6, nos casos A e D. O caso-modelo mostra o <strong>tratamento correto do mesmo
+            indicador</strong>: é reconhecimento, não repetição, e vale explorar isso na abertura da Aula 6. Por esse
+            motivo o contraindicador aqui é <strong>deliberadamente diferente</strong> do exemplo já usado no
+            <a href="templates/T8-ficha-indicador.html">T8</a> — lá é a reincidência de chamado, aqui é a armadilha do
+            denominador.</p>
+            </blockquote>
             <div class="tabela-rolavel"><table>
             <thead>
             <tr>
@@ -408,10 +417,11 @@
             </tbody>
             </table></div>
             <blockquote>
-            <p>💡 <strong>Se puder escolher livremente, o ① é o mais completo</strong>: dado abundante permite demonstrar a
-            estatística inteira sem recorrer a simulação, e é o menos provável de colidir com as dores da
-            turma. O ③ é a escolha certa se você quiser que os grupos vejam <strong>como se procede quando o dado não
-            existe</strong> — que é a situação que a maioria deles vai enfrentar.</p>
+            <p>💡 <strong>Como escolher.</strong> O <strong>①</strong> é o mais rico tecnicamente: o dado abundante permite demonstrar a
+            estatística inteira sem recorrer a simulação, e é o único que ensina três mecanismos de uma vez.
+            Mas é também <strong>o tema mais provável de aparecer nas dores dos grupos</strong> — se algum grupo escolher
+            tempo-resposta, vá para o <strong>②</strong>. O <strong>③</strong> é a escolha certa quando você quiser que os grupos vejam
+            <strong>como se procede quando o dado não existe</strong>, que é a situação que a maioria deles vai enfrentar.</p>
             </blockquote>
             <h4 id="c-o-que-montar">(c) O que montar</h4>
             <p>Sete peças, na ordem em que o grupo vai lê-las:</p>
