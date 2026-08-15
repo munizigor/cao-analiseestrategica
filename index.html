@@ -102,6 +102,27 @@
             opacity: 0.8;
         }
 
+        .aula-acoes {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0.5rem;
+            margin-left: 1.5rem;
+            flex: 0 0 auto;
+        }
+
+        .aula-acoes .btn-link {
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .btn-link-alt {
+            background-color: #fff;
+            color: var(--cor-primaria);
+            border: 2px solid var(--cor-primaria);
+            padding: calc(0.6rem - 2px) calc(1.2rem - 2px);
+        }
+
         .badge-r {
             color: #d9534f;
             font-weight: bold;
@@ -188,7 +209,10 @@
                         3.2. Coleta das dores institucionais sob a ótica de cada ator.<br>
                         3.3. Clusterização das dores: da queixa dispersa ao problema com nome.</p>
                 </div>
-                <span class="btn-link" style="background-color: #ccc;">Executada</span>
+                <div class="aula-acoes">
+                    <span class="btn-link" style="background-color: #ccc;">Executada</span>
+                    <a href="planos/aula-03-dores.md" class="btn-link btn-link-alt">Dores clusterizadas</a>
+                </div>
             </div>
 
             <!-- Aula 04 -->
@@ -206,7 +230,10 @@
                         4.3. Ficha técnica do indicador (leading e lagging) e atribuição de pesos (AHP simplificado).
                     </p>
                 </div>
-                <a href="planos/aula-04.md" class="btn-link">Plano de Aula</a>
+                <div class="aula-acoes">
+                    <a href="slides/aula-04.html" class="btn-link">Acessar Slides</a>
+                    <a href="planos/aula-04.md" class="btn-link btn-link-alt">Plano de Aula</a>
+                </div>
             </div>
 
             <!-- Aula 05 -->
