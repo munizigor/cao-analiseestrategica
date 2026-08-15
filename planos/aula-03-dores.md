@@ -1,4 +1,4 @@
-# AULA 3 — Dores institucionais clusterizadas
+# AULA 3: Dores institucionais clusterizadas
 
 > **Análise Estratégica · CAO/CBMDF · CEPED**
 > Instrutor: Ten-Cel QOBM/Comb. Igor **MUNIZ** da Silva
@@ -9,7 +9,7 @@
 
 O registro bruto da **Oficina de Cenários** da Aula 3. Depois do confronto entre o grupo CBMDF e os
 grupos de stakeholders, as dores levantadas foram escritas em post-its e clusterizadas em abordagem
-de Design Thinking. São **87 dores em 8 clusters** — transcritas aqui exatamente como a turma as
+de Design Thinking. São **87 dores em 8 clusters**, transcritas aqui exatamente como a turma as
 escreveu, sem reescrita, sem filtro e sem correção de mérito.
 
 Isto não é diagnóstico: é matéria-prima. O diagnóstico começa na Aula 4, quando estas dores passam
@@ -18,7 +18,7 @@ por priorização, descem à causa-raiz e viram indicador.
 > ⚠️ **Não reescreva as dores.** A redação original é o dado. Quando uma dor aparece três vezes com
 > palavras diferentes ("falta de integração de sistemas", "falta de integração entre os sistemas",
 > "falta de integração dos sistemas"), essa repetição é informação sobre o que a turma sente com
-> mais força — e não um erro de digitação a consolidar.
+> mais força, e não um erro de digitação a consolidar.
 
 **Uso na Aula 4:** os painéis físicos destes clusters ficam afixados na parede **antes** da chegada
 da turma ([`aula-04.md`](aula-04.md), bloco 1). O dot voting incide sobre eles.
@@ -61,13 +61,13 @@ da turma ([`aula-04.md`](aula-04.md), bloco 1). O dot voting incide sobre eles.
 - Gargalo processual em compras
 - Dificuldade para realizar compras
 - Falta de viaturas
-- Planos de capacitação em execução de contratos — se já tem, não são divulgados
-- Manutenção demorada — muita viatura baixada, poucos *(parcialmente ilegível)*
+- Planos de capacitação em execução de contratos, se já tem, não são divulgados
+- Manutenção demorada, muita viatura baixada, poucos *(parcialmente ilegível)*
 
 ### 3. Escalas, emprego operacional e carreira do oficial
 
 - CAO
-- CFO — internato
+- CFO, internato
 - CH do Oficial
 - Acúmulo de funções
 - Desvalorização da carreira do Oficial
@@ -156,20 +156,20 @@ da turma ([`aula-04.md`](aula-04.md), bloco 1). O dot voting incide sobre eles.
 
 ## Leituras que o instrutor pode oferecer no debrief da Aula 4
 
-Não anuncie nada disto no bloco 1 — o silêncio ali é deliberado. Estas leituras servem ao **debrief
+Não anuncie nada disto no bloco 1, o silêncio ali é deliberado. Estas leituras servem ao **debrief
 do bloco 2**, quando o ranking do dot voting for confrontado com o ranking estruturado por GUT.
 
 1. **A turma mediu a si mesma, não a sociedade.** Dos 8 clusters, 4 tratam de condições de trabalho
-   do próprio efetivo — carreira, escalas, gratificações e pessoal — e concentram mais da metade das
+   do próprio efetivo, carreira, escalas, gratificações e pessoal, e concentram mais da metade das
    dores. Nenhuma dor menciona o cidadão atendido. Isso não desqualifica nada, mas é exatamente o
    ponto do bloco 2: *o que mais incomoda a tropa não é necessariamente o que mais impacta a
    sociedade.*
 2. **Boa parte do que mais dói não se resolve por decisão do CBMDF.** Previdência, auxílio moradia,
-   fundo constitucional e ingerência política dependem de terceiros — GDF, Câmara Legislativa,
+   fundo constitucional e ingerência política dependem de terceiros: GDF, Câmara Legislativa,
    União. A GUT vai pontuar alto essas dores, e com razão: elas são graves, urgentes e pioram
    sozinhas. Mas, na hora de o grupo eleger a dor que levará até o fim da disciplina, cabe a
    pergunta: *existe um indicador com dono dentro do CBMDF para isso?* Quando não existe, o produto
-   possível é agenda de negociação com stakeholder — retomando a Aula 2 —, não painel de gestão.
+   possível é agenda de negociação com stakeholder, retomando a Aula 2, não painel de gestão.
 3. **Há ciclos reforçadores explícitos na parede.** "Falta viatura, só não falta mais porque falta
    gente" é um ciclo inteiro escrito em uma frase. "Gestores sobrecarregados: não conseguem pensar
    estrategicamente, apenas apagar incêndios" é outro: a ausência de gestão estratégica produz as
@@ -185,4 +185,4 @@ do bloco 2**, quando o ranking do dot voting for confrontado com o ranking estru
 ## Referências
 
 - CBMDF. **Plano Estratégico do CBMDF 2017-2024.** 2. ed. Brasília, 2023.
-- Registro fotográfico dos painéis da Aula 3 — acervo do instrutor.
+- Registro fotográfico dos painéis da Aula 3, acervo do instrutor.

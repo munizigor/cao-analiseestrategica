@@ -8,7 +8,19 @@
       "Bash(rm -f C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad/folhas-aula-04.pdf C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad/folhas-aula-04.txt)",
       "Bash('/c/Program Files/LibreOffice/program/soffice.exe' --headless -env:UserInstallation=file:///C:/Users/cbmdf/AppData/Local/Temp/claude/lo_profile --convert-to pdf --outdir C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad C:/Users/cbmdf/Projetos/cao-analiseestrategica/cao-analiseestrategica/planos/folhas-aula-04.docx)",
       "Bash('/c/Program Files/LibreOffice/program/soffice.exe' --headless -env:UserInstallation=file:///C:/Users/cbmdf/AppData/Local/Temp/claude/lo_profile --convert-to 'txt:Text \\(encoded\\):UTF8' --outdir C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad C:/Users/cbmdf/Projetos/cao-analiseestrategica/cao-analiseestrategica/planos/folhas-aula-04.docx)",
-      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)"
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)",
+      "Bash(awk '/^\\\\.consigna \\\\{/,/^}/' deck.css)",
+      "Bash(awk '/^\\\\.clusters/,/^}/' deck.css)",
+      "Bash(awk '/^\\\\.cluster \\\\{/,/^}/' deck.css)",
+      "Bash(awk '/^\\\\.cluster__n/,/^}/' deck.css)",
+      "Bash(awk '/^\\\\.timer \\\\{/,/^}/' deck.css)",
+      "Bash(sed -n '/^\\\\*\\\\*Da aula anterior\\\\*\\\\*/,/^- Adesivos/p' planos/aula-04.md)",
+      "Bash(sed -n '/### Bloco 1 —/,/### Bloco 2/p' planos/aula-04.md)",
+      "Bash(awk '/^\\\\.cycle/,/^}/' slides/deck.css)",
+      "Bash(awk '/^\\\\.box/,/^}/' slides/deck.css)",
+      "Bash(PYTHONIOENCODING=utf-8 python \"C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad/tira_travessao.py\")",
+      "Bash(PYTHONIOENCODING=utf-8 python C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad/tira_travessao.py --write)",
+      "Bash(PYTHONIOENCODING=utf-8 grep -rnE '^#+ .*, \"|^#+ [A-Za-z0-9.·]+, |, \\\\*\\\\*[A-ZÀ-Ý]|\\\\?, |, \"[A-ZÀ-Ý]' --include=*.md planos/)"
     ]
   }
 }

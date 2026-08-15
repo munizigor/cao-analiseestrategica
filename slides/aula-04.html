@@ -1,547 +1,703 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Aula 4: Da Dor ao Indicador · Análise Estratégica · CAO/CBMDF
+    </title>
+    <meta
+      name="description"
+      content="Slides da Aula 4 da disciplina Análise Estratégica do CAO/CBMDF."
+    />
+    <link rel="stylesheet" href="deck.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 4 — Da Dor ao Indicador · Análise Estratégica · CAO/CBMDF</title>
-    <meta name="description" content="Slides da Aula 4 da disciplina Análise Estratégica do CAO/CBMDF.">
-    <link rel="stylesheet" href="deck.css">
-</head>
-
-<body>
-
+  <body>
     <div id="progress"></div>
 
     <div id="stage">
-
-        <!-- ============================================================
+      <!-- ============================================================
              ABERTURA
              ============================================================ -->
 
-        <section class="slide" data-hud="Abertura">
-            <div class="rule"></div>
-            <p class="eyebrow">Aula 4 · Análise Estratégica</p>
-            <h1>Da Dor<br>ao Indicador</h1>
-            <p class="cover-meta">
-                CAO/CBMDF · CEPED · 5 h/a · presencial<br>
-                Ten-Cel QOBM/Comb. Igor <strong>MUNIZ</strong> da Silva
-            </p>
+      <section class="slide">
+        <div class="rule"></div>
+        <p class="eyebrow">Aula 4 · Análise Estratégica</p>
+        <h1>Da Dor<br />ao Indicador</h1>
+        <p class="cover-meta">
+          CAO/CBMDF · CEPED · 5 h/a · presencial<br />
+          Ten-Cel QOBM/Comb. Igor <strong>MUNIZ</strong> da Silva
+        </p>
 
-            <aside class="notes">
-                <p><strong>Antes de a turma entrar:</strong> os painéis com os clusters de dores da Aula 3 já devem
-                    estar afixados na parede, e cada aluno recebe 3 adesivos redondos na porta. O mapa estratégico do
-                    PLANES 2017-2024 impresso em A1 é o material mais usado da aula.</p>
-                <p>Cada grupo recebe <strong>cinco folhas A3 em branco</strong> e canetões. Não há formulário impresso:
-                    o grupo desenha na folha o quadro que cada bloco pedir.</p>
-                <p>Não abra com apresentação pessoal nem com recapitulação. A turma entra, vê a própria produção na
-                    parede e começa a votar.</p>
-            </aside>
-        </section>
+        <aside class="notes">
+          <p>
+            <strong>Antes de a turma entrar:</strong> os painéis com os clusters
+            de dores da Aula 3 já devem estar afixados na parede, e cada aluno
+            recebe 3 adesivos redondos na porta. O mapa estratégico do PLANES
+            2017-2024 impresso em A1 é o material mais usado da aula.
+          </p>
+          <p>
+            Cada grupo recebe <strong>cinco folhas A3 em branco</strong> e
+            canetões. Não há formulário impresso: o grupo desenha na folha o
+            quadro que cada bloco pedir.
+          </p>
+          <p>
+            Não abra com apresentação pessoal nem com recapitulação. A turma
+            entra, vê a própria produção na parede e começa a votar.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide slide--soft" data-hud="Abertura">
-            <p class="eyebrow">Onde estamos</p>
-            <h2 style="margin-bottom:26px">Uma disciplina, um projeto contínuo</h2>
-            <div class="arc">
-                <div class="arc__step">
-                    <div class="arc__n">Aula 1</div>
-                    <div class="arc__t">Stakeholders e teia sistêmica</div>
-                    <div class="arc__mode">presencial</div>
-                </div>
-                <div class="arc__step">
-                    <div class="arc__n">Aula 2</div>
-                    <div class="arc__t">Cenários e matrizes</div>
-                    <div class="arc__mode">EAD</div>
-                </div>
-                <div class="arc__step">
-                    <div class="arc__n">Aula 3</div>
-                    <div class="arc__t">Dores clusterizadas</div>
-                    <div class="arc__mode">presencial</div>
-                </div>
-                <div class="arc__step is-now">
-                    <div class="arc__n">Aula 4</div>
-                    <div class="arc__t">Dor vira objetivo e indicador</div>
-                    <div class="arc__mode">hoje</div>
-                </div>
-                <div class="arc__step">
-                    <div class="arc__n">Aula 5</div>
-                    <div class="arc__t">Indicador ganha dado</div>
-                    <div class="arc__mode">EAD</div>
-                </div>
-                <div class="arc__step">
-                    <div class="arc__n">Aula 6</div>
-                    <div class="arc__t">Indicador vira decisão</div>
-                    <div class="arc__mode">presencial</div>
-                </div>
+      <section class="slide slide--soft">
+        <p class="eyebrow">Onde estamos</p>
+        <!-- <h2 style="margin-bottom:26px">Uma disciplina, um projeto contínuo</h2> -->
+        <div class="arc">
+          <div class="arc__step">
+            <div class="arc__n">Aula 1</div>
+            <div class="arc__t">Stakeholders e teia sistêmica</div>
+            <div class="arc__mode">presencial</div>
+          </div>
+          <div class="arc__step">
+            <div class="arc__n">Aula 2</div>
+            <div class="arc__t">Cenários e matrizes</div>
+            <div class="arc__mode">EAD</div>
+          </div>
+          <div class="arc__step">
+            <div class="arc__n">Aula 3</div>
+            <div class="arc__t">Dores clusterizadas</div>
+            <div class="arc__mode">presencial</div>
+          </div>
+          <div class="arc__step is-now">
+            <div class="arc__n">Aula 4</div>
+            <div class="arc__t">Dor vira objetivo e indicador</div>
+            <div class="arc__mode">hoje</div>
+          </div>
+          <div class="arc__step">
+            <div class="arc__n">Aula 5</div>
+            <div class="arc__t">Indicador ganha dado</div>
+            <div class="arc__mode">EAD</div>
+          </div>
+          <div class="arc__step">
+            <div class="arc__n">Aula 6</div>
+            <div class="arc__t">Indicador vira decisão</div>
+            <div class="arc__mode">presencial</div>
+          </div>
+        </div>
+
+        <aside class="notes">
+          <p>
+            Meio minuto, no máximo. O ponto é só situar: hoje é a travessia do
+            meio do arco <strong>Dor → Indicador → Decisão</strong>.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide slide--dark slide--center">
+        <p class="statement">
+          Dor não se gerencia.<br />Gerencia-se
+          <span class="accent">problema com nome, dono e número</span>.
+        </p>
+        <aside class="notes">
+          <p>
+            Esta é a tese da aula inteira. Diga e siga, não explique. As
+            próximas cinco horas são a explicação.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide">
+        <p class="eyebrow">O que cada grupo leva embora hoje</p>
+        <h2>Cinco folhas</h2>
+        <div class="stack">
+          <div class="row" data-step>
+            <div class="row__key">F1 · Priorização</div>
+            <div class="row__val">
+              Cinco clusters pontuados por GUT, e uma dor eleita para levar até
+              o fim da disciplina.
             </div>
-
-            <aside class="notes">
-                <p>Meio minuto, no máximo. O ponto é só situar: hoje é a travessia do meio do arco
-                    <strong>Dor → Indicador → Decisão</strong>.
-                </p>
-            </aside>
-        </section>
-
-        <section class="slide slide--dark slide--center" data-hud="Abertura">
-            <p class="statement">Dor não se gerencia.<br>Gerencia-se <span class="accent">problema com nome, dono e
-                    número</span>.</p>
-            <aside class="notes">
-                <p>Esta é a tese da aula inteira. Diga e siga — não explique. As próximas cinco horas são a explicação.
-                </p>
-            </aside>
-        </section>
-
-        <section class="slide" data-hud="Abertura">
-            <p class="eyebrow">O que cada grupo leva embora hoje</p>
-            <h2>Cinco folhas, não cinco anotações</h2>
-            <div class="stack">
-                <div class="row" data-step>
-                    <div class="row__key">F1 · Priorização</div>
-                    <div class="row__val">Cinco clusters pontuados por GUT — e uma dor eleita para levar até o fim da
-                        disciplina.</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">F2 · Causa-raiz</div>
-                    <div class="row__val">Árvore causa → problema → efeito, mais as hipóteses a verificar na Aula 5.
-                    </div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">F3 e F4 · Fichas</div>
-                    <div class="row__val">Um indicador de esforço, um de resultado. Cada um com sua ancoragem no PLANES
-                        e seu contraindicador.</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">F5 · Pesos</div>
-                    <div class="row__val">Ponderação por dois métodos, com a análise da divergência entre eles.</div>
-                </div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">F2 · Causa-raiz</div>
+            <div class="row__val">
+              Árvore causa → problema → efeito, mais as hipóteses a verificar na
+              Aula 5.
             </div>
-            <p class="footnote">Folha A3 em branco. Vocês desenham o quadro; nós definimos o conteúdo.</p>
-            <aside class="notes">
-                <p>Deixe explícito que estas folhas <strong>são o insumo da Aula 5</strong>, que é autônoma. Grupo que
-                    sair daqui sem as fichas F3 e F4 não consegue trabalhar na atividade de campo, e não haverá instrutor
-                    para socorrer.</p>
-                <p><strong>Fotografe tudo antes de a turma sair</strong> e poste no ambiente da disciplina no mesmo dia.
-                </p>
-            </aside>
-        </section>
-
-        <section class="slide slide--soft" data-hud="Abertura">
-            <p class="eyebrow">Roteiro do dia · 250 min</p>
-            <h2 style="margin-bottom:22px">Oficina, não palestra</h2>
-            <div class="agenda">
-                <div class="agenda__i">
-                    <div class="agenda__n">1</div>
-                    <div class="agenda__t">Galeria das Dores</div>
-                    <div class="agenda__d">20 min</div>
-                </div>
-                <div class="agenda__i">
-                    <div class="agenda__n">5</div>
-                    <div class="agenda__t">A Ficha do Indicador</div>
-                    <div class="agenda__d">45 min</div>
-                </div>
-                <div class="agenda__i">
-                    <div class="agenda__n">2</div>
-                    <div class="agenda__t">O voto não é critério</div>
-                    <div class="agenda__d">20 min</div>
-                </div>
-                <div class="agenda__i">
-                    <div class="agenda__n">6</div>
-                    <div class="agenda__t">Red Team relâmpago</div>
-                    <div class="agenda__d">30 min</div>
-                </div>
-                <div class="agenda__i">
-                    <div class="agenda__n">3</div>
-                    <div class="agenda__t">Cinco Porquês com juiz</div>
-                    <div class="agenda__d">30 min</div>
-                </div>
-                <div class="agenda__i agenda__i--break">
-                    <div class="agenda__n">☕</div>
-                    <div class="agenda__t">Intervalo</div>
-                    <div class="agenda__d">15 min</div>
-                </div>
-                <div class="agenda__i agenda__i--break">
-                    <div class="agenda__n">☕</div>
-                    <div class="agenda__t">Intervalo</div>
-                    <div class="agenda__d">15 min</div>
-                </div>
-                <div class="agenda__i">
-                    <div class="agenda__n">7</div>
-                    <div class="agenda__t">Quanto vale cada coisa?</div>
-                    <div class="agenda__d">30 min</div>
-                </div>
-                <div class="agenda__i">
-                    <div class="agenda__n">4</div>
-                    <div class="agenda__t">Onde isso mora no PLANES?</div>
-                    <div class="agenda__d">25 min</div>
-                </div>
-                <div class="agenda__i">
-                    <div class="agenda__n">8</div>
-                    <div class="agenda__t">Briefing da Aula 5 + saída</div>
-                    <div class="agenda__d">20 min</div>
-                </div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">F3 e F4 · Fichas</div>
+            <div class="row__val">
+              Um indicador de esforço, um de resultado. Cada um com sua
+              ancoragem no PLANES e seu contraindicador.
             </div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">F5 · Pesos</div>
+            <div class="row__val">
+              Ponderação por dois métodos, com a análise da divergência entre
+              eles.
+            </div>
+          </div>
+        </div>
+        <p class="footnote">
+          Folha A3 em branco. Vocês desenham o quadro; nós definimos o conteúdo.
+        </p>
+        <aside class="notes">
+          <p>
+            Deixe explícito que estas folhas
+            <strong>são o insumo da Aula 5</strong>, que é autônoma. Grupo que
+            sair daqui sem as fichas F3 e F4 não consegue trabalhar na atividade
+            de campo, e não haverá instrutor para socorrer.
+          </p>
+          <p>
+            <strong>Fotografe tudo antes de a turma sair</strong> e poste no
+            ambiente da disciplina no mesmo dia.
+          </p>
+        </aside>
+      </section>
 
-            <aside class="notes">
-                <p>A coluna da esquerda é a primeira metade, a da direita a segunda. Se a turma perguntar do horário,
-                    esta é a tela para voltar.</p>
-            </aside>
-        </section>
+      <section class="slide slide--soft">
+        <p class="eyebrow">Roteiro do dia · 250 min</p>
+        <h2 style="margin-bottom: 22px">Oficina</h2>
+        <div class="agenda">
+          <div class="agenda__i">
+            <div class="agenda__n">1</div>
+            <div class="agenda__t">Galeria das Dores</div>
+            <div class="agenda__d">20 min</div>
+          </div>
+          <div class="agenda__i">
+            <div class="agenda__n">5</div>
+            <div class="agenda__t">A Ficha do Indicador</div>
+            <div class="agenda__d">45 min</div>
+          </div>
+          <div class="agenda__i">
+            <div class="agenda__n">2</div>
+            <div class="agenda__t">O voto não é critério</div>
+            <div class="agenda__d">20 min</div>
+          </div>
+          <div class="agenda__i">
+            <div class="agenda__n">6</div>
+            <div class="agenda__t">Red Team relâmpago</div>
+            <div class="agenda__d">30 min</div>
+          </div>
+          <div class="agenda__i">
+            <div class="agenda__n">3</div>
+            <div class="agenda__t">Cinco Porquês com juiz</div>
+            <div class="agenda__d">30 min</div>
+          </div>
+          <div class="agenda__i agenda__i--break">
+            <div class="agenda__n">☕</div>
+            <div class="agenda__t">Intervalo</div>
+            <div class="agenda__d">15 min</div>
+          </div>
+          <div class="agenda__i agenda__i--break">
+            <div class="agenda__n">☕</div>
+            <div class="agenda__t">Intervalo</div>
+            <div class="agenda__d">15 min</div>
+          </div>
+          <div class="agenda__i">
+            <div class="agenda__n">7</div>
+            <div class="agenda__t">Quanto vale cada coisa?</div>
+            <div class="agenda__d">30 min</div>
+          </div>
+          <div class="agenda__i">
+            <div class="agenda__n">4</div>
+            <div class="agenda__t">Onde isso mora no PLANES?</div>
+            <div class="agenda__d">25 min</div>
+          </div>
+          <div class="agenda__i">
+            <div class="agenda__n">8</div>
+            <div class="agenda__t">Briefing da Aula 5 + saída</div>
+            <div class="agenda__d">20 min</div>
+          </div>
+        </div>
 
-        <!-- ============================================================
-             BLOCO 1 — GALERIA DAS DORES · 20 min
+        <aside class="notes">
+          <p>
+            A coluna da esquerda é a primeira metade, a da direita a segunda. Se
+            a turma perguntar do horário, esta é a tela para voltar.
+          </p>
+        </aside>
+      </section>
+
+      <!-- ============================================================
+             BLOCO 1: GALERIA DAS DORES · 20 min
              ============================================================ -->
 
-        <section class="slide slide--dark" data-hud="Bloco 1 · 20 min">
-            <p class="divider-num">01</p>
-            <p class="divider-title">Galeria das Dores</p>
-            <p class="divider-goal">Ao final, existe um ranking na parede — construído pela turma, sem uma palavra do
-                instrutor.</p>
-            <aside class="notes">
-                <p>Este bloco é a retomada da Aula 3 <strong>sem recapitulação</strong>. Você não fala durante a
-                    votação. Ao final, apenas anuncia o ranking em voz alta, sem comentar.</p>
-            </aside>
-        </section>
+      <section class="slide slide--dark">
+        <p class="divider-num">01</p>
+        <p class="divider-title">Galeria das Dores</p>
+        <p class="divider-goal">
+          Ao final, existe um ranking na parede, construído pela turma.
+        </p>
+        <aside class="notes">
+          <p>
+            Este bloco é a retomada da Aula 3
+            <strong>sem recapitulação</strong>. Você não fala durante a votação.
+            Ao final, apenas anuncia o ranking em voz alta, sem comentar.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide" data-hud="Bloco 1 · 20 min">
-            <p class="eyebrow">O que vocês escreveram na Aula 3</p>
-            <h2 style="margin-bottom:26px">87 dores · 8 clusters</h2>
-            <div class="clusters">
-                <div class="cluster">
-                    <div class="cluster__n">5</div>
-                    <div>
-                        <div class="cluster__name">Direitos e carreira</div>
-                        <div class="cluster__unit">Cluster 1</div>
-                    </div>
-                </div>
-                <div class="cluster">
-                    <div class="cluster__n">12</div>
-                    <div>
-                        <div class="cluster__name">Logística, compras e manutenção</div>
-                        <div class="cluster__unit">Cluster 2</div>
-                    </div>
-                </div>
-                <div class="cluster">
-                    <div class="cluster__n">16</div>
-                    <div>
-                        <div class="cluster__name">Escalas e emprego operacional</div>
-                        <div class="cluster__unit">Cluster 3</div>
-                    </div>
-                </div>
-                <div class="cluster">
-                    <div class="cluster__n">10</div>
-                    <div>
-                        <div class="cluster__name">Gratificações e GSV</div>
-                        <div class="cluster__unit">Cluster 4</div>
-                    </div>
-                </div>
-                <div class="cluster">
-                    <div class="cluster__n">9</div>
-                    <div>
-                        <div class="cluster__name">Comunicação e sistemas</div>
-                        <div class="cluster__unit">Cluster 5</div>
-                    </div>
-                </div>
-                <div class="cluster">
-                    <div class="cluster__n">4</div>
-                    <div>
-                        <div class="cluster__name">Ambiente externo</div>
-                        <div class="cluster__unit">Cluster 6</div>
-                    </div>
-                </div>
-                <div class="cluster">
-                    <div class="cluster__n">14</div>
-                    <div>
-                        <div class="cluster__name">Governança, normas e cultura</div>
-                        <div class="cluster__unit">Cluster 7</div>
-                    </div>
-                </div>
-                <div class="cluster">
-                    <div class="cluster__n">17</div>
-                    <div>
-                        <div class="cluster__name">Gestão de pessoas e efetivo</div>
-                        <div class="cluster__unit">Cluster 8</div>
-                    </div>
-                </div>
+      <section class="slide">
+        <h2 style="margin-bottom: 22px">87 dores · 8 clusters</h2>
+        <div class="clusters">
+          <div class="cluster">
+            <div class="cluster__n">5</div>
+            <div>
+              <div class="cluster__name">Direitos e carreira</div>
+              <div class="cluster__unit">Cluster 1</div>
             </div>
-
-            <aside class="notes">
-                <p>Mostre e cale. <strong>Não interprete os clusters agora</strong> — as leituras (a turma mediu a si
-                    mesma; há ciclos reforçadores escritos na parede) são material do debrief do bloco 2, não daqui.</p>
-                <p>Se alguém pedir para "explicar melhor" a dor do seu grupo, negue. O viés de quem fala mais alto é
-                    exatamente o que o bloco 2 vai desmontar.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--ink" data-hud="Bloco 1 · 20 min">
-            <p class="eyebrow eyebrow--accent">Consigna</p>
-            <p class="consigna">"Cole seus três adesivos nas dores que, se resolvidas, mais mudariam o CBMDF."</p>
-            <p class="consigna-note">Três adesivos por pessoa. Sem conversar, sem propor solução, sem defender a dor do
-                próprio grupo. Podem concentrar os três na mesma dor.</p>
-            <div class="timer" data-t="8">
-                <div class="timer__time">08:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
+          </div>
+          <div class="cluster">
+            <div class="cluster__n">12</div>
+            <div>
+              <div class="cluster__name">Logística, compras e manutenção</div>
+              <div class="cluster__unit">Cluster 2</div>
             </div>
-            <aside class="notes">
-                <p><strong>Você não fala durante os 8 minutos.</strong> Nem para incentivar, nem para esclarecer. O
-                    silêncio é parte do desenho.</p>
-                <p>⚠️ Armadilha: alguém vai tentar advogar pela própria dor antes da votação. Não permita.</p>
-            </aside>
-        </section>
+          </div>
+          <div class="cluster">
+            <div class="cluster__n">16</div>
+            <div>
+              <div class="cluster__name">Escalas e emprego operacional</div>
+              <div class="cluster__unit">Cluster 3</div>
+            </div>
+          </div>
+          <div class="cluster">
+            <div class="cluster__n">10</div>
+            <div>
+              <div class="cluster__name">Gratificações e GSV</div>
+              <div class="cluster__unit">Cluster 4</div>
+            </div>
+          </div>
+          <div class="cluster">
+            <div class="cluster__n">9</div>
+            <div>
+              <div class="cluster__name">Comunicação e sistemas</div>
+              <div class="cluster__unit">Cluster 5</div>
+            </div>
+          </div>
+          <div class="cluster">
+            <div class="cluster__n">4</div>
+            <div>
+              <div class="cluster__name">Ambiente externo</div>
+              <div class="cluster__unit">Cluster 6</div>
+            </div>
+          </div>
+          <div class="cluster">
+            <div class="cluster__n">14</div>
+            <div>
+              <div class="cluster__name">Governança, normas e cultura</div>
+              <div class="cluster__unit">Cluster 7</div>
+            </div>
+          </div>
+          <div class="cluster">
+            <div class="cluster__n">17</div>
+            <div>
+              <div class="cluster__name">Gestão de pessoas e efetivo</div>
+              <div class="cluster__unit">Cluster 8</div>
+            </div>
+          </div>
+        </div>
 
-        <section class="slide slide--center" data-hud="Bloco 1 · 20 min">
+        <p
+          class="consigna"
+          style="font-size: 30px; max-width: 36ch; margin-top: 26px"
+        >
+          "Colem os três adesivos nas dores que, se resolvidas, mais mudariam o
+          CBMDF."
+        </p>
+        <div class="timer" data-t="8">
+          <div class="timer__time">08:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+        <aside class="notes">
+          <p>
+            <strong>A votação acontece sobre esta projeção.</strong> Deixe este
+            slide no ar os 8 minutos inteiros, não avance, não escureça a tela
+, e os alunos colam os adesivos direto na parede projetada, em cima
+            do cluster que escolheram.
+          </p>
+          <p>
+            <strong>Montagem:</strong> projete numa parede clara ou num quadro
+            branco, onde o adesivo cole e saia sem marcar. Se a sala só tiver
+            tela de projeção, afixe antes uma folha de papel kraft na parede e
+            projete sobre ela. Confira a altura da imagem: cluster projetado
+            acima de 1,90 m ninguém alcança.
+          </p>
+          <p>
+            <strong>Você não fala durante os 8 minutos.</strong> Nem para
+            incentivar, nem para esclarecer. Sem conversa, sem propor solução,
+            sem defender a dor do próprio grupo, e pode-se concentrar os três
+            adesivos numa dor só. O silêncio é parte do desenho.
+          </p>
+          <p>
+            ⚠️ Armadilha: alguém vai tentar advogar pela própria dor antes da
+            votação. Não permita, o viés de quem fala mais alto é exatamente o
+            que o bloco 2 vai desmontar.
+          </p>
+          <p>
+            Terminado o tempo, <strong>fotografe a parede</strong> e leia em voz
+            alta os cinco clusters mais votados, sem comentar. Anote-os no
+            quadro: são o insumo direto da folha F1 no próximo bloco.
+          </p>
+        </aside>
+      </section>
+
+      <!-- <section class="slide slide--center">
             <p class="eyebrow">Terminada a votação</p>
             <h1 style="font-size:80px">O ranking</h1>
             <p class="lead lead--wide" style="margin-left:auto;margin-right:auto">Os cinco clusters mais votados, lidos
                 em voz alta. Sem comentar, sem elogiar, sem justificar.</p>
             <aside class="notes">
-                <p>Anote os cinco mais votados no quadro — eles são o insumo direto da folha F1 no próximo bloco, e o
+                <p>Anote os cinco mais votados no quadro, eles são o insumo direto da folha F1 no próximo bloco, e o
                     ranking do dot voting volta no debrief para ser confrontado com o ranking por GUT.</p>
             </aside>
-        </section>
+        </section> -->
 
-        <!-- ============================================================
-             BLOCO 2 — O VOTO NÃO É CRITÉRIO · 20 min
+      <!-- ============================================================
+             BLOCO 2: O VOTO NÃO É CRITÉRIO · 20 min
              ============================================================ -->
 
-        <section class="slide slide--dark" data-hud="Bloco 2 · 20 min">
-            <p class="divider-num">02</p>
-            <p class="divider-title">"O voto não é critério"</p>
-            <p class="divider-goal">Ao final, cada grupo tem uma dor eleita por critério explícito — e sabe defender por
-                que aquela e não a mais votada.</p>
-        </section>
+      <section class="slide slide--dark">
+        <p class="divider-num">02</p>
+        <p class="divider-title">"O voto não é critério"</p>
+        <p class="divider-goal">
+          Ao final, cada grupo tem uma dor eleita por critério explícito, e
+          sabe defender por que aquela e não a mais votada.
+        </p>
+      </section>
 
-        <section class="slide slide--center" data-hud="Bloco 2 · 20 min">
-            <p class="statement">O que mais dói não é necessariamente o mais <span class="accent">prioritário</span>.
+      <section class="slide slide--center">
+        <p class="statement">
+          O que mais dói não é necessariamente o mais
+          <span class="accent">prioritário</span>.
+        </p>
+        <aside class="notes">
+          <p>
+            Frase de abertura do bloco. Ela cria a tensão que a atividade vai
+            resolver.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide">
+        <p class="eyebrow">A ferramenta · nota de 1 a 5 em cada eixo</p>
+        <h2 style="margin-bottom: 30px">Matriz GUT</h2>
+        <div class="stack">
+          <div class="row" data-step>
+            <div class="row__key">Gravidade</div>
+            <div class="row__val">O tamanho do estrago se nada for feito.</div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">Urgência</div>
+            <div class="row__val">
+              O custo de esperar. Não é pressa, é a janela que se fecha.
+            </div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">Tendência</div>
+            <div class="row__val">
+              O que acontece se ninguém intervier: piora, estabiliza ou melhora
+              sozinho?
+            </div>
+          </div>
+        </div>
+        <p class="footnote">Prioridade = G × U × T · de 1 a 125</p>
+
+        <aside class="notes">
+          <p>
+            Tendência é o eixo que a turma mais erra, costuma repetir a
+            gravidade. Insista: tendência é sobre o
+            <em>futuro sem intervenção</em>.
+          </p>
+          <p>
+            O ponto da exposição não é a fórmula, é o contraste entre
+            <strong>votar</strong> e <strong>pontuar</strong>: no dot voting
+            ninguém precisa dizer por que escolheu; na GUT, cada nota é uma
+            afirmação que o colega ao lado pode contestar.
+          </p>
+        </aside>
+      </section>
+
+      <section
+        class="slide slide--ink slide--center"
+       
+      >
+        <p class="quote">
+          "Pressa não é urgência.<br />Urgência é a janela<br />que se fecha."
+        </p>
+        <aside class="notes">
+          <p>
+            Peça um exemplo à turma: um problema urgentíssimo que na verdade era
+            só pressa de alguém, e um problema sem pressa nenhuma cuja janela
+            está se fechando (concurso, ciclo orçamentário, mandato).
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide">
+        <p class="eyebrow">Duas dores da parede, pontuadas</p>
+        <h2 style="margin-bottom: 34px">A conta reordena o ranking</h2>
+        <div class="figures">
+          <div>
+            <div class="figure__n accent">100</div>
+            <div class="figure__l">
+              <strong>"Manutenção demorada, muita viatura baixada"</strong
+              ><br />G 5 · U 4 · T 5
+            </div>
+          </div>
+          <div>
+            <div class="figure__n mute">8</div>
+            <div class="figure__l">
+              <strong>"Muitos grupos de ZAP"</strong><br />G 2 · U 2 · T 2
+            </div>
+          </div>
+          <div>
+            <div class="figure__n">?</div>
+            <div class="figure__l">
+              A dor mais votada de vocês. Quanto ela faz?
+            </div>
+          </div>
+        </div>
+        <p class="footnote">
+          Notas ilustrativas, as de verdade são as que o grupo defender daqui a
+          pouco.
+        </p>
+        <aside class="notes">
+          <p>
+            Trinta segundos neste slide. A pergunta final é a que interessa: a
+            dor campeã do dot voting resiste à conta? Deixe a turma responder na
+            folha, não aqui.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide slide--ink">
+        <p class="eyebrow eyebrow--accent">Atividade · folha F1</p>
+        <p class="consigna">
+          Pontuem G, U e T dos cinco clusters mais votados.
+        </p>
+        <p class="consigna-note">
+          Uma linha por cluster, com as três notas e o produto. Nota sem acordo
+          do grupo fica registrada com as duas, divergência se anota, não se
+          dissolve na média.
+        </p>
+        <div class="timer" data-t="8">
+          <div class="timer__time">08:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+        <aside class="notes">
+          <p>
+            Circule pelos grupos ouvindo, sem corrigir. O que interessa é ver
+            quais grupos discutem o critério e quais só preenchem a tabela.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide slide--center">
+        <p class="eyebrow">Debrief</p>
+        <p class="statement">
+          "Onde os dois rankings discordam?<br />E
+          <span class="accent">por que</span> discordam?"
+        </p>
+        <aside class="notes">
+          <p>
+            Coloque lado a lado, no quadro, o ranking do dot voting e o ranking
+            por GUT. Deixe a turma achar as divergências antes de você nomear as
+            causas.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide">
+        <p class="eyebrow">As três respostas que sempre aparecem</p>
+        <h2 style="margin-bottom: 30px">E todas as três rendem</h2>
+        <div class="cols cols-3">
+          <div class="card" data-step>
+            <span class="tag">A</span>
+            <h3>Incomoda ≠ impacta</h3>
+            <p>
+              A dor mais votada é a que mais incomoda a tropa, não a que mais
+              impacta a sociedade atendida.
             </p>
-            <aside class="notes">
-                <p>Frase de abertura do bloco. Ela cria a tensão que a atividade vai resolver.</p>
-            </aside>
-        </section>
+          </div>
+          <div class="card" data-step>
+            <span class="tag">B</span>
+            <h3>Recente ≠ grave</h3>
+            <p>
+              O voto premia a dor mais falada do mês. A GUT expõe a que piora
+              sozinha enquanto ninguém olha.
+            </p>
+          </div>
+          <div class="card" data-step>
+            <span class="tag">C</span>
+            <h3>Impopular internamente</h3>
+            <p>
+              A dor de maior GUT é a que ninguém quer encampar, porque mexe com
+              privilégio, rotina ou território.
+            </p>
+          </div>
+        </div>
+        <aside class="notes">
+          <p>
+            Se a turma trouxer uma quarta explicação, melhor ainda, anote no
+            quadro. Estas três são o piso, não o teto.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide" data-hud="Bloco 2 · 20 min">
-            <p class="eyebrow">A ferramenta · nota de 1 a 5 em cada eixo</p>
-            <h2 style="margin-bottom:30px">Matriz GUT</h2>
-            <div class="stack">
-                <div class="row" data-step>
-                    <div class="row__key">Gravidade</div>
-                    <div class="row__val">O tamanho do estrago se nada for feito.</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">Urgência</div>
-                    <div class="row__val">O custo de esperar. Não é pressa — é a janela que se fecha.</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">Tendência</div>
-                    <div class="row__val">O que acontece se ninguém intervier: piora, estabiliza ou melhora sozinho?
-                    </div>
-                </div>
-            </div>
-            <p class="footnote">Prioridade = G × U × T · de 1 a 125</p>
+      <section
+        class="slide slide--dark slide--center"
+       
+      >
+        <p class="statement">
+          Onde os dois rankings discordam, mora a
+          <span class="accent">política institucional</span>.
+        </p>
+        <aside class="notes">
+          <p>
+            Fecho do bloco. Em seguida, cada grupo elege
+            <strong>uma dor</strong>, a que vai levar até o fim da disciplina,
+            passando pela Aula 5 e chegando à RAE da Aula 6. Registre no quadro
+            qual grupo ficou com qual dor.
+          </p>
+        </aside>
+      </section>
 
-            <aside class="notes">
-                <p>Tendência é o eixo que a turma mais erra — costuma repetir a gravidade. Insista: tendência é sobre o
-                    <em>futuro sem intervenção</em>.
-                </p>
-                <p>O ponto da exposição não é a fórmula, é o contraste entre <strong>votar</strong> e
-                    <strong>pontuar</strong>: no dot voting ninguém precisa dizer por que escolheu; na GUT, cada nota é
-                    uma afirmação que o colega ao lado pode contestar.
-                </p>
-            </aside>
-        </section>
+      <section class="slide slide--center">
+        <p class="eyebrow">Produto do bloco</p>
+        <h1 style="font-size: 74px">Uma dor por grupo</h1>
+        <p
+          class="lead lead--wide"
+          style="margin-left: auto; margin-right: auto"
+        >
+          A escolha é definitiva: atravessa a Aula 5 e chega à Reunião de
+          Análise Estratégica da Aula 6.
+        </p>
+      </section>
 
-        <section class="slide slide--ink slide--center" data-hud="Bloco 2 · 20 min">
-            <p class="quote">"Pressa não é urgência.<br>Urgência é a janela<br>que se fecha."</p>
-            <aside class="notes">
-                <p>Peça um exemplo à turma: um problema urgentíssimo que na verdade era só pressa de alguém, e um
-                    problema sem pressa nenhuma cuja janela está se fechando (concurso, ciclo orçamentário, mandato).
-                </p>
-            </aside>
-        </section>
-
-        <section class="slide" data-hud="Bloco 2 · 20 min">
-            <p class="eyebrow">Duas dores da parede, pontuadas</p>
-            <h2 style="margin-bottom:34px">A conta reordena o ranking</h2>
-            <div class="figures">
-                <div>
-                    <div class="figure__n accent">100</div>
-                    <div class="figure__l"><strong>"Manutenção demorada, muita viatura baixada"</strong><br>G 5 · U 4 ·
-                        T 5</div>
-                </div>
-                <div>
-                    <div class="figure__n mute">8</div>
-                    <div class="figure__l"><strong>"Muitos grupos de ZAP"</strong><br>G 2 · U 2 · T 2</div>
-                </div>
-                <div>
-                    <div class="figure__n">?</div>
-                    <div class="figure__l">A dor mais votada de vocês. Quanto ela faz?</div>
-                </div>
-            </div>
-            <p class="footnote">Notas ilustrativas — as de verdade são as que o grupo defender daqui a pouco.</p>
-            <aside class="notes">
-                <p>Trinta segundos neste slide. A pergunta final é a que interessa: a dor campeã do dot voting resiste à
-                    conta? Deixe a turma responder na folha, não aqui.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--ink" data-hud="Bloco 2 · 20 min">
-            <p class="eyebrow eyebrow--accent">Atividade · folha F1</p>
-            <p class="consigna">Pontuem G, U e T dos cinco clusters mais votados.</p>
-            <p class="consigna-note">Uma linha por cluster, com as três notas e o produto. Nota sem acordo do grupo fica
-                registrada com as duas — divergência se anota, não se dissolve na média.</p>
-            <div class="timer" data-t="8">
-                <div class="timer__time">08:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
-            </div>
-            <aside class="notes">
-                <p>Circule pelos grupos ouvindo, sem corrigir. O que interessa é ver quais grupos discutem o critério e
-                    quais só preenchem a tabela.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--center" data-hud="Bloco 2 · 20 min">
-            <p class="eyebrow">Debrief</p>
-            <p class="statement">"Onde os dois rankings discordam?<br>E <span class="accent">por que</span>
-                discordam?"</p>
-            <aside class="notes">
-                <p>Coloque lado a lado, no quadro, o ranking do dot voting e o ranking por GUT. Deixe a turma achar as
-                    divergências antes de você nomear as causas.</p>
-            </aside>
-        </section>
-
-        <section class="slide" data-hud="Bloco 2 · 20 min">
-            <p class="eyebrow">As três respostas que sempre aparecem</p>
-            <h2 style="margin-bottom:30px">E todas as três rendem</h2>
-            <div class="cols cols-3">
-                <div class="card" data-step>
-                    <span class="tag">A</span>
-                    <h3>Incomoda ≠ impacta</h3>
-                    <p>A dor mais votada é a que mais incomoda a tropa — não a que mais impacta a sociedade atendida.
-                    </p>
-                </div>
-                <div class="card" data-step>
-                    <span class="tag">B</span>
-                    <h3>Recente ≠ grave</h3>
-                    <p>O voto premia a dor mais falada do mês. A GUT expõe a que piora sozinha enquanto ninguém olha.
-                    </p>
-                </div>
-                <div class="card" data-step>
-                    <span class="tag">C</span>
-                    <h3>Impopular internamente</h3>
-                    <p>A dor de maior GUT é a que ninguém quer encampar, porque mexe com privilégio, rotina ou
-                        território.</p>
-                </div>
-            </div>
-            <aside class="notes">
-                <p>Se a turma trouxer uma quarta explicação, melhor ainda — anote no quadro. Estas três são o piso, não
-                    o teto.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--dark slide--center" data-hud="Bloco 2 · 20 min">
-            <p class="statement">Onde os dois rankings discordam, mora a <span class="accent">política
-                    institucional</span>.</p>
-            <aside class="notes">
-                <p>Fecho do bloco. Em seguida, cada grupo elege <strong>uma dor</strong> — a que vai levar até o fim da
-                    disciplina, passando pela Aula 5 e chegando à RAE da Aula 6. Registre no quadro qual grupo ficou com
-                    qual dor.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--center" data-hud="Bloco 2 · 20 min">
-            <p class="eyebrow">Produto do bloco</p>
-            <h1 style="font-size:74px">Uma dor por grupo</h1>
-            <p class="lead lead--wide" style="margin-left:auto;margin-right:auto">A escolha é definitiva: atravessa a
-                Aula 5 e chega à Reunião de Análise Estratégica da Aula 6.</p>
-        </section>
-
-        <!-- ============================================================
-             BLOCO 3 — CINCO PORQUÊS COM JUIZ · 30 min
+      <!-- ============================================================
+             BLOCO 3: CINCO PORQUÊS COM JUIZ · 30 min
              ============================================================ -->
 
-        <section class="slide slide--dark" data-hud="Bloco 3 · 30 min">
-            <p class="divider-num">03</p>
-            <p class="divider-title">Cinco Porquês com juiz</p>
-            <p class="divider-goal">Ao final, cada grupo tem a árvore da causa-raiz e a lista de hipóteses que a Aula 5
-                vai verificar no dado.</p>
-        </section>
+      <section class="slide slide--dark">
+        <p class="divider-num">03</p>
+        <p class="divider-title">Cinco Porquês com juiz</p>
+        <p class="divider-goal">
+          Ao final, cada grupo tem a árvore da causa-raiz e a lista de hipóteses
+          que a Aula 5 vai verificar no dado.
+        </p>
+      </section>
 
-        <section class="slide" data-hud="Bloco 3 · 30 min">
-            <p class="eyebrow">A ferramenta</p>
-            <h2 style="margin-bottom:34px">Descer até onde ainda dá para agir</h2>
-            <div class="why">
-                <div class="why__row" data-step><span class="why__q">Por quê?</span>
-                    <div class="why__line"></div><span class="why__tag">sintoma</span>
-                </div>
-                <div class="why__row" data-step><span class="why__q">Por quê?</span>
-                    <div class="why__line"></div><span class="why__tag"></span>
-                </div>
-                <div class="why__row" data-step><span class="why__q">Por quê?</span>
-                    <div class="why__line"></div><span class="why__tag"></span>
-                </div>
-                <div class="why__row" data-step><span class="why__q">Por quê?</span>
-                    <div class="why__line"></div><span class="why__tag"></span>
-                </div>
-                <div class="why__row" data-step><span class="why__q">Por quê?</span>
-                    <div class="why__line"></div><span class="why__tag">causa-raiz</span>
-                </div>
+      <section class="slide">
+        <p class="eyebrow">A ferramenta</p>
+        <h2 style="margin-bottom: 34px">Descer até onde ainda dá para agir</h2>
+        <div class="why">
+          <div class="why__row" data-step>
+            <span class="why__q">Por quê?</span>
+            <div class="why__line"></div>
+            <span class="why__tag">sintoma</span>
+          </div>
+          <div class="why__row" data-step>
+            <span class="why__q">Por quê?</span>
+            <div class="why__line"></div>
+            <span class="why__tag"></span>
+          </div>
+          <div class="why__row" data-step>
+            <span class="why__q">Por quê?</span>
+            <div class="why__line"></div>
+            <span class="why__tag"></span>
+          </div>
+          <div class="why__row" data-step>
+            <span class="why__q">Por quê?</span>
+            <div class="why__line"></div>
+            <span class="why__tag"></span>
+          </div>
+          <div class="why__row" data-step>
+            <span class="why__q">Por quê?</span>
+            <div class="why__line"></div>
+            <span class="why__tag">causa-raiz</span>
+          </div>
+        </div>
+
+        <aside class="notes">
+          <p>
+            📎 Grupo que travar nos porquês pode trocar para o
+            <strong>Ishikawa (6M)</strong>, método, mão de obra, material,
+            máquina, medida, meio ambiente, desenhado na mesma folha. As
+            apostilas de Análise e Melhoria de Processos / MASP do acervo servem
+            de apoio.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide slide--soft">
+        <p class="eyebrow">Exemplo · uma dor da parede de vocês</p>
+        <h2 style="margin-bottom: 24px">
+          "Manutenção demorada, muita viatura baixada"
+        </h2>
+        <div class="stack">
+          <div class="row" data-step>
+            <div class="row__key">Por quê?</div>
+            <div class="row__val">A peça demora a chegar.</div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">Por quê?</div>
+            <div class="row__val">
+              A compra só começa depois que a viatura quebra.
             </div>
-
-            <aside class="notes">
-                <p>📎 Grupo que travar nos porquês pode trocar para o <strong>Ishikawa (6M)</strong> — método, mão de
-                    obra, material, máquina, medida, meio ambiente — desenhado na mesma folha. As apostilas de Análise e
-                    Melhoria de Processos / MASP do acervo servem de apoio.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--soft" data-hud="Bloco 3 · 30 min">
-            <p class="eyebrow">Exemplo · uma dor da parede de vocês</p>
-            <h2 style="margin-bottom:24px">"Manutenção demorada, muita viatura baixada"</h2>
-            <div class="stack">
-                <div class="row" data-step>
-                    <div class="row__key">Por quê?</div>
-                    <div class="row__val">A peça demora a chegar.</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">Por quê?</div>
-                    <div class="row__val">A compra só começa depois que a viatura quebra.</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">Por quê?</div>
-                    <div class="row__val">Não existe estoque mínimo definido.</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">Por quê?</div>
-                    <div class="row__val">Ninguém sabe quanto de cada peça se consome por ano.</div>
-                </div>
-                <div class="row row--hot" data-step>
-                    <div class="row__key">Por quê?</div>
-                    <div class="row__val"><strong>Porque a manutenção não registra o consumo.</strong></div>
-                </div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">Por quê?</div>
+            <div class="row__val">Não existe estoque mínimo definido.</div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">Por quê?</div>
+            <div class="row__val">
+              Ninguém sabe quanto de cada peça se consome por ano.
             </div>
-            <p class="footnote">A causa-raiz é <em>não medimos</em>. Guarde isto: é a aula inteira em cinco linhas.</p>
-            <aside class="notes">
-                <p>Revele um porquê por vez. No quinto, pare e deixe a turma perceber sozinha onde a descida foi parar.
-                </p>
-                <p>Repare que a causa-raiz aqui é <strong>acionável e mensurável</strong> — dá para desenhar indicador
-                    em cima dela. Se a descida terminar em "falta de recurso" ou "é cultural", o grupo parou cedo demais
-                    ou desceu para fora do que o CBMDF decide sozinho.</p>
-            </aside>
-        </section>
+          </div>
+          <div class="row row--hot" data-step>
+            <div class="row__key">Por quê?</div>
+            <div class="row__val">
+              <strong>Porque a manutenção não registra o consumo.</strong>
+            </div>
+          </div>
+        </div>
+        <p class="footnote">
+          A causa-raiz é <em>não medimos</em>. Guarde isto: é a aula inteira em
+          cinco linhas.
+        </p>
+        <aside class="notes">
+          <p>
+            Revele um porquê por vez. No quinto, pare e deixe a turma perceber
+            sozinha onde a descida foi parar.
+          </p>
+          <p>
+            Repare que a causa-raiz aqui é
+            <strong>acionável e mensurável</strong>, dá para desenhar indicador
+            em cima dela. Se a descida terminar em "falta de recurso" ou "é
+            cultural", o grupo parou cedo demais ou desceu para fora do que o
+            CBMDF decide sozinho.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide slide--ink" data-hud="Bloco 3 · 30 min">
+      <!-- <section class="slide slide--ink">
             <p class="eyebrow eyebrow--accent">A regra que muda tudo</p>
             <p class="consigna">A cada "porquê", o grupo-juiz pode vetar a resposta com uma única pergunta:</p>
             <p class="display accent" style="font-size:64px;margin-top:36px" data-step>"Isso é opinião<br>ou você tem
                 evidência?"</p>
             <aside class="notes">
-                <p>Grupos trabalham em pares: A julga B, B julga A. O juiz não pode argumentar nem sugerir resposta —
+                <p>Grupos trabalham em pares: A julga B, B julga A. O juiz não pode argumentar nem sugerir resposta,
                     só pode fazer <em>essa</em> pergunta.</p>
                 <p>Se for opinião, o grupo anota o porquê na lista <strong>"hipóteses a verificar na Aula 5"</strong> e
                     tenta outra resposta.</p>
             </aside>
-        </section>
+        </section> -->
 
-        <section class="slide" data-hud="Bloco 3 · 30 min">
+      <!-- <section class="slide">
             <p class="eyebrow">O que sobra ao final</p>
             <h2 style="margin-bottom:30px">Duas coisas, e as duas servem</h2>
             <div class="cols cols-2">
@@ -556,656 +712,1115 @@
                     <p>Tudo o que o juiz derrubou por ser opinião. Esta lista é a pauta de coleta de dados.</p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <section class="slide slide--ink" data-hud="Bloco 3 · 30 min">
-            <p class="eyebrow eyebrow--accent">Atividade · folha F2</p>
-            <p class="consigna">Desçam os cinco porquês da dor eleita. O grupo-juiz veta o que for opinião.</p>
-            <p class="consigna-note">O que for vetado não se apaga: vira item da lista "hipóteses a verificar na Aula
-                5", no rodapé da folha. Essa lista é entregável, não rascunho.</p>
-            <div class="timer" data-t="25">
-                <div class="timer__time">25:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
-            </div>
-            <aside class="notes">
-                <p>Guarde os 5 minutos finais do bloco para a amarração em plenário com a Aula 1.</p>
-                <p>Observe a <strong>qualidade dos vetos</strong> — é um dos dois momentos da aula que revelam quem
-                    entendeu o mecanismo e quem está preenchendo formulário.</p>
-            </aside>
-        </section>
+      <section class="slide slide--ink">
+        <p class="eyebrow eyebrow--accent">Atividade · folha F2</p>
+        <p class="consigna">Desçam os cinco porquês da dor eleita</p>
+        <!-- <p class="consigna-note">O que for vetado não se apaga: vira item da lista "hipóteses a verificar na Aula
+                5", no rodapé da folha. Essa lista é entregável, não rascunho.</p> -->
+        <div class="timer" data-t="15">
+          <div class="timer__time">15:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+        <aside class="notes">
+          <p>
+            Guarde os 5 minutos finais do bloco para a amarração em plenário com
+            a Aula 1.
+          </p>
+          <p>
+            Observe a <strong>qualidade dos vetos</strong>, é um dos dois
+            momentos da aula que revelam quem entendeu o mecanismo e quem está
+            preenchendo formulário.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide" data-hud="Bloco 3 · 30 min">
-            <p class="eyebrow">Amarração com a Aula 1</p>
-            <h2 style="margin-bottom:8px">"A causa-raiz de vocês está dentro de um ciclo reforçador?"</h2>
-            <svg class="cycle" viewBox="0 0 1040 400" role="img"
-                aria-label="Ciclo reforçador da má gestão de recursos humanos">
-                <defs>
-                    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7"
-                        orient="auto-start-reverse">
-                        <path d="M 0 0 L 10 5 L 0 10 z" fill="#b22222" />
-                    </marker>
-                </defs>
-                <rect class="box" x="60" y="26" width="320" height="88" rx="16" />
-                <text x="220" y="62" text-anchor="middle" font-size="21" font-weight="600">Alocação inadequada</text>
-                <text x="220" y="90" text-anchor="middle" font-size="21" font-weight="600">do efetivo</text>
+      <section class="slide">
+        <p class="eyebrow">Amarração com a Aula 1</p>
+        <h2 style="margin-bottom: 8px">
+          "A causa-raiz de vocês está dentro de um ciclo reforçador?"
+        </h2>
+        <svg
+          class="cycle"
+          viewBox="0 0 1040 400"
+          role="img"
+          aria-label="Ciclo reforçador da má gestão de recursos humanos"
+        >
+          <defs>
+            <marker
+              id="ah"
+              viewBox="0 0 10 10"
+              refX="9"
+              refY="5"
+              markerWidth="7"
+              markerHeight="7"
+              orient="auto-start-reverse"
+            >
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#b22222" />
+            </marker>
+          </defs>
+          <rect class="box" x="60" y="26" width="320" height="88" rx="16" />
+          <text
+            x="220"
+            y="62"
+            text-anchor="middle"
+            font-size="21"
+            font-weight="600"
+          >
+            Alocação inadequada
+          </text>
+          <text
+            x="220"
+            y="90"
+            text-anchor="middle"
+            font-size="21"
+            font-weight="600"
+          >
+            do efetivo
+          </text>
 
-                <rect class="box" x="660" y="26" width="320" height="88" rx="16" />
-                <text x="820" y="62" text-anchor="middle" font-size="21" font-weight="600">Queda de</text>
-                <text x="820" y="90" text-anchor="middle" font-size="21" font-weight="600">produtividade</text>
+          <rect class="box" x="660" y="26" width="320" height="88" rx="16" />
+          <text
+            x="820"
+            y="62"
+            text-anchor="middle"
+            font-size="21"
+            font-weight="600"
+          >
+            Queda de
+          </text>
+          <text
+            x="820"
+            y="90"
+            text-anchor="middle"
+            font-size="21"
+            font-weight="600"
+          >
+            produtividade
+          </text>
 
-                <rect class="box" x="660" y="256" width="320" height="88" rx="16" />
-                <text x="820" y="292" text-anchor="middle" font-size="21" font-weight="600">Desmotivação em</text>
-                <text x="820" y="320" text-anchor="middle" font-size="21" font-weight="600">se capacitar</text>
+          <rect class="box" x="660" y="256" width="320" height="88" rx="16" />
+          <text
+            x="820"
+            y="292"
+            text-anchor="middle"
+            font-size="21"
+            font-weight="600"
+          >
+            Desmotivação em
+          </text>
+          <text
+            x="820"
+            y="320"
+            text-anchor="middle"
+            font-size="21"
+            font-weight="600"
+          >
+            se capacitar
+          </text>
 
-                <rect class="box" x="60" y="256" width="320" height="88" rx="16" />
-                <text x="220" y="292" text-anchor="middle" font-size="21" font-weight="600">Déficit de</text>
-                <text x="220" y="320" text-anchor="middle" font-size="21" font-weight="600">competências</text>
+          <rect class="box" x="60" y="256" width="320" height="88" rx="16" />
+          <text
+            x="220"
+            y="292"
+            text-anchor="middle"
+            font-size="21"
+            font-weight="600"
+          >
+            Déficit de
+          </text>
+          <text
+            x="220"
+            y="320"
+            text-anchor="middle"
+            font-size="21"
+            font-weight="600"
+          >
+            competências
+          </text>
 
-                <path class="arrow" d="M 392 70 L 648 70" marker-end="url(#ah)" />
-                <path class="arrow" d="M 820 126 L 820 244" marker-end="url(#ah)" />
-                <path class="arrow" d="M 648 300 L 392 300" marker-end="url(#ah)" />
-                <path class="arrow" d="M 220 244 L 220 126" marker-end="url(#ah)" />
+          <path class="arrow" d="M 392 70 L 648 70" marker-end="url(#ah)" />
+          <path class="arrow" d="M 820 126 L 820 244" marker-end="url(#ah)" />
+          <path class="arrow" d="M 648 300 L 392 300" marker-end="url(#ah)" />
+          <path class="arrow" d="M 220 244 L 220 126" marker-end="url(#ah)" />
 
-                <circle cx="520" cy="185" r="34" fill="none" stroke="#b22222" stroke-width="2" stroke-dasharray="4 5" />
-                <text class="rlab" x="520" y="194" text-anchor="middle" font-size="30">R</text>
-            </svg>
+          <circle
+            cx="520"
+            cy="185"
+            r="34"
+            fill="none"
+            stroke="#b22222"
+            stroke-width="2"
+            stroke-dasharray="4 5"
+          />
+          <text
+            class="rlab"
+            x="520"
+            y="194"
+            text-anchor="middle"
+            font-size="30"
+          >
+            R
+          </text>
+        </svg>
 
-            <aside class="notes">
-                <p>Problema em ciclo reforçador <strong>não responde a ação pontual</strong>: ele se realimenta. Exige
-                    intervenção no ponto de alavancagem — e o indicador precisa vigiar justamente esse ponto.</p>
-                <p>Referência: Donella Meadows, <em>Pensando em Sistemas</em>.</p>
-            </aside>
-        </section>
+        <aside class="notes">
+          <p>
+            Problema em ciclo reforçador
+            <strong>não responde a ação pontual</strong>: ele se realimenta.
+            Exige intervenção no ponto de alavancagem, e o indicador precisa
+            vigiar justamente esse ponto.
+          </p>
+          <p>Referência: Donella Meadows, <em>Pensando em Sistemas</em>.</p>
+        </aside>
+      </section>
 
-        <section class="slide slide--dark slide--center" data-hud="Bloco 3 · 30 min">
-            <p class="statement">Se o problema se realimenta, o indicador vigia o <span class="accent">ponto de
-                    alavancagem</span> — não o sintoma.</p>
-            <aside class="notes">
-                <p>Esta frase é a ponte para o bloco 5. Guarde-a: quando os grupos forem escolher o que medir, ela
-                    volta.</p>
-            </aside>
-        </section>
+      <section
+        class="slide slide--dark slide--center"
+       
+      >
+        <p class="statement">
+          Se o problema se realimenta, o indicador vigia o
+          <span class="accent">ponto de alavancagem</span>, não o sintoma.
+        </p>
+        <aside class="notes">
+          <p>
+            Esta frase é a ponte para o bloco 5. Guarde-a: quando os grupos
+            forem escolher o que medir, ela volta.
+          </p>
+        </aside>
+      </section>
 
-        <!-- ============================================================
+      <!-- ============================================================
              INTERVALO 1 · 15 min
              ============================================================ -->
 
-        <section class="slide slide--dark slide--center" data-hud="Intervalo · 15 min">
-            <p class="display">☕</p>
-            <h1 style="font-size:72px;margin-top:24px">Intervalo</h1>
-            <!-- <p class="lead lead--wide" style="margin-left:auto;margin-right:auto">15 minutos. Deixem os painéis e as
+      <section
+        class="slide slide--dark slide--center"
+       
+      >
+        <p class="display">☕</p>
+        <h1 style="font-size: 72px; margin-top: 24px">Intervalo</h1>
+        <!-- <p class="lead lead--wide" style="margin-left:auto;margin-right:auto">15 minutos. Deixem os painéis e as
                 folhas como estão.</p> -->
-            <div class="timer" data-t="15">
-                <div class="timer__time">15:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
-            </div>
-        </section>
+        <div class="timer" data-t="15">
+          <div class="timer__time">15:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+      </section>
 
-        <!-- ============================================================
-             BLOCO 4 — ONDE ISSO MORA NO PLANES? · 25 min
+      <!-- ============================================================
+             BLOCO 4: ONDE ISSO MORA NO PLANES? · 25 min
              ============================================================ -->
 
-        <section class="slide slide--dark" data-hud="Bloco 4 · 25 min">
-            <p class="divider-num">04</p>
-            <p class="divider-title">"Onde isso mora<br>no PLANES?"</p>
-            <p class="divider-goal">Ao final, a dor está ancorada num objetivo do PLANES — ou registrada como lacuna do
-                plano.</p>
-            <aside class="notes">
-                <p>O mapa estratégico do PLANES 2017-2024 precisa estar na parede em A1 ou projetado. É o material mais
-                    usado da aula.</p>
-            </aside>
-        </section>
+      <section class="slide slide--dark">
+        <p class="divider-num">04</p>
+        <p class="divider-title">"Onde isso mora<br />no PLANES?"</p>
+        <p class="divider-goal">
+          Ao final, a dor está ancorada num objetivo do PLANES, ou registrada
+          como lacuna do plano.
+        </p>
+        <aside class="notes">
+          <p>
+            O mapa estratégico do PLANES 2017-2024 precisa estar na parede em A1
+            ou projetado. É o material mais usado da aula.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide slide--ink" data-hud="Bloco 4 · 25 min">
-            <p class="eyebrow eyebrow--accent">Atividade · direto no mapa</p>
-            <p class="consigna" style="font-size:44px">"Nossa dor ataca o objetivo <span
-                    class="accent">____________</span> do PLANES, na perspectiva <span
-                    class="accent">____________</span>."</p>
-            <p class="consigna-note">Escrevam a frase no alto das folhas F3 e F4. Se a dor não couber em objetivo
-                nenhum, escrevam LACUNA em vermelho — e qual objetivo <em>deveria</em> existir.</p>
-            <div class="timer" data-t="12">
-                <div class="timer__time">12:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
-            </div>
-            <aside class="notes">
-                <p>Não explique nada antes. Deixe os grupos se virarem com o mapa — a dificuldade que eles sentirem
-                    aqui é o que torna a micro-exposição seguinte necessária, em vez de decorativa.</p>
-            </aside>
-        </section>
+      <section class="slide slide--ink">
+        <p class="eyebrow eyebrow--accent">Atividade · direto no mapa</p>
+        <p class="consigna" style="font-size: 44px">
+          "Nossa dor ataca o objetivo
+          <span class="accent">____________</span> do PLANES, na perspectiva
+          <span class="accent">____________</span>."
+        </p>
+        <p class="consigna-note">
+          Escrevam a frase no alto das folhas F3 e F4. Se a dor não couber em
+          objetivo nenhum, escrevam LACUNA em vermelho, e qual objetivo
+          <em>deveria</em> existir.
+        </p>
+        <div class="timer" data-t="12">
+          <div class="timer__time">12:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+        <aside class="notes">
+          <p>
+            Não explique nada antes. Deixe os grupos se virarem com o mapa, a
+            dificuldade que eles sentirem aqui é o que torna a micro-exposição
+            seguinte necessária, em vez de decorativa.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide" data-hud="Bloco 4 · 25 min">
-            <p class="eyebrow">Se não encaixar em objetivo nenhum</p>
-            <h1 class="accent" style="font-size:96px">LACUNA<br>DO PLANES</h1>
-            <p class="lead lead--wide">Não é erro. É achado.</p>
+      <section class="slide">
+        <p class="eyebrow">Se não encaixar em objetivo nenhum</p>
+        <h1 class="accent" style="font-size: 96px">LACUNA<br />DO PLANES</h1>
+        <p class="lead lead--wide">Não é erro. É achado.</p>
 
-            <aside class="notes">
-                <p>Este slide evita meia hora de frustração. Sem ele, grupos ficam forçando a dor dentro de um objetivo
-                    que não a contempla — e o resultado é uma ancoragem falsa que contamina o indicador lá na frente.
-                </p>
-                <p>Grupo nessa situação escreve qual objetivo <em>deveria</em> existir. Pano de fundo: Mintzberg,
-                    <em>Ascensão e Queda do Planejamento Estratégico</em> — por que o plano perfeito no papel não vira
-                    estratégia.
-                </p>
-            </aside>
-        </section>
+        <aside class="notes">
+          <p>
+            Este slide evita meia hora de frustração. Sem ele, grupos ficam
+            forçando a dor dentro de um objetivo que não a contempla, e o
+            resultado é uma ancoragem falsa que contamina o indicador lá na
+            frente.
+          </p>
+          <p>
+            Grupo nessa situação escreve qual objetivo <em>deveria</em> existir.
+            Pano de fundo: Mintzberg,
+            <em>Ascensão e Queda do Planejamento Estratégico</em>, por que o
+            plano perfeito no papel não vira estratégia.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide slide--soft" data-hud="Bloco 4 · 25 min">
-            <p class="eyebrow">Micro-exposição</p>
-            <h2 style="margin-bottom:28px">Quatro palavras que vamos confundir a vida inteira</h2>
-            <div class="cols cols-4">
-                <div class="card" data-step>
-                    <span class="tag">Objetivo</span>
-                    <h3 style="font-size:26px">Aonde queremos chegar?</h3>
-                    <p>Ampliar a capacidade de resposta no atendimento pré-hospitalar.</p>
-                </div>
-                <div class="card" data-step>
-                    <span class="tag">Meta</span>
-                    <h3 style="font-size:26px">Quanto e até quando?</h3>
-                    <p>Tempo-resposta mediano de 8 min até dez/2027.</p>
-                </div>
-                <div class="card" data-step>
-                    <span class="tag">Indicador</span>
-                    <h3 style="font-size:26px">Como sabemos se estamos chegando?</h3>
-                    <p>Tempo-resposta mediano em ocorrências de APH, em minutos.</p>
-                </div>
-                <div class="card" data-step>
-                    <span class="tag">Iniciativa</span>
-                    <h3 style="font-size:26px">O que vamos fazer?</h3>
-                    <p>Redistribuir viaturas por densidade de chamados.</p>
-                </div>
-            </div>
-            <aside class="notes">
-                <p>Revele um card por vez, na ordem. As quatro linhas são o mesmo assunto em quatro alturas diferentes —
-                    é isso que a turma precisa enxergar.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--dark" data-hud="Bloco 4 · 25 min">
-            <p class="eyebrow eyebrow--accent">O erro clássico do gestor público</p>
-            <p class="statement" style="max-width:26ch">Escrever a <span class="accent">iniciativa</span> no lugar do
-                <span class="accent">objetivo</span>.
+      <section class="slide slide--soft">
+        <p class="eyebrow">Micro-exposição</p>
+        <h2 style="margin-bottom: 28px">
+          Quatro palavras que vamos confundir a vida inteira
+        </h2>
+        <div class="cols cols-4">
+          <div class="card" data-step>
+            <span class="tag">Objetivo</span>
+            <h3 style="font-size: 26px">Aonde queremos chegar?</h3>
+            <p>
+              Ampliar a capacidade de resposta no atendimento pré-hospitalar.
             </p>
-            <p class="lead lead--wide" data-step>"Implantar o sistema X" é meio, não fim. Mede-se a entrega do meio, o
-                relatório fecha em verde — e a dor continua onde estava.</p>
-            <aside class="notes">
-                <p>Pergunte à turma quantos projetos institucionais eles conseguem lembrar que foram "concluídos com
-                    sucesso" sem que ninguém sentisse diferença. É onde a ficha cai.</p>
-            </aside>
-        </section>
+          </div>
+          <div class="card" data-step>
+            <span class="tag">Meta</span>
+            <h3 style="font-size: 26px">Quanto e até quando?</h3>
+            <p>Tempo-resposta mediano de 8 min até dez/2027.</p>
+          </div>
+          <div class="card" data-step>
+            <span class="tag">Indicador</span>
+            <h3 style="font-size: 26px">Como sabemos se estamos chegando?</h3>
+            <p>Tempo-resposta mediano em ocorrências de APH, em minutos.</p>
+          </div>
+          <div class="card" data-step>
+            <span class="tag">Iniciativa</span>
+            <h3 style="font-size: 26px">O que vamos fazer?</h3>
+            <p>Redistribuir viaturas por densidade de chamados.</p>
+          </div>
+        </div>
+        <aside class="notes">
+          <p>
+            Revele um card por vez, na ordem. As quatro linhas são o mesmo
+            assunto em quatro alturas diferentes, é isso que a turma precisa
+            enxergar.
+          </p>
+        </aside>
+      </section>
 
-        <!-- ============================================================
-             BLOCO 5 — A FICHA DO INDICADOR · 45 min
+      <section class="slide slide--dark">
+        <p class="eyebrow eyebrow--accent">O erro clássico do gestor público</p>
+        <p class="statement" style="max-width: 26ch">
+          Escrever a <span class="accent">iniciativa</span> no lugar do
+          <span class="accent">objetivo</span>.
+        </p>
+        <p class="lead lead--wide" data-step>
+          "Implantar o sistema X" é meio, não fim. Mede-se a entrega do meio, o
+          relatório fecha em verde, e a dor continua onde estava.
+        </p>
+        <aside class="notes">
+          <p>
+            Pergunte à turma quantos projetos institucionais eles conseguem
+            lembrar que foram "concluídos com sucesso" sem que ninguém sentisse
+            diferença. É onde a ficha cai.
+          </p>
+        </aside>
+      </section>
+
+      <!-- ============================================================
+             BLOCO 5: A FICHA DO INDICADOR · 45 min
              ============================================================ -->
 
-        <section class="slide slide--dark" data-hud="Bloco 5 · 45 min">
-            <p class="divider-num">05</p>
-            <p class="divider-title">A Ficha do Indicador</p>
-            <p class="divider-goal">Ao final, cada grupo tem duas fichas completas: um indicador de esforço e um de
-                resultado, com fórmula, fonte e dono.</p>
-        </section>
+      <section class="slide slide--dark">
+        <p class="divider-num">05</p>
+        <p class="divider-title">A Ficha do Indicador</p>
+        <p class="divider-goal">
+          Ao final, cada grupo tem duas fichas completas: um indicador de
+          esforço e um de resultado, com fórmula, fonte e dono.
+        </p>
+      </section>
 
-        <section class="slide slide--center" data-hud="Bloco 5 · 45 min">
-            <p class="statement">Um indicador só existe de verdade quando <span class="accent">todos</span> estes campos
-                estão preenchidos.</p>
-            <aside class="notes">
-                <p>Base: Francischini &amp; Francischini, <em>Indicadores de desempenho</em>. São dez campos, em dois
-                    slides: cinco que fazem o indicador existir, cinco que decidem se ele funciona.</p>
-            </aside>
-        </section>
+      <section class="slide slide--center">
+        <p class="statement">
+          Um indicador só existe de verdade quando
+          <span class="accent">todos</span> estes campos estão preenchidos.
+        </p>
+        <aside class="notes">
+          <p>
+            Base: Francischini &amp; Francischini,
+            <em>Indicadores de desempenho</em>. São dez campos, em dois slides:
+            cinco que fazem o indicador existir, cinco que decidem se ele
+            funciona.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide" data-hud="Bloco 5 · 45 min">
-            <p class="eyebrow">Metade 1 · a pergunta que testa cada campo</p>
-            <h2 style="margin-bottom:30px">Sem estes cinco, não é indicador</h2>
-            <div class="stack">
-                <div class="row" data-step>
-                    <div class="row__key">Nome</div>
-                    <div class="row__val">Um oficial de outra diretoria entende sem explicação?</div>
-                </div>
-                <div class="row row--hot" data-step>
-                    <div class="row__key">Fórmula</div>
-                    <div class="row__val">Duas pessoas, com a mesma base, chegam ao mesmo número?</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">Unidade</div>
-                    <div class="row__val">Minutos, %, ocorrências por 1.000 habitantes?</div>
-                </div>
-                <div class="row row--hot" data-step>
-                    <div class="row__key">Fonte do dado</div>
-                    <div class="row__val">De qual sistema sai? Quem digita?</div>
-                </div>
-                <div class="row row--hot" data-step>
-                    <div class="row__key">Dono</div>
-                    <div class="row__val">Qual unidade responde por este número na reunião?</div>
-                </div>
+      <section class="slide">
+        <p class="eyebrow">Metade 1 · a pergunta que testa cada campo</p>
+        <h2 style="margin-bottom: 30px">Sem estes cinco, não é indicador</h2>
+        <div class="stack">
+          <div class="row" data-step>
+            <div class="row__key">Nome</div>
+            <div class="row__val">
+              Um oficial de outra diretoria entende sem explicação?
             </div>
-
-            <aside class="notes">
-                <p>Os três em vermelho são os que a Aula 5 vai cobrar. <strong>Fórmula e fonte</strong> são o par que
-                    separa indicador de opinião com número: sem os dois, o grupo não consegue montar série no fim de
-                    semana.</p>
-                <p>Em "dono", insista: <strong>unidade, não pessoa</strong>. Pessoa é movimentada; unidade responde.</p>
-            </aside>
-        </section>
-
-        <section class="slide" data-hud="Bloco 5 · 45 min">
-            <p class="eyebrow">Metade 2 · a pergunta que testa cada campo</p>
-            <h2 style="margin-bottom:30px">Estes cinco decidem se ele funciona</h2>
-            <div class="stack">
-                <div class="row" data-step>
-                    <div class="row__key">Periodicidade</div>
-                    <div class="row__val">Bate com a velocidade do fenômeno?</div>
-                </div>
-                <div class="row row--hot" data-step>
-                    <div class="row__key">Polaridade</div>
-                    <div class="row__val">Maior é melhor ou pior?</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">Linha de base</div>
-                    <div class="row__val">Qual é o valor hoje? Sem isso não há como saber se melhorou.</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key">Meta</div>
-                    <div class="row__val">Quanto, até quando, e por que <em>esse</em> número?</div>
-                </div>
-                <div class="row row--hot" data-step>
-                    <div class="row__key">Comportamento induzido</div>
-                    <div class="row__val">Se a tropa souber que é medida por isto, o que ela passa a fazer?</div>
-                </div>
+          </div>
+          <div class="row row--hot" data-step>
+            <div class="row__key">Fórmula</div>
+            <div class="row__val">
+              Duas pessoas, com a mesma base, chegam ao mesmo número?
             </div>
-
-            <aside class="notes">
-                <p>Periodicidade: tempo-resposta se move em 30 dias; cultura organizacional, não. Medir rápido demais
-                    produz reunião sobre ruído.</p>
-                <p>O último campo é o que ninguém preenche — e é o que separa o indicador maduro do ingênuo. Não
-                    desenvolva aqui: o próximo slide o isola e o bloco 6 o prova.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--ink slide--center" data-hud="Bloco 5 · 45 min">
-            <p class="eyebrow eyebrow--accent">O campo que ninguém preenche</p>
-            <p class="statement">"Se a tropa souber que é medida por isto, o que ela passa a fazer?"</p>
-
-            <aside class="notes">
-                <p>Semeie aqui, sem desenvolver: no bloco 6 a turma vai descobrir sozinha, na prática, por que este
-                    campo existe. Não entregue a resposta agora.</p>
-            </aside>
-        </section>
-
-        <section class="slide" data-hud="Bloco 5 · 45 min">
-            <p class="eyebrow">O par indispensável</p>
-            <h2 style="margin-bottom:30px">Resultado × Esforço</h2>
-            <div class="cols cols-2">
-                <div class="card" data-step>
-                    <span class="tag">Lagging · resultado</span>
-                    <h3>Mede o fim</h3>
-                    <p style="margin-bottom:16px">Confiável, mas chega tarde: quando piora, o estrago já aconteceu.</p>
-                    <p style="color:var(--ink);font-size:20px"><em>Ex.: nº de óbitos em incêndios estruturais.</em></p>
-                </div>
-                <div class="card" data-step>
-                    <span class="tag">Leading · esforço</span>
-                    <h3>Mede o meio</h3>
-                    <p style="margin-bottom:16px">Chega a tempo de corrigir — mas só vale se a relação com o resultado
-                        for verdadeira.</p>
-                    <p style="color:var(--ink);font-size:20px"><em>Ex.: % de edificações de alto risco com vistoria em
-                            dia.</em></p>
-                </div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">Unidade</div>
+            <div class="row__val">
+              Minutos, %, ocorrências por 1.000 habitantes?
             </div>
-            <aside class="notes">
-                <p>A armadilha do leading é a causalidade presumida. Pergunte a cada grupo: <strong>o que garante que
-                        mexer nesse meio move aquele fim?</strong> Se a resposta for "é óbvio", é hipótese — vai para a
-                    Aula 5.</p>
-            </aside>
-        </section>
+          </div>
+          <div class="row row--hot" data-step>
+            <div class="row__key">Fonte do dado</div>
+            <div class="row__val">De qual sistema sai? Quem digita?</div>
+          </div>
+          <div class="row row--hot" data-step>
+            <div class="row__key">Dono</div>
+            <div class="row__val">
+              Qual unidade responde por este número na reunião?
+            </div>
+          </div>
+        </div>
 
-        <section class="slide slide--ink slide--center" data-hud="Bloco 5 · 45 min">
-            <p class="quote" style="max-width:27ch">"Medir só o <em>lagging</em> é dirigir olhando o
-                retrovisor.<br><br>Medir só o <em>leading</em> é acreditar que se está indo bem porque se está muito
-                ocupado."</p>
-        </section>
+        <aside class="notes">
+          <p>
+            Os três em vermelho são os que a Aula 5 vai cobrar.
+            <strong>Fórmula e fonte</strong> são o par que separa indicador de
+            opinião com número: sem os dois, o grupo não consegue montar série
+            no fim de semana.
+          </p>
+          <p>
+            Em "dono", insista: <strong>unidade, não pessoa</strong>. Pessoa é
+            movimentada; unidade responde.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide slide--ink" data-hud="Bloco 5 · 45 min">
-            <p class="eyebrow eyebrow--accent">Atividade · folhas F3 e F4</p>
-            <p class="consigna">Escrevam a ficha completa de dois indicadores da sua dor: um <em>leading</em> e um
-                <em>lagging</em>.
+      <section class="slide">
+        <p class="eyebrow">Metade 2 · a pergunta que testa cada campo</p>
+        <h2 style="margin-bottom: 30px">Estes cinco decidem se ele funciona</h2>
+        <div class="stack">
+          <div class="row" data-step>
+            <div class="row__key">Periodicidade</div>
+            <div class="row__val">Bate com a velocidade do fenômeno?</div>
+          </div>
+          <div class="row row--hot" data-step>
+            <div class="row__key">Polaridade</div>
+            <div class="row__val">Maior é melhor ou pior?</div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">Linha de base</div>
+            <div class="row__val">
+              Qual é o valor hoje? Sem isso não há como saber se melhorou.
+            </div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key">Meta</div>
+            <div class="row__val">
+              Quanto, até quando, e por que <em>esse</em> número?
+            </div>
+          </div>
+          <div class="row row--hot" data-step>
+            <div class="row__key">Comportamento induzido</div>
+            <div class="row__val">
+              Se a tropa souber que é medida por isto, o que ela passa a fazer?
+            </div>
+          </div>
+        </div>
+
+        <aside class="notes">
+          <p>
+            Periodicidade: tempo-resposta se move em 30 dias; cultura
+            organizacional, não. Medir rápido demais produz reunião sobre ruído.
+          </p>
+          <p>
+            O último campo é o que ninguém preenche, e é o que separa o
+            indicador maduro do ingênuo. Não desenvolva aqui: o próximo slide o
+            isola e o bloco 6 o prova.
+          </p>
+        </aside>
+      </section>
+
+      <section
+        class="slide slide--ink slide--center"
+       
+      >
+        <p class="eyebrow eyebrow--accent">O campo que ninguém preenche</p>
+        <p class="statement">
+          "Se a tropa souber que é medida por isto, o que ela passa a fazer?"
+        </p>
+
+        <aside class="notes">
+          <p>
+            Semeie aqui, sem desenvolver: no bloco 6 a turma vai descobrir
+            sozinha, na prática, por que este campo existe. Não entregue a
+            resposta agora.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide">
+        <p class="eyebrow">O par indispensável</p>
+        <h2 style="margin-bottom: 30px">Resultado × Esforço</h2>
+        <div class="cols cols-2">
+          <div class="card" data-step>
+            <span class="tag">Indicador de resultado</span>
+            <h3>Mede o fim</h3>
+            <p style="margin-bottom: 16px">
+              Confiável, mas chega tarde: quando piora, o estrago já aconteceu.
             </p>
-            <p class="consigna-note">Uma folha por indicador, um campo por linha. Deixem o contraindicador em branco no
-                rodapé — ele é preenchido no próximo bloco. Os cadernos de indicadores do CBMDF estão à disposição:
-                <strong>reusar um indicador que já existe vale mais que inventar um novo</strong>.
+            <p style="color: var(--ink); font-size: 20px">
+              <em>Ex.: nº de óbitos em incêndios estruturais.</em>
             </p>
-            <div class="timer" data-t="30">
-                <div class="timer__time">30:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
-            </div>
-            <aside class="notes">
-                <p>Diga a frase do reuso <strong>em voz alta</strong>. A tendência natural do grupo é inventar indicador
-                    novo, e indicador novo sem série histórica não tem linha de base — o que trava a Aula 5 inteira.</p>
-                <p>Avise aos 10 minutos do fim: quem não tiver fórmula e fonte preenchidas ainda não tem indicador.</p>
-            </aside>
-        </section>
+          </div>
+          <div class="card" data-step>
+            <span class="tag">Indicador de esforço</span>
+            <h3>Mede o meio</h3>
+            <p style="margin-bottom: 16px">
+              Chega a tempo de corrigir, mas só vale se a relação com o
+              resultado for verdadeira.
+            </p>
+            <p style="color: var(--ink); font-size: 20px">
+              <em>Ex.: % de edificações de alto risco com vistoria em dia.</em>
+            </p>
+          </div>
+        </div>
+        <aside class="notes">
+          <p>
+            A armadilha do indicador de esforço é a causalidade presumida.
+            Pergunte a cada grupo:
+            <strong>o que garante que mexer nesse meio move aquele fim?</strong>
+            Se a resposta for "é óbvio", é hipótese, vai para a Aula 5.
+          </p>
+          <p>
+            Na literatura estes dois aparecem como <em>lagging</em> (resultado)
+            e <em>leading</em> (esforço): Francischini.
+            <strong>Não use os termos em inglês com a turma</strong>: esforço e
+            resultado dizem a mesma coisa e ninguém precisa traduzir na cabeça
+            enquanto tenta desenhar o indicador.
+          </p>
+        </aside>
+      </section>
 
-        <!-- ============================================================
-             BLOCO 6 — RED TEAM RELÂMPAGO · 30 min
+      <section
+        class="slide slide--ink slide--center"
+       
+      >
+        <p class="quote" style="max-width: 27ch">
+          "Medir só o <em>resultado</em> é dirigir olhando o retrovisor.<br /><br />Medir
+          só o <em>esforço</em> é acreditar que se está indo bem porque se está
+          muito ocupado."
+        </p>
+      </section>
+
+      <section class="slide slide--ink">
+        <p class="eyebrow eyebrow--accent">Atividade · folhas F3 e F4</p>
+        <p class="consigna">
+          Escrevam a ficha completa de dois indicadores da sua dor: um de
+          <em>esforço</em> e um de <em>resultado</em>.
+        </p>
+        <p class="consigna-note">
+          Uma folha por indicador, um campo por linha. Deixem o contraindicador
+          em branco no rodapé, ele é preenchido no próximo bloco. Os cadernos
+          de indicadores do CBMDF estão à disposição:
+          <strong
+            >reusar um indicador que já existe vale mais que inventar um
+            novo</strong
+          >.
+        </p>
+        <div class="timer" data-t="30">
+          <div class="timer__time">30:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+        <aside class="notes">
+          <p>
+            Diga a frase do reuso <strong>em voz alta</strong>. A tendência
+            natural do grupo é inventar indicador novo, e indicador novo sem
+            série histórica não tem linha de base, o que trava a Aula 5
+            inteira.
+          </p>
+          <p>
+            Avise aos 10 minutos do fim: quem não tiver fórmula e fonte
+            preenchidas ainda não tem indicador.
+          </p>
+        </aside>
+      </section>
+
+      <!-- ============================================================
+             BLOCO 6: RED TEAM RELÂMPAGO · 30 min
              ============================================================ -->
 
-        <section class="slide slide--dark" data-hud="Bloco 6 · 30 min">
-            <p class="divider-num">06</p>
-            <p class="divider-title">Red Team relâmpago</p>
-            <p class="divider-goal">Ao final, cada ficha tem contraindicador — e a turma descobriu sozinha que todo
-                indicador é burlável.</p>
-            <aside class="notes">
-                <p>Os grupos trocam as fichas: A→B, B→C, e assim por diante. Ninguém revisa a própria.</p>
-            </aside>
-        </section>
+      <section class="slide slide--dark">
+        <p class="divider-num">06</p>
+        <p class="divider-title">Red Team relâmpago</p>
+        <p class="divider-goal">
+          Ao final, cada ficha tem contraindicador, e a turma descobriu sozinha
+          que todo indicador é burlável.
+        </p>
+        <aside class="notes">
+          <p>
+            Os grupos trocam as fichas: A→B, B→C, e assim por diante. Ninguém
+            revisa a própria.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide" data-hud="Bloco 6 · 30 min">
-            <p class="eyebrow">Antes de começar · um exemplo</p>
-            <h2 style="margin-bottom:30px">Como se bate uma meta sem resolver nada</h2>
-            <div class="stack">
-                <div class="row" data-step>
-                    <div class="row__key" style="flex-basis:260px">O indicador</div>
-                    <div class="row__val">Tempo-resposta médio em ocorrências. Meta: cair de 11 para 8 minutos.</div>
-                </div>
-                <div class="row row--hot" data-step>
-                    <div class="row__key" style="flex-basis:260px">A burla</div>
-                    <div class="row__val">"No fechamento da ocorrência, sempre preencher o tempo de chegada entre 6 e 8
-                        minutos após o horário de saída."</div>
-                </div>
+      <section class="slide">
+        <p class="eyebrow">Antes de começar · um exemplo</p>
+        <h2 style="margin-bottom: 30px">
+          Como se bate uma meta sem resolver nada
+        </h2>
+        <div class="stack">
+          <div class="row" data-step>
+            <div class="row__key" style="flex-basis: 260px">O indicador</div>
+            <div class="row__val">
+              Tempo-resposta médio em ocorrências. Meta: cair de 11 para 8
+              minutos.
             </div>
-            <p class="footnote" data-step>Nenhuma viatura andou mais rápido. A meta fecha em verde todo mês — e a dor
-                continua exatamente onde estava. <strong>É isto que vocês vão procurar na ficha do outro
-                    grupo.</strong></p>
-            <aside class="notes">
-                <p>Dois minutos, com os passos revelados um a um. Sem este exemplo, metade dos grupos gasta os primeiros
-                    cinco minutos discutindo se o indicador do colega é bom — que é justamente o que <em>não</em> se
-                    pede aqui.</p>
-                <p>Guarde o contraindicador: este mesmo caso volta no fim do bloco, com a defesa. Se alguém já gritar a
-                    solução agora, elogie e peça para segurar.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--dark" data-hud="Bloco 6 · 30 min">
-            <p class="eyebrow eyebrow--accent">Missão do grupo revisor</p>
-            <div style="display:flex;gap:60px;align-items:center">
-                <div style="flex:1 1 0;min-width:0">
-                    <p class="consigna" style="font-size:36px;margin-top:0">"Você é um comandante ambicioso e sem
-                        escrúpulos. Sua promoção depende de bater esta meta. Você não vai resolver a dor — vai bater a
-                        meta assim mesmo. <span class="accent">Como?</span>"</p>
-                    <p class="consigna-note">Vocês têm a ficha de outro grupo na mão. Não avaliem se o indicador é bom:
-                        achem o jeito de bater a meta sem que a dor mude.</p>
-                </div>
-                <img src="img/advogado-do-diabo.jpg"
-                    alt="Cena do filme O Advogado do Diabo: o mentor de terno escuro com as mãos sobre os ombros do jovem advogado"
-                    style="flex:0 0 auto;width:430px;height:330px;object-fit:cover;object-position:center 28%;border-radius:20px;box-shadow:0 20px 54px rgba(0,0,0,.55)">
+          </div>
+          <div class="row row--hot" data-step>
+            <div class="row__key" style="flex-basis: 260px">A burla</div>
+            <div class="row__val">
+              "No fechamento da ocorrência, sempre preencher o tempo de chegada
+              entre 6 e 8 minutos após o horário de saída."
             </div>
-            <div class="timer" data-t="12">
-                <div class="timer__time">12:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
+          </div>
+        </div>
+        <p class="footnote" data-step>
+          Nenhuma viatura andou mais rápido. A meta fecha em verde todo mês, e
+          a dor continua exatamente onde estava.
+          <strong
+            >É isto que vocês vão procurar na ficha do outro grupo.</strong
+          >
+        </p>
+        <aside class="notes">
+          <p>
+            Dois minutos, com os passos revelados um a um. Sem este exemplo,
+            metade dos grupos gasta os primeiros cinco minutos discutindo se o
+            indicador do colega é bom, que é justamente o que <em>não</em> se
+            pede aqui.
+          </p>
+          <p>
+            Guarde o contraindicador: este mesmo caso volta no fim do bloco, com
+            a defesa. Se alguém já gritar a solução agora, elogie e peça para
+            segurar.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide slide--dark">
+        <p class="eyebrow eyebrow--accent">Missão do grupo revisor</p>
+        <div style="display: flex; gap: 60px; align-items: center">
+          <div style="flex: 1 1 0; min-width: 0">
+            <p class="consigna" style="font-size: 36px; margin-top: 0">
+              "Você é um oficial cínico e inescrupuloso. Mais importante que
+              resolver a dor é bater a meta. <span class="accent">Como?</span>"
+            </p>
+            <p class="consigna-note">
+              Vocês têm a ficha de outro grupo na mão. Não avaliem se o
+              indicador é bom: achem o jeito de bater a meta sem que a dor mude.
+            </p>
+          </div>
+          <img
+            src="img/advogado-do-diabo.jpg"
+            alt="Cena do filme O Advogado do Diabo: o mentor de terno escuro com as mãos sobre os ombros do jovem advogado"
+            style="
+              flex: 0 0 auto;
+              width: 430px;
+              height: 330px;
+              object-fit: cover;
+              object-position: center 28%;
+              border-radius: 20px;
+              box-shadow: 0 20px 54px rgba(0, 0, 0, 0.55);
+            "
+          />
+        </div>
+        <div class="timer" data-t="12">
+          <div class="timer__time">12:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+        <aside class="notes">
+          <p>
+            Autorize explicitamente o cinismo. Grupo que se comportar bem aqui
+            não aprende nada. Se algum grupo travar, dê a pista:
+            <em
+              >mude o denominador, mude o momento da medição, mude quem entra na
+              conta.</em
+            >
+          </p>
+          <p>
+            A imagem é de <em>O Advogado do Diabo</em> (1997) e serve para
+            nomear o papel em uma frase: pelos próximos 12 minutos, vocês
+            advogam para o outro lado. Não precisa contar o filme, quem conhece
+            já entendeu, e quem não conhece entende pela cara dos dois.
+          </p>
+        </aside>
+      </section>
+
+      <section class="slide slide--dark">
+        <p class="eyebrow eyebrow--accent">Rodada de burlas</p>
+        <p class="consigna" style="font-size: 46px">
+          Um minuto por grupo.<br />Só a burla. Sem defesa.
+        </p>
+        <div class="timer" data-t="1">
+          <div class="timer__time">01:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+        <aside class="notes">
+          <p>
+            Corte no minuto, sem dó. O dono da ficha não responde nem se defende
+            agora, ele reage no próximo passo, por escrito.
+          </p>
+          <p>A turma vai rir. Ela ri porque reconhece.</p>
+        </aside>
+      </section>
+
+      <section class="slide">
+        <p class="eyebrow">A reação · campo contraindicador</p>
+        <h2 style="font-size: 50px; margin-bottom: 34px">
+          O mesmo caso do começo do bloco, agora com a defesa
+        </h2>
+        <div class="stack">
+          <div class="row">
+            <div class="row__key" style="flex-basis: 260px">O indicador</div>
+            <div class="row__val">Tempo-resposta médio em ocorrências.</div>
+          </div>
+          <div class="row row--hot">
+            <div class="row__key" style="flex-basis: 260px">A burla</div>
+            <div class="row__val">
+              Preencher no fechamento um tempo de chegada sempre entre 6 e 8
+              minutos após a saída.
             </div>
-            <aside class="notes">
-                <p>Autorize explicitamente o cinismo. Grupo que se comportar bem aqui não aprende nada. Se algum grupo
-                    travar, dê a pista: <em>mude o denominador, mude o momento da medição, mude quem entra na
-                        conta.</em>
-                </p>
-                <p>A imagem é de <em>O Advogado do Diabo</em> (1997) e serve para nomear o papel em uma frase: pelos
-                    próximos 12 minutos, vocês advogam para o outro lado. Não precisa contar o filme — quem conhece já
-                    entendeu, e quem não conhece entende pela cara dos dois.</p>
-            </aside>
-        </section>
-
-        <section class="slide slide--dark" data-hud="Bloco 6 · 30 min">
-            <p class="eyebrow eyebrow--accent">Rodada de burlas</p>
-            <p class="consigna" style="font-size:46px">Um minuto por grupo.<br>Só a burla. Sem defesa.</p>
-            <div class="timer" data-t="8">
-                <div class="timer__time">08:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
+          </div>
+          <div class="row" data-step>
+            <div class="row__key" style="flex-basis: 260px">
+              Contraindicador
             </div>
-            <aside class="notes">
-                <p>Corte no minuto, sem dó. O dono da ficha não responde nem se defende agora — ele reage no próximo
-                    passo, por escrito.</p>
-                <p>A turma vai rir. Ela ri porque reconhece.</p>
-            </aside>
-        </section>
-
-        <section class="slide" data-hud="Bloco 6 · 30 min">
-            <p class="eyebrow">A reação · campo contraindicador</p>
-            <h2 style="font-size:50px;margin-bottom:34px">O mesmo caso do começo do bloco — agora com a defesa</h2>
-            <div class="stack">
-                <div class="row">
-                    <div class="row__key" style="flex-basis:260px">O indicador</div>
-                    <div class="row__val">Tempo-resposta médio em ocorrências.</div>
-                </div>
-                <div class="row row--hot">
-                    <div class="row__key" style="flex-basis:260px">A burla</div>
-                    <div class="row__val">Preencher no fechamento um tempo de chegada sempre entre 6 e 8 minutos após a
-                        saída.</div>
-                </div>
-                <div class="row" data-step>
-                    <div class="row__key" style="flex-basis:260px">Contraindicador</div>
-                    <div class="row__val">% de ocorrências com chegada validada por GPS. Sem tecnologia, mais barato
-                        ainda: a <strong>dispersão dos tempos</strong> — se quase todos caem na mesma faixa de dois
-                        minutos, o número foi digitado, não medido.</div>
-                </div>
+            <div class="row__val">
+              % de ocorrências com chegada validada por GPS. Mais barato ainda: a <strong>dispersão dos tempos</strong>, se
+              quase todos caem na mesma faixa de dois minutos, o número foi
+              digitado, não medido.
             </div>
-            <p class="footnote">Um segundo número que só se mantém saudável se a burla <em>não</em> estiver
-                acontecendo.</p>
-            <div class="timer" data-t="8">
-                <div class="timer__time">08:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
-            </div>
+          </div>
+        </div>
+        <p class="footnote">
+          Um segundo número que só se mantém saudável se a burla
+          <em>não</em> estiver acontecendo.
+        </p>
+        <div class="timer" data-t="8">
+          <div class="timer__time">08:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
 
-            <aside class="notes">
-                <p>A ficha volta ao dono, que preenche o contraindicador no rodapé da folha.</p>
-                <p>O contraindicador mais barato costuma ser o melhor. GPS depende de investimento; a dispersão dos
-                    tempos sai da mesma base que já existe — e é implacável, porque o fraudador precisaria simular
-                    variabilidade para escapar dela.</p>
-            </aside>
-        </section>
+        <aside class="notes">
+          <p>
+            A ficha volta ao dono, que preenche o contraindicador no rodapé da
+            folha.
+          </p>
+          <p>
+            O contraindicador mais barato costuma ser o melhor. GPS depende de
+            investimento; a dispersão dos tempos sai da mesma base que já existe
+, e é implacável, porque o fraudador precisaria simular
+            variabilidade para escapar dela.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide slide--ink slide--center" data-hud="Bloco 6 · 30 min">
-            <p class="eyebrow eyebrow--accent">Lei de Goodhart</p>
-            <p class="quote">"Quando uma medida se torna meta, ela deixa de ser uma boa medida."</p>
-        </section>
+      <section
+        class="slide slide--ink slide--center"
+       
+      >
+        <p class="eyebrow eyebrow--accent">Lei de Goodhart</p>
+        <p class="quote">
+          "Quando uma medida se torna meta, ela deixa de ser uma boa medida."
+        </p>
+      </section>
 
-        <section class="slide" data-hud="Bloco 6 · 30 min">
-            <p class="eyebrow">Efeito cobra</p>
-            <h2>A recompensa mal desenhada faz o problema <span class="accent">crescer</span></h2>
-            <p class="lead lead--wide">Porque passa a valer a pena produzir o problema. Não é desvio de caráter — é o
-                sistema funcionando como foi desenhado, contra quem o desenhou.</p>
+      <section class="slide">
+        <!-- <p class="eyebrow">Efeito cobra</p> -->
+        <div style="display: flex; gap: 56px; align-items: center">
+          <div style="flex: 1 1 0; min-width: 0">
+            <h2 style="font-size: 52px">
+              A recompensa mal desenhada faz o problema
+              <span class="accent">crescer</span>
+            </h2>
+            <p class="lead lead--wide">
+              Porque passa a valer a pena produzir o problema. Não é desvio de
+              caráter, é o sistema funcionando como foi desenhado, contra quem
+              o desenhou.
+            </p>
+          </div>
 
-            <aside class="notes">
-                <p>Se ninguém conhecer a origem: prêmio colonial por cobra morta em Délhi levou à criação de criadouros
-                    de cobras. Cancelado o prêmio, as cobras foram soltas. Ficaram mais cobras do que no começo.</p>
-                <p>Feche em dois minutos. Não moralize — a turma acabou de descobrir isso sozinha, e é isso que faz o
-                    aprendizado colar. Na Aula 6, no Tribunal do Indicador, eles reencontram as próprias burlas.</p>
-            </aside>
-        </section>
+          <!-- Para trocar por uma foto: apague o desenho abaixo e use esta linha,
+                     salvando o arquivo em slides/img/efeito-cobra.jpg
+                <img src="img/efeito-cobra.jpg" alt="Cobra"
+                     style="flex:0 0 auto;width:420px;height:320px;object-fit:cover;border-radius:20px;
+                            box-shadow:0 20px 54px rgba(0,0,0,.28)"> -->
 
-        <!-- ============================================================
+          <svg
+            viewBox="0 0 420 320"
+            role="img"
+            aria-label="Ilustração de uma cobra"
+            style="
+              flex: 0 0 auto;
+              width: 420px;
+              height: 320px;
+              border-radius: 20px;
+              background: var(--chip);
+              box-shadow: 0 20px 54px rgba(0, 0, 0, 0.18);
+            "
+          >
+            <!-- corpo -->
+            <path
+              d="M 52 262 C 130 262 118 198 188 198 C 248 198 250 142 196 128
+                             C 142 114 132 68 202 60 C 252 54 288 74 322 76"
+              style="
+                fill: none;
+                stroke: var(--accent);
+                stroke-width: 30;
+                stroke-linecap: round;
+              "
+            />
+            <path
+              d="M 52 262 C 130 262 118 198 188 198 C 248 198 250 142 196 128
+                             C 142 114 132 68 202 60 C 252 54 288 74 322 76"
+              style="
+                fill: none;
+                stroke: rgba(255, 255, 255, 0.22);
+                stroke-width: 10;
+                stroke-linecap: round;
+                stroke-dasharray: 16 26;
+              "
+            />
+            <!-- cabeça -->
+            <ellipse
+              cx="342"
+              cy="76"
+              rx="34"
+              ry="23"
+              transform="rotate(-6 342 76)"
+              style="fill: var(--accent)"
+            />
+            <circle cx="352" cy="68" r="6.5" style="fill: #fff" />
+            <circle cx="353.5" cy="68" r="3" style="fill: #1d1d1f" />
+            <!-- língua -->
+            <path
+              d="M 376 80 L 400 82 M 400 82 L 412 74 M 400 82 L 412 90"
+              style="
+                fill: none;
+                stroke: #8b1a1a;
+                stroke-width: 4;
+                stroke-linecap: round;
+              "
+            />
+            <!-- cauda -->
+            <path
+              d="M 52 262 L 22 274 L 54 276 Z"
+              style="fill: var(--accent)"
+            />
+          </svg>
+        </div>
+
+        <aside class="notes">
+          <p>
+            Se ninguém conhecer a origem: prêmio colonial por cobra morta em
+            Délhi levou à criação de criadouros de cobras. Cancelado o prêmio,
+            as cobras foram soltas. Ficaram mais cobras do que no começo.
+          </p>
+          <p>
+            Feche em dois minutos. Não moralize, a turma acabou de descobrir
+            isso sozinha, e é isso que faz o aprendizado colar. Na Aula 6, no
+            Tribunal do Indicador, eles reencontram as próprias burlas.
+          </p>
+        </aside>
+      </section>
+
+      <!-- ============================================================
              INTERVALO 2 · 15 min
              ============================================================ -->
 
-        <section class="slide slide--dark slide--center" data-hud="Intervalo · 15 min">
-            <p class="display">☕</p>
-            <h1 style="font-size:72px;margin-top:24px">Intervalo</h1>
-            <p class="lead lead--wide" style="margin-left:auto;margin-right:auto">15 minutos. Fichas e contraindicadores
-                ficam com os donos.</p>
-            <div class="timer" data-t="15">
-                <div class="timer__time">15:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
-            </div>
-        </section>
+      <section
+        class="slide slide--dark slide--center"
+       
+      >
+        <p class="display">☕</p>
+        <h1 style="font-size: 72px; margin-top: 24px">Intervalo</h1>
+        <p
+          class="lead lead--wide"
+          style="margin-left: auto; margin-right: auto"
+        >
+          15 minutos. Fichas e contraindicadores ficam com os donos.
+        </p>
+        <div class="timer" data-t="15">
+          <div class="timer__time">15:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+      </section>
 
-        <!-- ============================================================
-             BLOCO 7 — QUANTO VALE CADA COISA? · 30 min
+      <!-- ============================================================
+             BLOCO 7: QUANTO VALE CADA COISA? · 30 min
              ============================================================ -->
 
-        <section class="slide slide--dark" data-hud="Bloco 7 · 30 min">
-            <p class="divider-num">07</p>
-            <p class="divider-title">"Quanto vale<br>cada coisa?"</p>
-            <p class="divider-goal">Ao final, cada grupo tem os pesos por dois métodos — e sabe dizer onde os dois
-                discordam.</p>
-        </section>
+      <section class="slide slide--dark">
+        <p class="divider-num">07</p>
+        <p class="divider-title">"Quanto vale<br />cada coisa?"</p>
+        <p class="divider-goal">
+          Ao final, cada grupo tem os pesos por dois métodos, e sabe dizer onde
+          os dois discordam.
+        </p>
+      </section>
 
-        <section class="slide slide--center" data-hud="Bloco 7 · 30 min">
-            <p class="statement">Se o painel tem seis indicadores e <span class="accent">todos importam</span>, nada
-                importa.</p>
-            <aside class="notes">
-                <p>Ponderar não é detalhe técnico: é assumir uma prioridade em público, por escrito.</p>
-            </aside>
-        </section>
+      <section class="slide slide--center">
+        <p class="statement">
+          Se o painel tem quatro indicadores e
+          <span class="accent">todos importam</span>, nada importa.
+        </p>
+        <aside class="notes">
+          <p>
+            Ponderar não é detalhe técnico: é assumir uma prioridade em público,
+            por escrito.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide" data-hud="Bloco 7 · 30 min">
-            <p class="eyebrow">Três métodos</p>
-            <h2 style="margin-bottom:28px">Nenhum é neutro</h2>
-            <div class="cols cols-3">
-                <div class="card" data-step>
-                    <span class="tag">01</span>
-                    <h3>100 pontos</h3>
-                    <p>Distribua 100 entre os indicadores. Rápido e intuitivo — e refém de quem fala primeiro.</p>
-                </div>
-                <div class="card" data-step>
-                    <span class="tag">02</span>
-                    <h3>Par a par</h3>
-                    <p>Dois de cada vez: entre A e B, qual pesa mais? Mais lento, mas expõe inconsistência.</p>
-                </div>
-                <!-- <div class="card" data-step>
+      <section class="slide">
+        <p class="eyebrow">Três métodos</p>
+        <h2 style="margin-bottom: 28px">Nenhum é neutro</h2>
+        <div class="cols cols-3">
+          <div class="card" data-step>
+            <span class="tag">01</span>
+            <h3>100 pontos</h3>
+            <p>
+              Distribua 100 entre os indicadores. Rápido e intuitivo, e refém
+              de quem fala primeiro.
+            </p>
+          </div>
+          <div class="card" data-step>
+            <span class="tag">02</span>
+            <h3>Par a par</h3>
+            <p>
+              Dois de cada vez: entre A e B, qual pesa mais? Mais lento, mas
+              expõe inconsistência.
+            </p>
+          </div>
+          <!-- <div class="card" data-step>
                     <span class="tag">03</span>
                     <h3>Delphi</h3>
                     <p>Rodadas anônimas com devolutiva, para quando há assimetria hierárquica na sala.</p>
                 </div> -->
-            </div>
-            <aside class="notes">
-                <p>Os grupos usarão os dois primeiros. O terceiro entra só para nomear o problema da hierarquia — o
-                    slide seguinte cuida disso em meio minuto.</p>
-            </aside>
-        </section>
+        </div>
+        <aside class="notes">
+          <p>
+            Os grupos usarão os dois primeiros. O terceiro entra só para nomear
+            o problema da hierarquia, o slide seguinte cuida disso em meio
+            minuto.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide slide--soft slide--center" data-hud="Bloco 7 · 30 min">
-            <p class="eyebrow">O que a comparação par a par revela</p>
-            <p class="display" style="font-size:88px">A &gt; B &nbsp;·&nbsp; B &gt; C &nbsp;·&nbsp; <span
-                    class="accent">C &gt; A</span></p>
-            <p class="lead lead--wide" style="margin-left:auto;margin-right:auto" data-step>O grupo não tem um critério.
-                Tem três opiniões.</p>
-            <aside class="notes">
-                <p>Inconsistência não é erro de conta — é diagnóstico. Significa que o grupo está decidindo caso a caso,
-                    sem uma régua. Melhor descobrir aqui do que na RAE.</p>
-            </aside>
-        </section>
+      <section
+        class="slide slide--soft slide--center"
+       
+      >
+        <p class="eyebrow">O que a comparação par a par revela</p>
+        <p class="display" style="font-size: 88px">
+          A &gt; B &nbsp;·&nbsp; B &gt; C &nbsp;·&nbsp; C &gt; D &nbsp;·&nbsp;
+          <span class="accent">D &gt; A</span>
+        </p>
+        <p
+          class="lead lead--wide"
+          style="margin-left: auto; margin-right: auto"
+          data-step
+        >
+          O grupo não tem um critério. Tem quatro opiniões.
+        </p>
+        <aside class="notes">
+          <p>
+            Inconsistência não é erro de conta, é diagnóstico. Significa que o
+            grupo está decidindo caso a caso, sem uma régua. Melhor descobrir
+            aqui do que na RAE.
+          </p>
+        </aside>
+      </section>
 
-        <!-- <section class="slide slide--ink slide--center" data-hud="Bloco 7 · 30 min">
+      <!-- <section class="slide slide--ink slide--center">
             <p class="eyebrow eyebrow--accent">Por que Delphi, numa caserna</p>
             <p class="quote" style="max-width:26ch">"Peso atribuído em voz alta na frente do superior não é peso.<br>É
                 concordância."</p>
             <aside class="notes">
-                <p>Meio minuto. Não precisa desenvolver — a turma inteira entende de primeira, e é justamente por isso
+                <p>Meio minuto. Não precisa desenvolver, a turma inteira entende de primeira, e é justamente por isso
                     que a frase funciona.</p>
             </aside>
         </section> -->
 
-        <section class="slide slide--ink" data-hud="Bloco 7 · 30 min">
-            <p class="eyebrow eyebrow--accent">Atividade · folha F5</p>
-            <p class="consigna" style="font-size:44px">Ponderem os <span class="accent">quatro números</span> da mesa
-                por dois métodos — e confrontem os resultados.</p>
-            <p class="consigna-note">Os dois indicadores e os dois contraindicadores. Folha em duas colunas: 100 pontos
-                à esquerda; par a par à direita, onde quatro itens dão seis pares. Embaixo, respondam: mudou a ordem?
-                onde estava a inconsistência?</p>
-            <div class="timer" data-t="20">
-                <div class="timer__time">20:00</div>
-                <div class="timer__hint">T inicia · R zera</div>
-            </div>
-            <aside class="notes">
-                <p>Cinco minutos para os 100 pontos, dez para o par a par, cinco para a comparação. Avise a virada.</p>
-                <p>Circulando, faça a pergunta que este arranjo existe para provocar: <strong>quanto vale vigiar a
-                        integridade do número em relação a medir o resultado?</strong> Grupo que der peso zero ao
-                    contraindicador acabou de dizer, por escrito, que confia na própria virtude.</p>
-            </aside>
-        </section>
+      <section class="slide slide--ink">
+        <p class="eyebrow eyebrow--accent">Atividade · folha F5</p>
+        <p class="consigna" style="font-size: 44px">
+          Ponderem os <span class="accent">quatro números</span> da mesa por
+          dois métodos, e confrontem os resultados.
+        </p>
+        <p class="consigna-note">
+          Os dois indicadores e os dois contraindicadores. Folha em duas
+          colunas: 100 pontos à esquerda; par a par à direita, onde quatro itens
+          dão seis pares. Embaixo, respondam: mudou a ordem? onde estava a
+          inconsistência?
+        </p>
+        <div class="timer" data-t="20">
+          <div class="timer__time">20:00</div>
+          <div class="timer__hint">T inicia · R zera</div>
+        </div>
+        <aside class="notes">
+          <p>
+            Cinco minutos para os 100 pontos, dez para o par a par, cinco para a
+            comparação. Avise a virada.
+          </p>
+          <p>
+            Circulando, faça a pergunta que este arranjo existe para provocar:
+            <strong
+              >quanto vale vigiar a integridade do número em relação a medir o
+              resultado?</strong
+            >
+            Grupo que der peso zero ao contraindicador acabou de dizer, por
+            escrito, que confia na própria virtude.
+          </p>
+        </aside>
+      </section>
 
-        <!-- <section class="slide slide--center" data-hud="Bloco 7 · 30 min">
+      <!-- <section class="slide slide--center">
             <p class="eyebrow">Debrief · e fica em aberto</p>
             <p class="statement">Quem, no CBMDF, deveria ter a <span class="accent">caneta</span> para definir esses
                 pesos?</p>
 
             <aside class="notes">
-                <p>Dois minutos. <strong>Não feche a resposta</strong> — é pergunta de governança, e o valor dela está
+                <p>Dois minutos. <strong>Não feche a resposta</strong>, é pergunta de governança, e o valor dela está
                     em ficar incomodando até a Aula 6.</p>
             </aside>
         </section> -->
 
-        <!-- ============================================================
-             BLOCO 8 — BRIEFING DA AULA 5 + BILHETE DE SAÍDA · 20 min
+      <!-- ============================================================
+             BLOCO 8: BRIEFING DA AULA 5 + BILHETE DE SAÍDA · 20 min
              ============================================================ -->
 
-        <section class="slide slide--dark" data-hud="Bloco 8 · 20 min">
-            <p class="divider-num">08</p>
-            <p class="divider-title">Briefing da Aula 5</p>
-            <!-- <p class="divider-goal">Ao final, a turma sabe exatamente o que fazer no fim de semana — sem instrutor a
+      <section class="slide slide--dark">
+        <p class="divider-num">08</p>
+        <p class="divider-title">Briefing da Aula 5</p>
+        <!-- <p class="divider-goal">Ao final, a turma sabe exatamente o que fazer no fim de semana, sem instrutor a
                 quem recorrer.</p> -->
-            <aside class="notes">
-                <p>A atividade da Aula 5 precisa estar aberta e projetada antes deste bloco começar.</p>
-            </aside>
-        </section>
+        <aside class="notes">
+          <p>
+            A atividade da Aula 5 precisa estar aberta e projetada antes deste
+            bloco começar.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide slide--center" data-hud="Bloco 8 · 20 min">
-            <p class="eyebrow eyebrow--accent">Atenção</p>
-            <p class="statement">A próxima aula é <span class="accent">100% autônoma</span></p>
+      <section class="slide slide--center">
+        <p class="eyebrow eyebrow--accent">Atenção</p>
+        <p class="statement">
+          A próxima aula é <span class="accent">100% autônoma</span>
+        </p>
 
-            <aside class="notes">
-                <p>Diga isso sem dramatizar, mas sem suavizar. O desenho da Aula 5 pressupõe que eles saibam disso desde
-                    já.</p>
-            </aside>
-        </section>
+        <aside class="notes">
+          <p>
+            Diga isso sem dramatizar, mas sem suavizar. O desenho da Aula 5
+            pressupõe que eles saibam disso desde já.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide" data-hud="Bloco 8 · 20 min">
-            <p class="eyebrow">O que vocês entregam</p>
-            <h1 style="font-size:76px">Um <br><span class="accent">Painel Estratégico</span></h1>
-            <p class="lead lead--wide">Problema · Indicador · De onde vem o dado · Série ·
-                Linha de base e meta · Decisão recomendada.</p>
-            <p class="footnote">Dos dois indicadores que vocês escreveram hoje, <strong>só um vai ao dado</strong> — o
-                que tiver mais chance de encontrar número real. O outro fica no painel, em uma linha.</p>
-            <aside class="notes">
-                <p>Esta é a tela que mais alivia a turma. Não há checkpoints, não há nota técnica, não há slides: na
-                    Aula 6 eles projetam o próprio painel e defendem em 5 minutos.</p>
-                <p>Um indicador bem sustentado derruba dois indicadores mal sustentados em qualquer banca — diga assim
-                    mesmo.</p>
-            </aside>
-        </section>
+      <section class="slide">
+        <p class="eyebrow">O que vocês entregam</p>
+        <h1 style="font-size: 76px">
+          Um <br /><span class="accent">Painel Estratégico</span>
+        </h1>
+        <p class="lead lead--wide">
+          Problema · Indicador · De onde vem o dado · Série · Linha de base e
+          meta · Decisão recomendada.
+        </p>
+        <p class="footnote">
+          Dos dois indicadores que vocês escreveram hoje,
+          <strong>só um vai ao dado</strong>, o que tiver mais chance de
+          encontrar número real. O outro fica no painel, em uma linha.
+        </p>
+        <aside class="notes">
+          <p>
+            Esta é a tela que mais alivia a turma. Não há checkpoints, não há
+            nota técnica, não há slides: na Aula 6 eles projetam o próprio
+            painel e defendem em 5 minutos.
+          </p>
+          <p>
+            Um indicador bem sustentado derruba dois indicadores mal sustentados
+            em qualquer banca, diga assim mesmo.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide" data-hud="Bloco 8 · 20 min">
-            <p class="eyebrow">E é este mesmo painel que vocês defendem na Aula 6</p>
-            <h2 style="margin-bottom:28px">Escrevam mirando em três pessoas</h2>
-            <div class="cols cols-3">
-                <div class="card" data-step>
-                    <span class="tag">Chefe do EMG</span>
-                    <p>"Que objetivo do plano isso move? E em quanto?"</p>
-                </div>
-                <div class="card" data-step>
-                    <span class="tag">DIOFI</span>
-                    <p>"Quanto custa? E se eu não der nada, o que acontece?"</p>
-                </div>
-                <div class="card" data-step>
-                    <span class="tag">Cidadão</span>
-                    <p>"E para quem chama o 193 às 3 da manhã, o que muda?"</p>
-                </div>
-            </div>
-            <p class="lead lead--wide" style="margin-top:30px">Cinco minutos, formato livre — mas <strong>as três
-                    precisam sair convencidas</strong>. Personagem sem resposta é ponto perdido.</p>
-            <p class="footnote">Elas querem coisas diferentes, e só existem <strong>100 fichas de orçamento</strong>
-                para todos os projetos da turma.</p>
-            <aside class="notes">
-                <p>Este slide existe para que o grupo escreva o painel <strong>já pensando na defesa</strong>. São as
-                    mesmas três lentes da Aula 1 — alinhamento, custo e impacto fora dos muros — e cada uma procura a
-                    resposta dela num lugar do painel: EMG no campo 1, DIOFI e Cidadão no campo 6.</p>
-                <p>Quem sabatina é o instrutor, trocando de placa à vista da turma: <em>"agora eu falo como DIOFI"</em>.
-                    Não há banca de alunos — a plateia entra por outro caminho, apostando quantas fichas cada projeto
-                    vai receber.</p>
-                <p>Diga o que vale ponto na defesa: abertura pela recomendação nos 30 primeiros segundos, argumentar com
-                    o número e não com a impressão, sustentar sob pressão — e <strong>admitir o que não se sabe</strong>,
-                    que vale mais que inventar resposta. Rubrica em <em>avaliacao.md</em>.</p>
-            </aside>
-        </section>
+      <section class="slide">
+        <p class="eyebrow">
+          E é este mesmo painel que vocês defendem na Aula 6
+        </p>
+        <h2 style="margin-bottom: 28px">Escrevam mirando em três pessoas</h2>
+        <div class="cols cols-3">
+          <div class="card" data-step>
+            <span class="tag">Chefe do EMG</span>
+            <p>"Que objetivo do plano isso move? E em quanto?"</p>
+          </div>
+          <div class="card" data-step>
+            <span class="tag">DIOFI</span>
+            <p>"Quanto custa? E se eu não der nada, o que acontece?"</p>
+          </div>
+          <div class="card" data-step>
+            <span class="tag">Cidadão</span>
+            <p>"E para quem chama o 193 às 3 da manhã, o que muda?"</p>
+          </div>
+        </div>
+        <p class="lead lead--wide" style="margin-top: 30px">
+          Cinco minutos, formato livre, mas
+          <strong>as três precisam sair convencidas</strong>. Personagem sem
+          resposta é ponto perdido.
+        </p>
+        <p class="footnote">
+          Elas querem coisas diferentes, e só existem
+          <strong>100 fichas de orçamento</strong> para todos os projetos da
+          turma.
+        </p>
+        <aside class="notes">
+          <p>
+            Este slide existe para que o grupo escreva o painel
+            <strong>já pensando na defesa</strong>. São as mesmas três lentes da
+            Aula 1, alinhamento, custo e impacto fora dos muros, e cada uma
+            procura a resposta dela num lugar do painel: EMG no campo 1, DIOFI e
+            Cidadão no campo 6.
+          </p>
+          <p>
+            Quem sabatina é o instrutor, trocando de placa à vista da turma:
+            <em>"agora eu falo como DIOFI"</em>. Não há banca de alunos, a
+            plateia entra por outro caminho, apostando quantas fichas cada
+            projeto vai receber.
+          </p>
+          <p>
+            Diga o que vale ponto na defesa: abertura pela recomendação nos 30
+            primeiros segundos, argumentar com o número e não com a impressão,
+            sustentar sob pressão, e
+            <strong>admitir o que não se sabe</strong>, que vale mais que
+            inventar resposta. Rubrica em <em>avaliacao.md</em>.
+          </p>
+        </aside>
+      </section>
 
-        <!-- <section class="slide" data-hud="Bloco 8 · 20 min">
+      <!-- <section class="slide">
             <p class="eyebrow">O que substitui o instrutor</p>
             <h2 style="margin-bottom:28px">Três mecanismos, todos já publicados</h2>
             <div class="cols cols-3">
@@ -1233,7 +1848,7 @@
             </aside>
         </section> -->
 
-        <!-- <section class="slide slide--ink" data-hud="Bloco 8 · 20 min">
+      <!-- <section class="slide slide--ink">
             <p class="eyebrow eyebrow--accent">Agora</p>
             <p class="consigna">"Perguntem agora tudo o que travaria vocês."</p>
             <p class="consigna-note">Toda dúvida levantada aqui entra no FAQ antes de a aula ser liberada. Depois de
@@ -1243,11 +1858,11 @@
                 <div class="timer__hint">T inicia · R zera</div>
             </div>
             <aside class="notes">
-                <p>Anote cada dúvida no quadro. Depois da aula, transcreva para o FAQ — o compromisso foi público.</p>
+                <p>Anote cada dúvida no quadro. Depois da aula, transcreva para o FAQ, o compromisso foi público.</p>
             </aside>
         </section> -->
 
-        <!-- <section class="slide" data-hud="Bloco 8 · 20 min">
+      <!-- <section class="slide">
             <p class="eyebrow">Definam agora, na hora · 3 min</p>
             <h2 style="margin-bottom:30px">Dois papéis por grupo</h2>
             <div class="cols cols-2">
@@ -1268,7 +1883,7 @@
             </aside>
         </section> -->
 
-        <!-- <section class="slide slide--ink" data-hud="Bloco 8 · 20 min">
+      <!-- <section class="slide slide--ink">
             <p class="consigna" style="font-size:44px">"O indicador que eu vou querer olhar toda segunda-feira quando eu
                 for comandante é <span class="accent">______</span>, porque <span class="accent">______</span>."</p>
             <aside class="notes">
@@ -1277,67 +1892,96 @@
             </aside>
         </section> -->
 
-        <section class="slide slide--dark slide--center" data-hud="Bloco 8 · 20 min">
-            <p class="eyebrow">Antes de sair</p>
-            <p class="display" style="font-size:76px">Cada grupo envie <span class="accent">as cinco folhas</span>
-                para o instrutor</p>
-            <!-- <p class="lead lead--wide" style="margin-left:auto;margin-right:auto">Enviem as cinco folhas para o instrutor.</p> -->
-            <aside class="notes">
-                <p>Antes de liberar: <strong>fotografe as cinco folhas de cada grupo</strong> — F1 a F5 — e poste no
-                    ambiente da disciplina hoje mesmo.</p>
-            </aside>
-        </section>
+      <section
+        class="slide slide--dark slide--center"
+       
+      >
+        <p class="eyebrow">Antes de sair</p>
+        <p class="display" style="font-size: 76px">
+          Cada grupo envie <span class="accent">as cinco folhas</span> para o
+          instrutor
+        </p>
+        <!-- <p class="lead lead--wide" style="margin-left:auto;margin-right:auto">Enviem as cinco folhas para o instrutor.</p> -->
+        <aside class="notes">
+          <p>
+            Antes de liberar:
+            <strong>fotografe as cinco folhas de cada grupo</strong>: F1 a F5,
+            e poste no ambiente da disciplina hoje mesmo.
+          </p>
+        </aside>
+      </section>
 
-        <section class="slide slide--dark slide--center" data-hud="Encerramento">
-            <div class="rule"></div>
-            <h1 style="font-size:56px;font-weight:600">Até logo</h1>
-            <p class="cover-meta">Análise Estratégica · CAO/CBMDF · CEPED<br>Corpo de Bombeiros Militar do Distrito
-                Federal</p>
-        </section>
-
+      <section class="slide slide--dark slide--center">
+        <div class="rule"></div>
+        <h1 style="font-size: 56px; font-weight: 600">Até a próxima aula</h1>
+        <!-- <p class="cover-meta">
+          Análise Estratégica · CAO/CBMDF · CEPED<br />Corpo de Bombeiros
+          Militar do Distrito Federal
+        </p> -->
+      </section>
     </div>
 
     <div id="hud">
-        <div id="hud-block"></div>
-        <div id="hud-count"></div>
+      <div id="hud-block"></div>
+      <div id="hud-count"></div>
     </div>
 
     <div id="notes">
-        <h4>Notas do instrutor</h4>
-        <div id="notes-body"></div>
+      <h4>Notas do instrutor</h4>
+      <div id="notes-body"></div>
     </div>
 
     <div id="overview">
-        <h4>Visão geral — clique para ir · Esc fecha</h4>
-        <div class="ov-grid" id="ov-grid"></div>
+      <h4>Visão geral, clique para ir · Esc fecha</h4>
+      <div class="ov-grid" id="ov-grid"></div>
     </div>
 
     <div id="help">
-        <h4>Atalhos — Esc fecha</h4>
-        <div class="help-grid">
-            <div><span>Avançar (passo ou slide)</span><span><kbd>→</kbd> <kbd>espaço</kbd> <kbd>PgDn</kbd></span></div>
-            <div><span>Iniciar / pausar cronômetro</span><span><kbd>T</kbd></span></div>
-            <div><span>Voltar</span><span><kbd>←</kbd> <kbd>PgUp</kbd></span></div>
-            <div><span>Zerar cronômetro</span><span><kbd>R</kbd></span></div>
-            <div><span>Primeiro / último slide</span><span><kbd>Home</kbd> <kbd>End</kbd></span></div>
-            <div><span>Notas do instrutor</span><span><kbd>P</kbd></span></div>
-            <div><span>Visão geral dos slides</span><span><kbd>O</kbd></span></div>
-            <div><span>Tela preta (atenção na sala)</span><span><kbd>B</kbd></span></div>
-            <div><span>Tela cheia</span><span><kbd>F</kbd></span></div>
-            <div><span>Esta ajuda</span><span><kbd>?</kbd></span></div>
+      <h4>Atalhos: Esc fecha</h4>
+      <div class="help-grid">
+        <div>
+          <span>Avançar (passo ou slide)</span
+          ><span><kbd>→</kbd> <kbd>espaço</kbd> <kbd>PgDn</kbd></span>
         </div>
-        <p style="margin-top:30px;color:#86868b;font-size:16px">
-            Clique na metade direita da tela para avançar, na esquerda para voltar. Deslize o dedo em telas sensíveis ao
-            toque.<br>
-            Para gerar PDF: <kbd>Ctrl</kbd>+<kbd>P</kbd> — um slide por página, orientação paisagem, com "gráficos de
-            fundo" ativado.
-        </p>
+        <div>
+          <span>Iniciar / pausar cronômetro</span><span><kbd>T</kbd></span>
+        </div>
+        <div>
+          <span>Voltar</span><span><kbd>←</kbd> <kbd>PgUp</kbd></span>
+        </div>
+        <div>
+          <span>Zerar cronômetro</span><span><kbd>R</kbd></span>
+        </div>
+        <div>
+          <span>Primeiro / último slide</span
+          ><span><kbd>Home</kbd> <kbd>End</kbd></span>
+        </div>
+        <div>
+          <span>Notas do instrutor</span><span><kbd>P</kbd></span>
+        </div>
+        <div>
+          <span>Visão geral dos slides</span><span><kbd>O</kbd></span>
+        </div>
+        <div>
+          <span>Tela preta (atenção na sala)</span><span><kbd>B</kbd></span>
+        </div>
+        <div>
+          <span>Tela cheia</span><span><kbd>F</kbd></span>
+        </div>
+        <div>
+          <span>Esta ajuda</span><span><kbd>?</kbd></span>
+        </div>
+      </div>
+      <p style="margin-top: 30px; color: #86868b; font-size: 16px">
+        Clique na metade direita da tela para avançar, na esquerda para voltar.
+        Deslize o dedo em telas sensíveis ao toque.<br />
+        Para gerar PDF: <kbd>Ctrl</kbd>+<kbd>P</kbd>, um slide por página,
+        orientação paisagem, com "gráficos de fundo" ativado.
+      </p>
     </div>
 
     <div id="blackout"></div>
 
     <script src="deck.js"></script>
-
-</body>
-
+  </body>
 </html>
