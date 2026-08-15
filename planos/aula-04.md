@@ -70,10 +70,15 @@ Ao final da aula, cada grupo será capaz de:
   1, e a votação acontece sobre a projeção.
 
 **A providenciar**
-- Adesivos redondos coloridos: 3 por aluno.
-- **Uma superfície de projeção em que se possa colar adesivo**: parede clara ou quadro branco. Se a
-  sala só tiver tela de projeção, afixe antes uma folha de papel kraft na parede e projete sobre ela.
-  Confira a altura da imagem, cluster projetado acima de 1,90 m ninguém alcança.
+- **Formulário da votação das dores**, publicado e testado antes da aula:
+  <https://forms.gle/2ic5KjgUFT9BghNU8>. Uma pergunta, tipo *caixas de seleção*, com os 8 clusters
+  como opções e **validação "selecionar exatamente 3"**. Sem exigir login nem coletar e-mail: conta
+  institucional esquecida custa cinco minutos de suporte técnico no primeiro bloco. O QR do
+  formulário já está no slide.
+- **Aba *Respostas* do formulário aberta em outra janela**, pronta para projetar. O gráfico de barras
+  atualiza sozinho e é ele que fecha o bloco.
+- **Plano B em papel:** adesivos redondos coloridos, 3 por aluno. Se a internet cair, a votação
+  acontece sobre a projeção, com o adesivo colado em cima do cluster. Custa nada levar na pasta.
 - **Folhas A3 em branco: 5 por grupo**, canetões e fita crepe. Não há formulário impresso: cada
   grupo desenha na folha o quadro que o bloco pedir. Uma folha por produto:
 
@@ -99,23 +104,30 @@ Ao final da aula, cada grupo será capaz de:
 
 **Formato:** individual, em silêncio.
 
-Os 8 clusters estão **projetados na parede** quando a turma entra, com o cronômetro na mesma tela.
-Cada aluno recebe **3 adesivos** e a única instrução é:
+Os 8 clusters estão **projetados na parede** quando a turma entra, com o QR da votação e o cronômetro
+na mesma tela. A única instrução é:
 
-> *"Colem os três adesivos nas dores que, se resolvidas, mais mudariam o CBMDF. Sem conversar, sem
-> propor solução. Vocês têm 8 minutos."*
+> *"Escolham as três dores que, se resolvidas, mais mudariam o CBMDF. Sem conversar, sem propor
+> solução. Vocês têm 8 minutos."*
 
-**A votação é feita sobre a projeção:** o aluno cola o adesivo em cima do cluster projetado. Por isso
-o slide fica no ar os 8 minutos inteiros, não avance, não escureça a tela. Pode-se concentrar os
-três adesivos numa dor só.
+**A votação é online**, pelo formulário. O QR é o acesso e os clusters projetados são a cédula: por
+isso o slide fica no ar os 8 minutos inteiros, não avance, não escureça a tela. O formulário aceita
+**exatamente três marcações**, então a regra se impõe sozinha, sem o instrutor precisar fiscalizar.
 
-O instrutor **não fala** durante a votação. Encerrado o tempo, **fotografe a parede** e anuncie em
-voz alta os cinco clusters mais votados, sem comentar, anotando-os no quadro.
+O instrutor **não fala** durante a votação. Encerrado o tempo, **projete a aba *Respostas*** e
+anuncie os cinco clusters mais votados, sem comentar, anotando-os no quadro. Ao fim da aula, exporte
+o CSV: a votação vira dado da disciplina.
 
 **Por que assim:** é a retomada da aula 3 sem uma recapitulação expositiva. Em 20 minutos a turma
-reconstrói sozinha o que produziu, e o resultado da votação vira insumo do bloco seguinte. Votar
-sobre a projeção elimina a impressão dos painéis e põe todo mundo de pé, na frente da sala, no
-primeiro minuto de aula.
+reconstrói sozinha o que produziu, e o resultado da votação vira insumo do bloco seguinte. O
+formulário resolve três coisas de uma vez: dispensa a impressão dos painéis, garante o limite de três
+votos e deixa o resultado registrado em vez de fotografado.
+
+> **O que se perde, e como compensar.** No dot voting com adesivo, a turma fica de pé vendo os votos
+> se acumularem, e é esse acúmulo visível que torna o debrief do bloco 2 desconfortável na medida
+> certa. No celular cada um vota sentado. Se quiser recuperar o efeito, **projete o gráfico de
+> respostas ao vivo, com a turma de pé na frente da tela**, e deixe as barras se moverem durante os
+> últimos minutos.
 
 > ⚠️ **Armadilha a evitar:** alguém vai querer "explicar melhor" a dor do seu grupo antes da votação.
 > Não permita. O viés de quem fala mais alto é justamente o que o bloco 2 vai desmontar.
