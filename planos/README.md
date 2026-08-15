@@ -26,11 +26,22 @@ cada encontro consome o produto do anterior. O fio condutor das três últimas a
 |---|---|---|---|
 | 1 | O Ecossistema CBMDF e o Pensamento Sistêmico | Presencial | [slides](https://docs.google.com/presentation/d/1gRMpoE_hVWTAapzU2y5Y4OR_fvamcMdx/edit?usp=sharing) |
 | 2 | Diagnóstico Estratégico e a Cultura Analítica | EAD | *executada* |
-| 3 | Oficina de Cenários e Clusterização das Dores | Presencial | *executada* |
-| **4** | **Da Dor ao Indicador** | **Presencial** | [`aula-04.md`](aula-04.md) |
+| 3 | Oficina de Cenários e Clusterização das Dores | Presencial | [`aula-03-dores.md`](aula-03-dores.md) — dores clusterizadas |
+| **4** | **Da Dor ao Indicador** | **Presencial** | [`aula-04.md`](aula-04.md) · [slides](../slides/aula-04.html) |
 | **5** | **Sprint do Painel** *(autônoma, sem instrutor)* | **EAD** | [`aula-05.md`](aula-05.md) |
 | **6** | **Reunião de Análise Estratégica** | **Presencial** | [`aula-06.md`](aula-06.md) |
 | — | Avaliação da aprendizagem | — | [`avaliacao.md`](avaliacao.md) |
+
+### Slides
+
+| Aula | Deck |
+|---|---|
+| 1 | [Google Slides](https://docs.google.com/presentation/d/1gRMpoE_hVWTAapzU2y5Y4OR_fvamcMdx/edit?usp=sharing) |
+| **4** | [`slides/aula-04.html`](../slides/aula-04.html) — 62 slides, arquivo único, abre no navegador sem build nem internet |
+
+O deck da Aula 4 é um HTML autocontido pensado para projeção em sala: cronômetro em cada atividade
+(`T` inicia, `R` zera), notas do instrutor (`P`), visão geral (`O`), tela preta (`B`) e exportação
+para PDF por `Ctrl+P`. Pressione `?` dentro do deck para a lista completa de atalhos.
 
 ### Templates dos alunos
 
