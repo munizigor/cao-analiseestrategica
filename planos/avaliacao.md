@@ -13,9 +13,9 @@ realizadas… dinâmicas em classe (individuais ou em grupo)… avaliação a cr
 
 | Componente | Peso | Natureza | Quando |
 |---|---|---|---|
-| **A · Produto do grupo** — Painel + Nota Técnica | **40%** | grupo | Entregue no CP3 (Aula 5) |
+| **A · Produto do grupo** — Painel Estratégico de 1 página | **40%** | grupo | Entrega única da Aula 5 |
 | **B · Defesa na RAE** | **20%** | grupo | Aula 6, bloco 2 |
-| **C · Participação** — dinâmicas das Aulas 4 e 6 + fóruns e revisão cruzada da Aula 5 | **20%** | individual | Aulas 4, 5 e 6 |
+| **C · Participação** — dinâmicas das Aulas 4 e 6 + fórum da Aula 5 | **20%** | individual | Aulas 4, 5 e 6 |
 | **D · Autoavaliação e peer review intragrupo** | **20%** | individual | Questionário da Aula 5, fechado na Aula 6 |
 
 ### Fórmula
@@ -56,8 +56,8 @@ cinco.
 
 | Nível | Nota | Descritor |
 |---|---|---|
-| **Exemplar** | 9–10 | Série ≥ 6 períodos com origem rastreável; estatística correta; distinção entre variação comum e especial aplicada; **meta com número, prazo e justificativa**. Dado simulado, se houver, está declarado com a premissa escrita. |
-| **Proficiente** | 7–8 | Série e estatística corretas; meta justificada de forma sumária. |
+| **Exemplar** | 9–10 | Série ≥ 6 períodos com origem rastreável; média, mediana, amplitude e variação % corretas; **leitura da tendência** feita e argumentada; **meta com número, prazo e justificativa**. Dado simulado, se houver, está declarado com a premissa escrita. |
+| **Proficiente** | 7–8 | Série e contas corretas; tendência afirmada sem argumento; meta justificada de forma sumária. |
 | **Básico** | 5–6 | Série curta ou de origem obscura; meta é percentual redondo sem justificativa ("reduzir 20%"). |
 | **Insuficiente** | 0–4 | Sem série, sem linha de base, ou dado simulado apresentado como real. |
 
@@ -78,14 +78,14 @@ cinco.
 
 | Nível | Nota | Descritor |
 |---|---|---|
-| **Exemplar** | 9–10 | O painel é compreendido em 1 minuto por quem não acompanhou a disciplina. A Nota Técnica **recomenda uma decisão**, com custo, risco e o cenário de inação. Respeita o limite de 1+1 página. |
+| **Exemplar** | 9–10 | O painel é compreendido em 1 minuto por quem não acompanhou a disciplina e **recomenda uma decisão**, com custo, risco e o cenário de inação. Cabe em uma página sem apertar a letra. |
 | **Proficiente** | 7–8 | Claro e decisivo, mas com excesso de texto ou custo/risco superficiais. |
 | **Básico** | 5–6 | Descreve o problema competentemente, mas recomenda "aprofundar a análise" — adiamento com aparência de prudência. |
-| **Insuficiente** | 0–4 | Não há recomendação, ou o limite de páginas foi estourado sem ganho. |
+| **Insuficiente** | 0–4 | Não há recomendação, ou o limite de uma página foi estourado sem ganho. |
 
 > ⭐ **Bônus de 1 ponto na nota A** *(teto 10)*: o grupo cuja evidência **contrariou a própria
 > hipótese inicial** e que mudou a conclusão em vez de forçar o dado. É o comportamento mais difícil
-> de ensinar e o mais valioso na análise estratégica. Ver decisão D6 do Kit de Desbloqueio.
+> de ensinar e o mais valioso na análise estratégica. Ver decisão D5 do Kit de Desbloqueio.
 
 ---
 
@@ -96,10 +96,16 @@ cinco.
 | Critério | Nota 0–10 |
 |---|---|
 | **Abertura** — a recomendação aparece nos primeiros 30 segundos | |
+| **As três personagens** — o pitch responde ao ☐ **EMG** *(que objetivo move, e em quanto)* · ☐ **DIOFI** *(quanto custa, e o que acontece se não vier nada)* · ☐ **Cidadão** *(o que muda para quem chama o 193)* | |
 | **Uso da evidência** — argumenta com o número, não com a impressão | |
 | **Resposta à sabatina** — sustenta sob pressão, e admite o que não sabe | |
 | **Origem do dado** — o guardião do dado responde de onde veio cada número | |
 | **Tempo** — cumpriu os 5 minutos | |
+
+> **Como pontuar as três personagens.** O pitch é de formato livre: o grupo escolhe ordem e ênfase, e
+> é a rubrica que garante o alvo. As três caixas valem 10 · 6 · 3 · 0, conforme quantas personagens
+> encontraram resposta. **Marque durante o pitch, não depois** — terminada a sabatina ninguém lembra
+> se o custo chegou a ser dito.
 
 > Anote a nota **ao final de cada pitch**. Depois de 90 minutos e sete apresentações, a memória do
 > instrutor favorece quem apresentou por último.
@@ -108,27 +114,27 @@ cinco.
 
 | Fonte | Peso dentro de C | O que observar |
 |---|---|---|
-| **Aula 4** — dinâmicas | 30% | Qualidade dos **vetos** no júri dos 5 Porquês e das **burlas** no Red Team. Distinguem quem entendeu o mecanismo de quem preencheu formulário. |
-| **Aula 5** — fórum *Ajuda Mútua* | 25% | **Respostas dadas a outros grupos**, não perguntas feitas. Resposta que destravou colega pontua alto. |
-| **Aula 5** — fórum *Achados* | 15% | Post individual com fonte citada e relevância explicada. |
-| **Aula 5** — **revisão cruzada** | 30% | Parecer específico e acionável. **Parecer genérico ("está bom, parabéns") pontua zero.** |
+| **Aula 4** — dinâmicas | 40% | Qualidade dos **vetos** no júri dos 5 Porquês e das **burlas** no Red Team. Distinguem quem entendeu o mecanismo de quem preencheu formulário. |
+| **Aula 5** — fórum *Ajuda Mútua* | 30% | **Respostas dadas a outros grupos**, não perguntas feitas — mais os achados compartilhados com fonte citada. Resposta que destravou colega pontua alto; "estamos travados" e "concordo" pontuam zero. |
+| **Aula 6** — dinâmicas | 30% | Argumentação no **Tribunal do Indicador** e postura de plateia na RAE: o termômetro e a **aposta de fichas** revelam quem acompanhou de fato o pitch alheio — quem aposta perto do resultado entendeu o critério; quem chuta, assistiu. |
 
-> A revisão cruzada tem o maior peso dentro da participação de propósito: numa aula EAD sem
-> instrutor, ela é o que sustenta a qualidade coletiva.
+> A Aula 5 é o único momento em que a participação acontece sem o instrutor na sala. Leia o fórum
+> inteiro depois da aula: é a única evidência que existe de quem sustentou a turma naquele fim de
+> semana.
 
 ---
 
 ## 4. Componente D — Autoavaliação e Peer Review *(20%)*
 
-**Aplicação:** questionário individual no Moodle (Aula 5), respostas **não visíveis aos colegas**;
-fechamento na Aula 6 para quem não respondeu.
+**Aplicação:** questionário individual no ambiente virtual (Aula 5), respostas **não visíveis aos
+colegas**; fechamento na Aula 6 para quem não respondeu.
 
 ### Parte 1 — Autoavaliação
 
 1. Descreva em até 5 linhas **o que você fez** no trabalho do grupo. Seja concreto: "participei de
    tudo" não é resposta.
 2. Qual foi a sua **maior contribuição técnica**?
-3. O que você **faria diferente** se recomeçasse a Aula 5?
+3. O que você **faria diferente** se recomeçasse o sprint da Aula 5?
 4. Em que momento da disciplina você **mudou de ideia** sobre alguma coisa?
 
 ### Parte 2 — Peer Review

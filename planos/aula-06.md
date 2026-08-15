@@ -12,8 +12,8 @@
 | **Unidade** | III, V e VI — ver matriz em [`README.md`](README.md) |
 | **Carga-horária** | 5 h/a (235 min de atividade + 1 intervalo de 10 min) |
 | **Modalidade** | Presencial |
-| **Pré-requisito** | CP3 da Aula 5 entregue; instrutor com as entregas e os fóruns **já lidos** |
-| **Formato** | Simulação. O bloco central ocupa 90 min e a turma conduz — o instrutor é membro de banca, não expositor. |
+| **Pré-requisito** | Painel da Aula 5 entregue; instrutor com os painéis e o fórum **já lidos** |
+| **Formato** | Simulação. O bloco central ocupa 90 min: os grupos defendem, e o instrutor sabatina encarnando três personagens — Chefe do EMG, DIOFI e Cidadão. Nada de expositivo. |
 
 ## 2. O que esta aula fecha
 
@@ -55,17 +55,19 @@ Ao final da aula, cada oficial será capaz de:
 ## 5. Materiais
 
 - **100 fichas** (ou moedas de papel) representando o orçamento da RAE — providencie antes.
-- Três **placas de mesa** para a banca: *Chefe do EMG* · *Diretor de Orçamento* · *Stakeholder
-  Externo*.
+- Três **placas de mesa** para as vozes do comitê: *Chefe do EMG* · *DIOFI* · *Cidadão*. Elas ficam
+  com o instrutor, que troca de placa à vista da turma a cada pergunta.
+- **Papéis pequenos para as apostas** — um maço por grupo.
 - Sino ou cronômetro visível — a RAE só funciona com tempo controlado.
-- Projetor para os slides dos grupos (recolha os arquivos por pendrive **antes** do início; 5 minutos
-  perdidos em troca de notebook por grupo custam 25 minutos da aula).
+- Projetor com **os painéis dos grupos já carregados em um único notebook** — baixe os arquivos do
+  ambiente virtual antes do início. Não há slides nesta disciplina: o grupo defende o próprio painel
+  projetado. Cinco minutos perdidos em troca de máquina por grupo custam 25 minutos da aula.
 - **Fichas dos casos do Tribunal do Indicador**, impressas, uma por grupo (textos na seção 6, bloco
   3).
-- Cópias do [T6](templates/T6-plano-90-dias.md).
+- **Folhas A3 em branco — 1 por grupo**, para o plano de 90 dias do bloco 4.
 - **Todos os artefatos das seis aulas** para o painel do bloco 5: mapa de stakeholders (Aula 1),
-  matrizes de cenários (Aula 2), clusters de dores (Aula 3), T1–T4 (Aula 4), painéis e notas técnicas
-  (Aula 5), e as fichas do bilhete de saída da Aula 4.
+  matrizes de cenários (Aula 2), clusters de dores (Aula 3), as cinco folhas F1–F5 (Aula 4), os
+  painéis impressos (Aula 5), e as fichas do bilhete de saída da Aula 4.
 - Post-its para o fechamento.
 
 ---
@@ -79,28 +81,35 @@ Ao final da aula, cada oficial será capaz de:
 Como a Aula 5 correu sem instrutor, **este é o momento em que o ciclo se fecha**. Não pule e não
 encurte: é o que dá legitimidade ao formato autônomo.
 
-- **Os 3 erros recorrentes** que apareceram nas entregas — apresentados sem identificar grupos, no
+- **Os 3 erros recorrentes** que apareceram nos painéis — apresentados sem identificar grupos, no
   formato *"o que vi / por que derruba / como se conserta"*.
-- **Os 3 melhores achados** do fórum Achados — apresentados **com crédito nominal**. Reconhecimento
-  público é a moeda que sustenta a participação num fórum sem professor.
+- **Os 3 melhores achados** — indicador do acervo reaproveitado, lacuna do PLANES demonstrada, dado
+  que ninguém sabia que existia — vindos dos painéis e do fórum, apresentados **com crédito nominal**.
+  Reconhecimento público é a moeda que sustenta a participação numa aula sem professor.
 - Se alguma dúvida ficou sem resposta ou com resposta errada no *Ajuda Mútua*, corrija aqui, em voz
   alta, para todos.
 
 #### 1b · A mesma verdade, três públicos (17 min)
 
 **Micro-exposição (5 min).** Um resultado de análise não tem uma comunicação: tem três, e nenhuma
-delas pode ser falsa.
+delas pode ser falsa. São exatamente as **três personagens que vão sabatinar a turma daqui a vinte
+minutos** — este bloco é o ensaio do bloco 2, e diga isso à turma.
 
-| Público | O que ele quer | Erro clássico ao falar com ele |
+| Personagem | O que ela quer | Erro clássico ao falar com ela |
 |---|---|---|
-| **Comandante-Geral** | A decisão e a consequência. Tem 90 segundos. | Começar pela metodologia. Ele quer o final. |
-| **Imprensa / sociedade** | O que isso muda para a vida das pessoas. Quer conflito. | Falar em siglas e taxas. Nenhum cidadão sabe o que é "índice de cobertura operacional". |
-| **A tropa** | O que muda no meu turno, na minha guarnição. | Falar em estratégia. A tropa pergunta: *e o meu trabalho?* |
+| **Chefe do EMG** | A decisão, o objetivo do PLANES que ela move e em quanto. Tem 90 segundos. | Começar pela metodologia. Ele quer o final. |
+| **DIOFI** *(orçamento e finanças)* | Quanto custa, e o que acontece se não vier nada. | Pedir recurso sem número e sem cenário de inação. "É importante" não é argumento orçamentário. |
+| **Cidadão** | O que muda na vida de quem chama o 193. | Falar em siglas e taxas. Ninguém fora do quartel sabe o que é "índice de cobertura operacional". |
 
 **Atividade (12 min).** Cada grupo escreve a **mesma** mensagem do seu painel em três versões — 2
-frases para cada público. Três grupos leem em voz alta as três versões seguidas. A turma identifica
-onde alguma versão **deixou de ser verdadeira** para ficar mais simpática. Esse é o limite ético da
-comunicação, e ele reaparece no bloco 3.
+frases para cada personagem. Três grupos leem em voz alta as três versões seguidas. A turma
+identifica onde alguma versão **deixou de ser verdadeira** para ficar mais simpática. Esse é o limite
+ético da comunicação, e ele reaparece no bloco 3.
+
+> Os mesmos três moldes cobrem os públicos do item 11.2 da ementa: o EMG é o molde do relatório ao
+> comando, o Cidadão é o molde da entrevista à imprensa, e a DIOFI é o molde de qualquer pedido de
+> recurso. Se sobrar tempo, peça a quarta versão — **a tropa**: *o que muda no meu turno, na minha
+> guarnição?*
 
 > 📎 **Fonte de apoio:** deck *Storytelling com Dados* já disponível no acervo do instrutor.
 
@@ -110,44 +119,77 @@ comunicação, e ele reaparece no bloco 3.
 
 #### Montagem (5 min)
 
-**A banca — "Comitê de Governança Estratégica":** 3 alunos sorteados **de grupos diferentes do que
-está apresentando** + o instrutor como presidente silencioso. Papéis com placa na mesa:
+**O comitê é uma pessoa só, com três vozes.** O instrutor conduz a RAE encarnando as três personagens
+— e a troca é **física e anunciada**: três placas na mesa, e ele pega a placa antes de cada pergunta.
+*"Agora eu falo como DIOFI."* É teatro, e é o teatro que ensina: a turma vê a mesma proposta julgada
+por três critérios que não se conciliam.
 
-| Papel | Obsessão | Pergunta típica |
+| Personagem | Obsessão | Pergunta típica |
 |---|---|---|
 | **Chefe do EMG** | Resultado institucional e alinhamento ao PLANES | *"Que objetivo do plano isso move? E em quanto?"* |
-| **Diretor de Orçamento** | O recurso é finito e ele responde por ele | *"Quanto custa? E se eu não der nada, o que acontece?"* |
-| **Stakeholder Externo** *(o mesmo papel que o aluno representou na Aula 1)* | O impacto fora dos muros | *"E para quem chama o 193 às 3 da manhã, o que muda?"* |
+| **DIOFI** *(Diretoria de Orçamento e Finanças)* | O recurso é finito e ela responde por ele | *"Quanto custa? E se eu não der nada, o que acontece?"* |
+| **Cidadão** *(o mesmo papel que a turma representou na Aula 1)* | O que muda fora dos muros | *"E para quem chama o 193 às 3 da manhã, o que muda?"* |
+
+> **Por que o instrutor faz as três, e não uma banca de alunos.** Quem avalia é um só, e a nota não
+> se divide. As personagens deixam de ser júri e passam a ser **alvo**: o grupo escreve o painel, lá
+> na Aula 5, já pensando em convencer as três. É a diferença entre ser julgado por colegas e ter de
+> convencer um chefe, um financista e um cidadão que querem coisas diferentes.
 
 **A regra do envelope — o que faz a simulação valer:**
 
-> Existem **100 fichas**. Elas representam todo o recurso disponível. A banca precisa alocá-las ao
-> final, e **não há fichas para todos os grupos**. Um projeto pode receber 40, outro 10, outro zero.
-> A banca é obrigada a **justificar publicamente** cada alocação — inclusive as recusas — **com base
-> nos indicadores apresentados**, não em simpatia, antiguidade ou eloquência.
+> Existem **100 fichas**. Elas representam todo o recurso disponível. Serão alocadas ao final, e
+> **não há fichas para todos os grupos**. Um projeto pode receber 40, outro 10, outro zero. Cada
+> alocação — inclusive as recusas — é **justificada publicamente, com base nos indicadores
+> apresentados**, não em simpatia, antiguidade ou eloquência.
 
 É a restrição que transforma o exercício em decisão estratégica de verdade. Sem escassez, todo mundo
 concorda com todo mundo e ninguém aprende a decidir.
 
-#### Rodadas (10 min por grupo · ~75 min para 5 a 7 grupos)
+#### Rodadas (10 min por grupo · ~70 min para 7 grupos)
 
-- **5 min de pitch** — o grupo apresenta painel e recomendação. Cronômetro visível; ao sinal, para.
-- **5 min de sabatina** — cada membro da banca faz ao menos uma pergunta. **A pergunta sobre origem
-  do dado é dirigida ao guardião do dado** do grupo, nominalmente.
-- **Rodízio:** ao terminar, a banca é substituída por 3 novos alunos sorteados. Ao final, quase todos
-  terão sentado dos dois lados da mesa — que é o ponto pedagógico: *decidir é diferente de propor, e
-  quem só propôs a vida inteira não sabe o quanto dói recusar.*
+**1 · Pitch — 5 min.** Com o **painel da Aula 5 projetado**, o grupo apresenta. O formato é livre: a
+ordem e a ênfase são decisão do grupo. O que não é livre é o alvo — **as três personagens precisam
+sair convencidas, e a rubrica cobra as três**. Cronômetro visível; ao sinal, para. *Uma página
+projetada e cinco minutos: quem não couber aí não convence comitê nenhum.*
 
-#### Alocação e debrief (10 min)
+**2 · "De qual das três vocês têm menos medo?" — 30 s.** Pergunte ao grupo antes de sabatinar. E
+comece **pela que sobrou**. Meio minuto que expõe onde o próprio grupo sabe que está fraco — e faz a
+sabatina mirar exatamente ali, em vez de gastar tempo no que eles dominam.
 
-A banca final aloca as 100 fichas em voz alta, justificando cada decisão. Em seguida, o instrutor
-conduz o debrief com três perguntas — nesta ordem:
+**3 · Sabatina — 3 min.** Uma pergunta por personagem, com a placa na mão. **A pergunta sobre a
+origem do número vai para o guardião do dado**, nominalmente. Não encadeie as três perguntas: deixe
+o grupo responder e mude de placa na frente deles.
+
+**4 · Termômetro — 30 s.** Mão levantada da turma, dez segundos por personagem: *"como Cidadão, vocês
+compram isso?"* Não vale nota e não decide nada — existe para manter a plateia julgando junto e para
+você medir se a sala comprou o que você não comprou. Quando a sala diverge do instrutor, anote: rende
+no debrief.
+
+**5 · A aposta — 30 s.** Cada grupo da plateia anota num papel **quantas fichas acha que este projeto
+vai receber**. Os papéis ficam com você, fechados, até a alocação. É o que mantém quem assiste
+avaliando de verdade: para apostar, é preciso ter ouvido.
+
+#### Alocação e debrief (15 min)
+
+**A alocação (5 min).** O instrutor distribui as 100 fichas em voz alta e justifica **personagem por
+personagem**: *"como DIOFI, dou 30 a este projeto, porque o custo cabe e a inação custa mais; como
+Cidadão, eu não daria nada, porque nada disso chega em quem liga para o 193."* Mostrar que a mesma
+proposta ganha em uma voz e perde em outra é o aprendizado central da aula.
+
+**As apostas (2 min).** Abra os papéis. O grupo que mais se aproximou da distribuição real ganha o
+direito de fazer a **primeira pergunta do debrief** — e o instrutor responde. Quem acerta a decisão
+alheia entendeu o critério, que é a competência que a disciplina inteira persegue.
+
+**O debrief (8 min)** — nesta ordem:
 
 1. *"Quem recebeu mais fichas: o melhor projeto ou a melhor apresentação?"*
 2. *"O que, concretamente, fez a diferença nas decisões?"* — a resposta, na prática, é quase sempre a
    mesma: **linha de base clara e meta defensável**. Grupo que não sabia dizer de onde vinha o número
    perdeu, mesmo com boa ideia.
 3. *"Quem foi sabatinado: o dado ou a conclusão?"*
+4. *"Qual das três personagens foi a mais difícil de convencer — e por que ela existe no mundo
+   real?"* A resposta costuma ser a DIOFI, e o ponto é este: **ela não é o inimigo, é a restrição**.
+   Estratégia sem restrição é lista de desejos.
 
 E o fechamento conceitual — as **etapas da decisão estratégica** (item 6.1 da ementa), extraídas do
 que a turma acabou de viver, não de um slide: identificação do problema → coleta e análise de
@@ -238,7 +280,8 @@ motivos:
 > beneficiavam da ordem antiga, e por tíbios defensores todos os que se beneficiariam da nova."* É a
 > descrição mais precisa que existe de implantação de indicador em organização pública.
 
-**Atividade (25 min).** Com o **T6**, cada grupo desenha o **plano de 90 dias** do seu indicador:
+**Atividade (25 min).** Numa folha A3, cada grupo desenha o **plano de 90 dias** do seu indicador,
+com um campo para cada item abaixo:
 
 - **Quem vai resistir e por quê** — usando a teia de stakeholders da Aula 1, agora voltada para
   dentro: qual seção, qual unidade, qual nível hierárquico perde com esta medição? *Perder o quê:
@@ -302,10 +345,11 @@ E o recado final da disciplina, em uma frase:
 #### 5c · Avaliação (12 min)
 
 - Aplicação do **questionário de autoavaliação e peer review** para quem ainda não respondeu no
-  Moodle (ver [`avaliacao.md`](avaliacao.md)).
+  ambiente virtual (ver [`avaliacao.md`](avaliacao.md)).
 - Devolutiva das **notas dos produtos** com a rubrica aberta — cada grupo recebe a sua linha
   preenchida e sabe exatamente onde perdeu ponto.
-- Recolhimento dos T6 e dos painéis. **Fotografe tudo**: este acervo é o material da próxima turma.
+- Recolhimento dos planos de 90 dias e dos painéis. **Fotografe tudo**: este acervo é o material da
+  próxima turma.
 
 ---
 
@@ -313,7 +357,7 @@ E o recado final da disciplina, em uma frase:
 
 - [ ] Alocação orçamentária da RAE, com as justificativas registradas.
 - [ ] Vereditos do Tribunal do Indicador e os quatro princípios escritos pela turma.
-- [ ] **T6** — plano de implantação de 90 dias, por grupo.
+- [ ] **Plano de 90 dias** — folha A3 de implantação do indicador, por grupo.
 - [ ] Questionários de autoavaliação e peer review respondidos.
 - [ ] Registro fotográfico da linha do tempo.
 
@@ -323,13 +367,15 @@ Esta aula fecha os quatro componentes de [`avaliacao.md`](avaliacao.md):
 
 | Componente | Peso | Momento |
 |---|---|---|
-| Produto do grupo (Painel + Nota Técnica) | 40% | Entregue na Aula 5, avaliado com a rubrica |
+| Produto do grupo (Painel de 1 página) | 40% | Entregue na Aula 5, avaliado com a rubrica |
 | Defesa na RAE | 20% | Bloco 2 |
-| Participação (dinâmicas das Aulas 4 e 6 + fóruns e revisão cruzada da Aula 5) | 20% | Blocos 1, 3 e 4 + registros da Aula 5 |
+| Participação (dinâmicas das Aulas 4 e 6 + fórum da Aula 5) | 20% | Blocos 2, 3 e 4 + registros da Aula 5 |
 | Autoavaliação e peer review intragrupo | 20% | Bloco 5c |
 
 > **Registre a nota de defesa durante a RAE, não depois.** Ao final de 90 minutos e sete pitches, a
-> memória do instrutor favorece quem apresentou por último.
+> memória do instrutor favorece quem apresentou por último. Marque as **três caixas — EMG, DIOFI,
+> Cidadão — ainda durante o pitch**: como o formato é livre, essa é a única forma de saber, depois,
+> quem deixou uma personagem sem resposta.
 
 ## 9. Referências
 

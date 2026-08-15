@@ -10,7 +10,7 @@
 | | |
 |---|---|
 | **Unidade** | III e IV (parcial) — ver matriz em [`README.md`](README.md) |
-| **Carga-horária** | 5 h/a (240 min de atividade + 2 intervalos de 10 min) |
+| **Carga-horária** | 5 h/a (220 min de atividade + 2 intervalos de 15 min = 250 min) |
 | **Modalidade** | Presencial |
 | **Pré-requisito** | Aula 3 concluída — dores clusterizadas na parede |
 | **Formato** | Oficina. Micro-exposições de 10 a 12 min intercaladas com produção em grupo. Nenhum bloco expositivo passa de 12 minutos. |
@@ -35,14 +35,16 @@ gerencia é **problema com nome, dono e número**. A aula 4 faz exatamente essa 
 Ao final da aula, cada grupo será capaz de:
 
 1. **Priorizar** um conjunto de dores por critério explícito, distinguindo o que dói do que é
-   prioritário — e percebendo que nem tudo que dói está sob governabilidade do CBMDF.
+   prioritário — e percebendo que o que mais incomoda a tropa nem sempre é o que mais impacta a
+   sociedade.
 2. **Descer à causa-raiz** de uma dor, separando evidência de opinião.
 3. **Ancorar** a dor num objetivo do Plano Estratégico do CBMDF, ou identificar de forma
    fundamentada que ali existe uma lacuna do plano.
 4. **Redigir a ficha técnica** de dois indicadores (um de esforço/*leading*, um de
    resultado/*lagging*), com fórmula, fonte, polaridade, periodicidade e dono.
 5. **Antecipar a manipulação** do próprio indicador e propor um contraindicador de integridade.
-6. **Atribuir pesos** a indicadores por dois métodos distintos e discutir a divergência entre eles.
+6. **Atribuir pesos** aos próprios indicadores e contraindicadores por dois métodos distintos, e
+   discutir a divergência entre eles.
 
 ## 4. Conteúdo da ementa coberto
 
@@ -55,8 +57,11 @@ Ao final da aula, cada grupo será capaz de:
 | 7.1 Critérios para seleção de indicadores (Un. III) | Bloco 5 |
 | 7.2 Exemplos de indicadores do CBMDF e suas métricas (Un. III) | Blocos 4 e 5 |
 | 8.1 / 8.3 / 8.4 PE, integração e alinhamento de indicadores (Un. IV) | Bloco 4 |
-| 10.1 Matriz BCG (Un. V) *e* 1.2 Produtos da organização (Un. I) | **Bloco 4B — opcional**, ver nota no bloco |
 | 13.1 Considerações éticas na utilização de indicadores (Un. VI) | Bloco 6 (semeadura vivencial) |
+
+> Os itens **10.1 (Matriz BCG)** e **1.2 (produtos da organização)** não são tratados nesta aula: são
+> ferramentas de análise de portfólio, cobertas nas Aulas 2 e 1. A Aula 4 é inteira do arco
+> Dor → Indicador.
 
 ## 5. Materiais
 
@@ -65,16 +70,22 @@ Ao final da aula, cada grupo será capaz de:
 
 **A providenciar**
 - Adesivos redondos coloridos — 3 por aluno.
-- Folhas A3 (2 por grupo), canetões, fita crepe.
-- Cópias impressas dos templates: [T1](templates/T1-priorizacao-dores.md),
-  [T2](templates/T2-arvore-causa-raiz.md), [T3](templates/T3-ficha-indicador.md) (2 vias por grupo),
-  [T4](templates/T4-atribuicao-pesos.md).
+- **Folhas A3 em branco — 5 por grupo**, canetões e fita crepe. Não há formulário impresso: cada
+  grupo desenha na folha o quadro que o bloco pedir. Uma folha por produto:
+
+  | Folha | Bloco | O que o grupo escreve nela |
+  |---|---|---|
+  | **F1 · Priorização** | 2 | Tabela dos 5 clusters mais votados com as notas G, U, T e o produto G×U×T |
+  | **F2 · Causa-raiz** | 3 | Os 5 porquês encadeados + a lista de hipóteses a verificar na Aula 5 |
+  | **F3 e F4 · Fichas do indicador** | 4 a 6 | Uma folha por indicador (*leading* e *lagging*), com os campos da tabela do bloco 5, a frase de ancoragem no PLANES e o contraindicador |
+  | **F5 · Pesos** | 7 | A ponderação dos quatro números (2 indicadores + 2 contraindicadores) por dois métodos, lado a lado, e a análise da divergência |
+
 - **Mapa estratégico do PLANES 2017-2024 impresso em A1** ou projetado — é o material mais usado da
   aula.
 - Exemplares (impressos ou em tela) do *Caderno de Indicadores Estratégicos* e do *Caderno de
   Indicadores de Governança*.
 - Fichas pequenas para o bilhete de saída.
-- Projetor com o **Moodle da Aula 5 já montado** — o bloco 8 depende disso.
+- Projetor com a **Atividade da Aula 5 já montada** — o bloco 8 depende disso.
 
 ---
 
@@ -101,37 +112,33 @@ reconstrói sozinha o que produziu, e o resultado da votação vira insumo do bl
 
 ---
 
-### Bloco 2 — "O voto não é critério" · 25 min
+### Bloco 2 — "O voto não é critério" · 20 min
 
-**Micro-exposição (10 min).** Duas ferramentas de priorização:
+**Micro-exposição (7 min).** Uma única ferramenta, e ela basta: a **Matriz GUT**. Nota de 1 a 5 em
+cada eixo, prioridade = G × U × T:
 
-**Matriz GUT** — nota de 1 a 5 em cada eixo, prioridade = G × U × T:
 - **Gravidade** — o tamanho do estrago se nada for feito.
 - **Urgência** — o custo de esperar. *Pressa não é urgência: urgência é a janela que se fecha.*
 - **Tendência** — o comportamento do problema se ninguém intervier: piora, estabiliza ou melhora
   sozinho?
 
-**Matriz Impacto × Governabilidade** — adaptação da clássica impacto × esforço para o serviço
-público. A pergunta que ela força: *o CBMDF tem competência legal, orçamento e autonomia para agir
-sobre isso, ou depende de terceiro?* Quatro quadrantes:
+O ponto da exposição não é a fórmula — é o contraste entre **votar** e **pontuar**. No dot voting o
+aluno não precisa dizer por que escolheu; na GUT, cada nota é uma afirmação que pode ser contestada
+pelo colega ao lado. Priorizar é isso: assumir um critério em público.
 
-| | **Alta governabilidade** | **Baixa governabilidade** |
-|---|---|---|
-| **Alto impacto** | **AJA AGORA** — é aqui que mora o produto desta disciplina | **ARTICULE** — vira agenda de negociação com stakeholder (retoma a Aula 2) |
-| **Baixo impacto** | **DELEGUE** — resolve no nível tático | **REGISTRE E MONITORE** — não consome capital político |
+**Atividade (8 min).** Cada grupo pontua G, U e T dos **5 clusters mais votados** no bloco 1 e
+escreve a tabela na **folha F1**. Nota atribuída sem acordo do grupo fica registrada com as duas
+notas — divergência se anota, não se dissolve na média.
 
-**Atividade (15 min).** Cada grupo aplica GUT + Governabilidade aos 5 clusters mais votados no bloco
-1, usando o **T1**.
-
-**Debrief (dentro dos 25 min).** O instrutor coloca lado a lado o ranking do dot voting e o ranking
-estruturado e pergunta:
+**Debrief (5 min).** O instrutor coloca lado a lado o ranking do dot voting e o ranking por GUT e
+pergunta:
 
 > *"Onde os dois discordam? E por que discordam?"*
 
 A resposta quase sempre é uma destas três, e todas rendem: (a) a dor mais votada é a que mais
-**incomoda a tropa**, não a que mais **impacta a sociedade**; (b) a dor mais votada é de baixa
-governabilidade — dói, mas não é nossa para resolver sozinhos; (c) a dor de maior GUT é impopular
-internamente. **Onde os dois rankings discordam, mora a política institucional.**
+**incomoda a tropa**, não a que mais **impacta a sociedade**; (b) o voto premia a dor mais recente ou
+mais falada, e a GUT expõe a que **piora sozinha** enquanto ninguém olha; (c) a dor de maior GUT é
+impopular internamente. **Onde os dois rankings discordam, mora a política institucional.**
 
 **Produto do bloco:** cada grupo elege **uma dor** para levar até o fim da disciplina.
 
@@ -141,7 +148,7 @@ internamente. **Onde os dois rankings discordam, mora a política institucional.
 
 **Formato:** grupos em pares (grupo A ↔ grupo B).
 
-Cada grupo desce os 5 porquês sobre a sua dor prioritária no **T2**. A regra que muda tudo:
+Cada grupo desce os 5 porquês sobre a sua dor prioritária na **folha F2**. A regra que muda tudo:
 
 > **A cada "porquê", o grupo-juiz pode vetar a resposta com uma única pergunta:
 > "isso é opinião ou você tem evidência?"**
@@ -162,12 +169,12 @@ respondem a ação pontual: exigem intervenção no ponto de alavancagem, e o in
 justamente esse ponto.
 
 > 📎 **Fonte de apoio:** apostilas de *Análise e Melhoria de Processos* / MASP já disponíveis no
-> acervo do instrutor — o Ishikawa (6M) pode substituir os 5 Porquês para grupos que travarem, e o
-> T2 traz o espelho das duas ferramentas.
+> acervo do instrutor — para o grupo que travar nos porquês, o Ishikawa (6M: método, mão de obra,
+> material, máquina, medida, meio ambiente) desenhado na mesma folha resolve.
 
 ---
 
-### ☕ Intervalo · 10 min
+### ☕ Intervalo · 15 min
 
 ---
 
@@ -195,46 +202,7 @@ achado provável e valioso. Grupos nessa situação escrevem qual objetivo *deve
 O erro clássico do gestor público: escrever a **iniciativa** no lugar do **objetivo** ("implantar o
 sistema X"), o que faz a organização medir a entrega do meio e nunca o resultado do fim.
 
-**Produto do bloco:** a frase de ancoragem, colada no T3.
-
----
-
-### Bloco 4B *(OPCIONAL)* — Matriz BCG do portfólio do CBMDF · 15 min
-
-> ⚙️ **Bloco de encaixe.** Serve para cobrir o item **10.1 da ementa (Matriz BCG)**, que é o único
-> item do conteúdo programático não contemplado no arco Dor → Indicador → Decisão. **Só inclua se a
-> Matriz BCG não tiver sido tratada na Aula 2.** Ver a nota de cobertura no [`README.md`](README.md).
->
-> **Custo de tempo:** +15 min. Para caber nos 240 min, reduza o bloco 1 de 20 para 15 min (dot voting
-> de 5 min em vez de 8) e o bloco 7 de 30 para 20 min (dispensando a etapa de confronto entre os dois
-> métodos de ponderação).
-
-**Micro-exposição (5 min).** A matriz BCG foi criada para portfólio de produtos com fatia de mercado
-e crescimento. O CBMDF não tem mercado nem concorrentes — mas tem **portfólio de serviços**, e a
-lógica se transporta com dois eixos adaptados:
-
-- **Eixo vertical — crescimento da demanda social** pelo serviço (a demanda sobe ou cai?).
-- **Eixo horizontal — domínio/capacidade instalada** do CBMDF naquele serviço (somos fortes ou
-  frágeis nisso?).
-
-| | **Alta capacidade** | **Baixa capacidade** |
-|---|---|---|
-| **Demanda crescente** | ⭐ **ESTRELA** — sustente o investimento; é a vitrine e consome recurso | ❓ **INTERROGAÇÃO** — decida: investir para dominar, ou articular com outro órgão |
-| **Demanda estável ou em queda** | 🐄 **VACA LEITEIRA** — mantenha com eficiência; financia o resto da corporação em legitimidade | 🐕 **ABACAXI** — questione: ainda é nosso? Ainda faz sentido? |
-
-**Atividade (8 min).** Em plenário, no quadro, a turma posiciona os principais serviços do CBMDF:
-combate a incêndio urbano e florestal, atendimento pré-hospitalar, salvamento, prevenção e vistoria
-(SCIP), resposta a desastres, educação pública em segurança, perícia. *Isso cobre também o item 1.2
-da ementa — definição dos principais produtos da organização.*
-
-**Debrief (2 min) — duas perguntas que costumam incomodar, e é para incomodar mesmo:**
-
-1. *"O APH é estrela do CBMDF ou é interrogação disputada com o SAMU?"* — retoma diretamente o
-   confronto de stakeholders da Aula 1.
-2. *"Qual é o nosso abacaxi que ninguém tem coragem de nomear?"*
-
-**Amarração:** em que quadrante está o serviço afetado pela dor do seu grupo? Dor em serviço-estrela
-tem argumento orçamentário muito mais forte na RAE da Aula 6 — e saber disso muda o pitch.
+**Produto do bloco:** a frase de ancoragem, escrita no alto das folhas F3 e F4.
 
 ---
 
@@ -268,18 +236,29 @@ O último campo é o que ninguém preenche e o que separa o indicador maduro do 
 > Medir só o *lagging* é dirigir olhando o retrovisor. Medir só o *leading* é acreditar que se está
 > indo bem porque se está muito ocupado.
 
-**Atividade (30 min).** Cada grupo preenche o **T3** para **dois indicadores** da sua dor: um
-*leading* e um *lagging*. Os cadernos de indicadores do CBMDF ficam à disposição — **reusar um
-indicador que já existe é preferível a inventar um novo**, e isso deve ser dito explicitamente à
-turma.
+**Atividade (30 min).** Cada grupo escreve, nas folhas **F3** e **F4**, uma ficha por indicador — um
+*leading* e um *lagging* — com todos os campos da tabela acima, um por linha. Os cadernos de
+indicadores do CBMDF ficam à disposição: **reusar um indicador que já existe é preferível a inventar
+um novo**, e isso deve ser dito explicitamente à turma.
+
+> Deixe o campo **contraindicador** em branco no rodapé da folha. Ele é preenchido no bloco 6, depois
+> que outro grupo tiver mostrado como burlar o indicador.
 
 ---
 
-### Bloco 6 — Red Team relâmpago · 25 min
+### Bloco 6 — Red Team relâmpago · 30 min
 
 O bloco mais importante da aula. Os grupos **trocam as fichas** (A→B, B→C, …).
 
-**Missão do grupo revisor (10 min):**
+**Abertura (2 min) — um exemplo, para ninguém errar o alvo.** Antes de soltar os grupos, mostre uma
+burla pronta: o indicador é o *tempo-resposta médio*, com meta de cair de 11 para 8 minutos; a burla
+é uma ordem verbal — *"no fechamento da ocorrência, sempre preencher o tempo de chegada entre 6 e 8
+minutos após o horário de saída"*. Nenhuma viatura andou mais rápido e a meta fecha em verde todo
+mês. **Não entregue o contraindicador aqui** — ele volta no fim do bloco. Sem este exemplo, metade
+dos grupos gasta os primeiros minutos discutindo se o indicador do colega é bom, que é justamente o
+que não se pede.
+
+**Missão do grupo revisor (12 min):**
 
 > *"Você é um comandante ambicioso e sem escrúpulos. Sua promoção depende de bater esta meta. Você
 > não vai resolver a dor — vai bater a meta assim mesmo. **Como?**"*
@@ -287,12 +266,14 @@ O bloco mais importante da aula. Os grupos **trocam as fichas** (A→B, B→C, �
 **Apresentação (8 min):** cada grupo tem 1 minuto para expor a burla que descobriu. A turma vai rir,
 e vai rir porque reconhece.
 
-**Reação (7 min):** a ficha volta ao dono, que preenche o campo **contraindicador**: um segundo
+**Reação (8 min):** a ficha volta ao dono, que preenche o campo **contraindicador**: um segundo
 indicador que só se mantém saudável se a burla *não* estiver acontecendo.
 
-*Exemplo:* indicador "tempo-resposta médio" pode ser burlado registrando a chegada no momento do
-despacho. Contraindicador: % de ocorrências com registro de chegada validado por telemetria/GPS — ou,
-mais simples, a **taxa de reincidência de chamado no mesmo endereço em 24 h**.
+*Exemplo — o mesmo que abre o bloco, para a turma reencontrá-lo com a defesa:* o indicador
+"tempo-resposta médio" é burlado por uma ordem verbal — *"no fechamento da ocorrência, sempre
+preencher o tempo de chegada entre 6 e 8 minutos após o horário de saída"*. Contraindicador: % de
+ocorrências com chegada validada por GPS — ou, mais barato, a **dispersão dos tempos registrados**:
+se quase todos caem na mesma faixa de dois minutos, o número foi digitado, não medido.
 
 **Fechamento (2 min) — nomear o que acabou de acontecer:**
 - **Lei de Goodhart:** *"quando uma medida se torna meta, ela deixa de ser uma boa medida."*
@@ -300,13 +281,13 @@ mais simples, a **taxa de reincidência de chamado no mesmo endereço em 24 h**.
   produzir o problema.
 
 > 🎯 **Este bloco é a entrada da ética (item 13 da ementa) na disciplina.** A turma não recebe uma
-> aula sobre integridade: ela descobre sozinha, em 10 minutos, que todo indicador é burlável — e sai
+> aula sobre integridade: ela descobre sozinha, em 12 minutos, que todo indicador é burlável — e sai
 > ética por convicção técnica, não por sermão. Na Aula 6, no *Tribunal do Indicador*, os alunos
 > reencontram as próprias burlas.
 
 ---
 
-### ☕ Intervalo · 10 min
+### ☕ Intervalo · 15 min
 
 ---
 
@@ -324,10 +305,19 @@ mais simples, a **taxa de reincidência de chamado no mesmo endereço em 24 h**.
    corporação militar, este ponto merece meio minuto de atenção: peso atribuído em voz alta na frente
    do superior não é peso, é concordância.*
 
-**Atividade (20 min).** Com o **T4**, cada grupo:
-1. distribui 100 pontos entre seus indicadores (5 min);
-2. refaz por comparação par a par (10 min);
+**Atividade (20 min).** O grupo pondera os **quatro números que já tem na mão** — os dois indicadores
+e os dois contraindicadores nascidos no Red Team. Na **folha F5**, dividida em duas colunas:
+
+1. distribui 100 pontos entre os quatro (5 min);
+2. refaz por comparação par a par — com quatro itens são **seis pares** (10 min);
 3. compara os dois resultados e responde: mudou a ordem? Onde estava a inconsistência? (5 min).
+
+> **Por que os quatro, e não só os dois indicadores.** Com dois itens não há o que ponderar: 100
+> pontos viram uma única decisão e a comparação par a par tem um par só — a inconsistência
+> (A > B, B > C, C > A), que é o ponto do método, fica aritmeticamente impossível de aparecer. Com
+> quatro, o exercício funciona *e* força a pergunta que interessa: **quanto vale vigiar a integridade
+> do número em relação a medir o resultado?** Grupo que dá peso zero ao contraindicador acabou de
+> dizer, por escrito, que confia na própria virtude.
 
 **Debrief (2 min):** a pergunta de governança — *quem, no CBMDF, deveria ter a caneta para definir
 esses pesos?* Fica em aberto; volta na RAE da Aula 6.
@@ -339,15 +329,17 @@ esses pesos?* Fica em aberto; volta na RAE da Aula 6.
 ⚠️ **A Aula 5 é 100% autônoma: não haverá instrutor de plantão, nem síncrono nem assíncrono.** Este
 briefing é, portanto, a última oportunidade de tirar dúvida. Conduza-o assim:
 
-1. **(10 min) Moodle projetado, tour ao vivo.** Percorra na tela cada recurso da Aula 5: a página
-   *Missão*, o **Caso-Modelo Resolvido**, o **FAQ + Kit de Desbloqueio**, o fórum *Ajuda Mútua*, os
-   três checkpoints e a revisão cruzada. Mostre onde clicar. Deixe explícito: **nenhum grupo pode
-   parar por falta de autorização — o Kit de Desbloqueio já autoriza tudo.**
+1. **(10 min) Atividade projetada, tour ao vivo.** Percorra na tela cada recurso da Aula 5: a página
+   *Missão*, o **Painel-Modelo Resolvido**, o **FAQ + Kit de Desbloqueio**, o fórum *Ajuda Mútua* e a
+   tarefa do painel. Mostre onde clicar. Diga com todas as letras as duas regras que mais aliviam a
+   turma: **a entrega é uma só — um painel de uma página** e **nenhum grupo pode parar por falta de
+   autorização, porque o Kit de Desbloqueio já autoriza tudo.** Avise também que dos dois indicadores
+   escritos hoje, **só um vai ao dado** — o grupo escolhe qual no início da Aula 5.
 2. **(7 min) "Perguntem agora tudo o que travaria vocês."** Anote no quadro cada dúvida levantada.
-   Compromisso: essas dúvidas entram no FAQ do Moodle antes da liberação da aula.
-3. **(3 min) Papéis.** Cada grupo define ali, na hora, seu **coordenador de sprint** (posta os
-   checkpoints e controla o relógio) e seu **guardião do dado** (responde de onde veio cada número).
-   Anote os nomes.
+   Compromisso: essas dúvidas entram no FAQ da Atividade antes da liberação da aula.
+3. **(3 min) Papéis.** Cada grupo define ali, na hora, seu **coordenador de sprint** (posta o painel,
+   controla o relógio e decide quando o grupo não chega a acordo) e seu **guardião do dado** (responde
+   de onde veio cada número — e será sabatinado nominalmente na Aula 6). Anote os nomes.
 
 **Bilhete de saída.** Cada aluno escreve numa ficha:
 
@@ -361,17 +353,17 @@ voltam no painel da linha do tempo na Aula 6.
 
 ## 7. Produtos esperados da aula
 
-Cada grupo sai com, em mãos:
+Cada grupo sai com cinco folhas A3 em mãos:
 
-- [ ] **T1** preenchido — 5 clusters priorizados por GUT e Governabilidade, com a dor eleita.
-- [ ] **T2** preenchido — árvore de causa-raiz + lista de hipóteses a verificar na Aula 5.
-- [ ] Frase de ancoragem no PLANES (ou registro fundamentado de lacuna).
-- [ ] **T3 × 2** — fichas de um indicador *leading* e um *lagging*, com contraindicador.
-- [ ] **T4** preenchido — pesos por dois métodos, com a análise da divergência.
+- [ ] **F1** — 5 clusters pontuados por GUT, com a dor eleita e a justificativa em uma frase.
+- [ ] **F2** — árvore de causa-raiz + lista de hipóteses a verificar na Aula 5.
+- [ ] **F3 e F4** — fichas de um indicador *leading* e um *lagging*, cada uma com a frase de
+      ancoragem no PLANES (ou o registro fundamentado de lacuna) e o contraindicador.
+- [ ] **F5** — os quatro números ponderados por dois métodos, com a análise da divergência.
 
-Estes cinco artefatos são o insumo da Aula 5. **Fotografe tudo antes de a turma sair** e poste no
-Moodle no mesmo dia — grupo que perde o T3 na sexta não consegue trabalhar no fim de semana, e não
-haverá instrutor para socorrer.
+Estas folhas são o insumo da Aula 5. **Fotografe tudo antes de a turma sair** e poste no site da materia no
+mesmo dia — grupo que perde a ficha do indicador na sexta não consegue trabalhar no fim de semana, e
+não haverá instrutor para socorrer.
 
 ## 8. Avaliação
 
@@ -379,7 +371,8 @@ Nada aqui é nota fechada; a aula alimenta os componentes descritos em [`avaliac
 
 - **Participação nas dinâmicas** — observar sobretudo a qualidade dos vetos no bloco 3 e das burlas
   no bloco 6, que revelam quem entendeu o mecanismo e quem está preenchendo formulário.
-- **Produto do grupo** — os T3 e T4 desta aula são a primeira versão do que será avaliado ao final.
+- **Produto do grupo** — as fichas de indicador (F3/F4) e a ponderação (F5) são a primeira versão do
+  que será avaliado ao final.
 
 ## 9. Referências
 

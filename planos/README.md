@@ -43,16 +43,19 @@ O deck da Aula 4 é um HTML autocontido pensado para projeção em sala: cronôm
 (`T` inicia, `R` zera), notas do instrutor (`P`), visão geral (`O`), tela preta (`B`) e exportação
 para PDF por `Ctrl+P`. Pressione `?` dentro do deck para a lista completa de atalhos.
 
-### Templates dos alunos
+### Produtos dos alunos
 
-| | Template | Usado em |
+**Não há formulário impresso na disciplina.** Cada grupo desenha na folha em branco o quadro que o
+bloco pedir — o formato é decisão do grupo, o conteúdo é que está definido no plano de aula.
+
+| | Produto | Onde |
 |---|---|---|
-| **T1** | [Priorização de dores](templates/T1-priorizacao-dores.md) — GUT + Impacto × Governabilidade | Aula 4, bloco 2 |
-| **T2** | [Árvore de causa-raiz](templates/T2-arvore-causa-raiz.md) — 5 Porquês com juiz + Ishikawa | Aula 4, bloco 3 |
-| **T3** | [Ficha do indicador](templates/T3-ficha-indicador.md) — anatomia do KPI + contraindicador | Aula 4, blocos 4 a 6 |
-| **T4** | [Atribuição de pesos](templates/T4-atribuicao-pesos.md) — 100 pontos + AHP simplificado | Aula 4, bloco 7 |
-| **T5** | [Painel + Nota Técnica](templates/T5-painel-e-nota-tecnica.md) — entregável final | Aula 5, CP3 |
-| **T6** | [Plano de 90 dias](templates/T6-plano-90-dias.md) — implantação e gestão da mudança | Aula 6, bloco 4 |
+| **F1** | Priorização das dores — matriz GUT dos 5 clusters mais votados | Aula 4, bloco 2 |
+| **F2** | Árvore de causa-raiz — 5 Porquês com juiz (ou Ishikawa) | Aula 4, bloco 3 |
+| **F3 · F4** | Fichas do indicador — anatomia do KPI, ancoragem no PLANES e contraindicador | Aula 4, blocos 4 a 6 |
+| **F5** | Atribuição de pesos — 100 pontos + comparação par a par | Aula 4, bloco 7 |
+| **Painel** | Painel Estratégico de 1 página — **entrega única da Aula 5** e material da defesa na RAE | Aula 5 · Aula 6, bloco 2 |
+| **90 dias** | Plano de implantação — dono, rito, coleta, quick win e ações corretiva/preventiva | Aula 6, bloco 4 |
 
 ---
 
@@ -65,7 +68,7 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 | Item | Onde | |
 |---|---|---|
 | 1.1 Análise do organograma institucional | Aula 1 | ✅ |
-| 1.2 Definição dos principais produtos da organização | Aula 1 · 🔁 Aula 4 bloco 4B *(opcional)* | ✅ |
+| 1.2 Definição dos principais produtos da organização | Aula 1 | ✅ |
 | 2.1 Análise da legislação da Corporação | Aula 1 | ✅ |
 | 2.2 Definição prévia da visão institucional | Aula 1 | ✅ |
 
@@ -77,8 +80,8 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 | 3.2 Importância da análise de indicadores no CBMDF | **Aula 4** blocos 4 e 5 · 🔁 **Aula 5** | ✅ |
 | 4.1 Técnicas para atribuir pesos aos indicadores | **Aula 4** bloco 7 | ✅ |
 | 4.2 Importância da priorização estratégica dos indicadores | **Aula 4** blocos 2 e 7 | ✅ |
-| 5.1 Métodos estatísticos básicos aplicados a indicadores | **Aula 5** CP2 | ✅ |
-| 5.2 Interpretação de dados e identificação de tendências | **Aula 5** CP2 + carta de controle | ✅ |
+| 5.1 Métodos estatísticos básicos aplicados a indicadores | **Aula 5** campo 4 do painel | ✅ |
+| 5.2 Interpretação de dados e identificação de tendências | **Aula 5** campo 4 + micro-conteúdo de leitura da série | ✅ |
 
 ### Unidade III — 5 h/a
 
@@ -87,7 +90,7 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 | 6.1 Etapas e componentes do processo de tomada de decisão | **Aula 6** bloco 2 (RAE + debrief) | ✅ |
 | 6.2 Papel dos indicadores no suporte à decisão | **Aula 6** bloco 2 | ✅ |
 | 7.1 Critérios para seleção de indicadores de desempenho | **Aula 4** bloco 5 | ✅ |
-| 7.2 Exemplos de indicadores do CBMDF e suas métricas | **Aula 4** blocos 4-5 · **Aula 5** CP1 e fórum Achados | ✅ |
+| 7.2 Exemplos de indicadores do CBMDF e suas métricas | **Aula 4** blocos 4-5 · **Aula 5** campos 2 e 3 do painel | ✅ |
 
 ### Unidade IV — 5 h/a
 
@@ -95,8 +98,8 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 |---|---|---|
 | 8.1 Modelo de elaboração do PE | Aula 1 · 🔁 **Aula 4** bloco 4 | ✅ |
 | 8.2 Análise do PE do CBMDF | Aula 1 · 🔁 **Aula 4** bloco 4 (inclui lacunas do PLANES) | ✅ |
-| 8.3 Integração dos indicadores ao PE do CBMDF | **Aula 4** bloco 4 · **Aula 5** CP3 | ✅ |
-| 8.4 Alinhamento de indicadores com metas organizacionais | **Aula 5** CP2 e CP3 | ✅ |
+| 8.3 Integração dos indicadores ao PE do CBMDF | **Aula 4** bloco 4 · **Aula 5** campo 1 do painel | ✅ |
+| 8.4 Alinhamento de indicadores com metas organizacionais | **Aula 5** campos 1 e 5 do painel | ✅ |
 | 9.1 Análise e definição dos principais stakeholders | Aula 1 · 🔁 **Aula 6** bloco 4 | ✅ |
 | 9.2 Levantamento dos interesses dos stakeholders | Aulas 1 e 2 · 🔁 **Aula 6** bloco 2 (banca) | ✅ |
 
@@ -104,13 +107,13 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 
 | Item | Onde | |
 |---|---|---|
-| 10.1 Matriz BCG | **Aula 4** bloco 4B — ⚠️ **opcional, ver nota abaixo** | ⚠️ |
+| 10.1 Matriz BCG | Aula 2 — ver nota abaixo | ✅ |
 | 10.2 Matriz SWOT | Aula 2 (SWOT cruzada) | ✅ |
 | 10.3 Elaboração de cenários | Aulas 2 e 3 (Oficina de Cenários) | ✅ |
 | 11.1 Técnicas de comunicação eficaz de resultados | **Aula 6** bloco 1 | ✅ |
-| 11.2 Relatórios e apresentações para diferentes públicos | **Aula 6** blocos 1 e 2 · **Aula 5** CP3 | ✅ |
+| 11.2 Relatórios e apresentações para diferentes públicos | **Aula 6** blocos 1 e 2 · **Aula 5** painel | ✅ |
 | 12.1 Uso dos indicadores para identificar oportunidades de melhoria | **Aula 6** bloco 4 | ✅ |
-| 12.2 Implementação de ações corretivas e preventivas | **Aula 6** bloco 4 (T6, parte D) | ✅ |
+| 12.2 Implementação de ações corretivas e preventivas | **Aula 6** bloco 4 (plano de 90 dias) | ✅ |
 
 ### Unidade VI — 5 h/a
 
@@ -118,23 +121,20 @@ Os 16 itens do conteúdo programático do plano de disciplina, mapeados. ✅ = t
 |---|---|---|
 | 13.1 Considerações éticas na utilização de indicadores | **Aula 4** bloco 6 (Red Team) · **Aula 6** bloco 3 (Tribunal) | ✅ |
 | 13.2 Transparência e integridade nas práticas de análise | **Aula 6** bloco 3 (caso D + os 4 princípios) | ✅ |
-| 14. Análise dos indicadores já criados pelo CBMDF | **Aula 5** CP1 e fórum Achados · **Aula 6** blocos 1 e 3 | ✅ |
+| 14. Análise dos indicadores já criados pelo CBMDF | **Aula 5** painel e fórum · **Aula 6** blocos 1 e 3 | ✅ |
 | 15. Exercício prático | **Aula 5** integral · **Aula 6** bloco 2 | ✅ |
 | 16. Avaliação | **Aula 6** bloco 5c + [`avaliacao.md`](avaliacao.md) | ✅ |
 
-### ⚠️ Nota de cobertura — item 10.1 (Matriz BCG)
+### Nota de cobertura — item 10.1 (Matriz BCG)
 
-É o **único item do conteúdo programático que exige decisão do instrutor**. A Aula 2 tratou de SWOT
-cruzada e elaboração de cenários; se a Matriz BCG não foi abordada ali, ela fica sem cobertura no
-arco Dor → Indicador → Decisão, porque BCG é ferramenta de análise de portfólio e não de análise de
-indicador.
+A **BCG é ferramenta de análise de portfólio**, não de análise de indicador: ela pergunta *em que
+serviços a corporação deve investir*, enquanto as Aulas 4 a 6 perguntam *como saber se o que a
+corporação faz está funcionando*. Por isso ela pertence ao diagnóstico estratégico da **Aula 2**,
+junto com a SWOT cruzada e os cenários, e **não entra no arco Dor → Indicador → Decisão**.
 
-**Solução pronta:** o [bloco 4B da Aula 4](aula-04.md#bloco-4b-opcional--matriz-bcg-do-portfólio-do-cbmdf--15-min)
-traz uma BCG adaptada ao serviço público — eixos *crescimento da demanda social* × *capacidade
-instalada do CBMDF* — aplicada ao portfólio de serviços da corporação, em 15 minutos, com as
-instruções de qual bloco encurtar para manter as 5 h/a. Ele cobre de uma vez os itens 10.1 e 1.2.
-
-**Decisão do instrutor:** ☐ BCG já foi tratada na Aula 2 — dispensar o bloco 4B · ☐ Incluir o bloco 4B.
+Chegou a existir um bloco de encaixe na Aula 4 para cobri-la. Foi removido: encaixar 15 minutos de
+portfólio no meio de uma oficina de indicadores custava a atenção da turma e não somava ao produto
+final. Se em alguma turma a Aula 2 não tratar da BCG, o lugar de recuperá-la é lá — não na Aula 4.
 
 ---
 
@@ -149,8 +149,8 @@ diferente, o que preserva a conformidade com a carga horária aprovada.
 | 1 | Presencial | 5 | — |
 | 2 | **EAD** | 5 | — |
 | 3 | Presencial | 5 | — |
-| 4 | Presencial | 5 | 240 min + 2 intervalos |
-| 5 | **EAD** | 5 | assíncrono, 3 checkpoints |
+| 4 | Presencial | 5 | 220 min + 2 intervalos de 15 min |
+| 5 | **EAD** | 5 | assíncrono, entrega única |
 | 6 | Presencial | 5 | 235 min + 1 intervalo |
 | | | **30 h/a** | **10 h/a EAD + 20 h/a presenciais** ✅ |
 
@@ -160,15 +160,19 @@ diferente, o que preserva a conformidade com a carga horária aprovada.
 
 > **O instrutor não estará disponível durante a aula EAD.** Os alunos agem de forma autônoma.
 
-Isso não é um detalhe operacional — é o requisito que define o desenho daquela aula. Quatro
-mecanismos, todos publicados **antes** do início, substituem a monitoria: **Caso-Modelo Resolvido**,
-**FAQ + Kit de Desbloqueio**, **Fórum Ajuda Mútua com regra de reciprocidade** e **revisão cruzada
-entre grupos**. Detalhamento em [`aula-05.md`](aula-05.md).
+Isso não é um detalhe operacional — é o requisito que define o desenho daquela aula. Três mecanismos,
+todos publicados **antes** do início, substituem a monitoria: **Painel-Modelo Resolvido**, **FAQ +
+Kit de Desbloqueio** e **Fórum Ajuda Mútua com regra de reciprocidade**. Detalhamento em
+[`aula-05.md`](aula-05.md).
+
+A eles soma-se uma segunda restrição, de mesmo peso: **a entrega é uma só — um painel de uma
+página**. Sem instrutor e com cinco horas de fim de semana, cada obrigação a mais é uma chance a mais
+de o grupo se perder na burocracia da tarefa em vez de trabalhar o dado.
 
 **Critério de aceite antes de liberar a aula — o "teste da sala vazia":** leia o ambiente montado na
 pele de um grupo às 22 h de um domingo, sem ninguém a quem recorrer. Se existir **um único ponto** em
 que a saída seria ligar para o instrutor, esse ponto ainda precisa entrar no FAQ, no Kit de
-Desbloqueio ou no Caso-Modelo.
+Desbloqueio ou no Painel-Modelo.
 
 ---
 
@@ -193,9 +197,9 @@ e a turma escuta**. As decisões que decorrem disso:
 
 ## Continuidade
 
-Ao final da Aula 6, **fotografe todos os artefatos** — painéis, T6, linha do tempo. Este acervo é o
-material de partida da próxima turma, e é o registro de que a disciplina produziu diagnóstico real
-sobre dores reais do CBMDF.
+Ao final da Aula 6, **fotografe todos os artefatos** — painéis, planos de 90 dias, linha do tempo.
+Este acervo é o material de partida da próxima turma, e é o registro de que a disciplina produziu
+diagnóstico real sobre dores reais do CBMDF.
 
 ---
 

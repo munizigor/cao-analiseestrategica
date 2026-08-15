@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -)",
+      "Bash(python -c ' *)",
+      "Bash(export SCR=\"C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad\")",
+      "Bash(OUT=__TRACKED_VAR__/planos/folhas-aula-04.docx python C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad/gera_folhas.py)",
+      "Bash(rm -f C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad/folhas-aula-04.pdf C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad/folhas-aula-04.txt)",
+      "Bash('/c/Program Files/LibreOffice/program/soffice.exe' --headless -env:UserInstallation=file:///C:/Users/cbmdf/AppData/Local/Temp/claude/lo_profile --convert-to pdf --outdir C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad C:/Users/cbmdf/Projetos/cao-analiseestrategica/cao-analiseestrategica/planos/folhas-aula-04.docx)",
+      "Bash('/c/Program Files/LibreOffice/program/soffice.exe' --headless -env:UserInstallation=file:///C:/Users/cbmdf/AppData/Local/Temp/claude/lo_profile --convert-to 'txt:Text \\(encoded\\):UTF8' --outdir C:/Users/cbmdf/AppData/Local/Temp/claude/c--Users-cbmdf-Projetos-cao-analiseestrategica-cao-analiseestrategica/d36e1e7b-875d-46ca-911a-8949517f90b2/scratchpad C:/Users/cbmdf/Projetos/cao-analiseestrategica/cao-analiseestrategica/planos/folhas-aula-04.docx)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)"
+    ]
+  }
+}

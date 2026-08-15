@@ -13,7 +13,7 @@ de Design Thinking. São **87 dores em 8 clusters** — transcritas aqui exatame
 escreveu, sem reescrita, sem filtro e sem correção de mérito.
 
 Isto não é diagnóstico: é matéria-prima. O diagnóstico começa na Aula 4, quando estas dores passam
-por priorização (T1), causa-raiz (T2) e viram indicador (T3).
+por priorização, descem à causa-raiz e viram indicador.
 
 > ⚠️ **Não reescreva as dores.** A redação original é o dado. Quando uma dor aparece três vezes com
 > palavras diferentes ("falta de integração de sistemas", "falta de integração entre os sistemas",
@@ -157,18 +157,19 @@ da turma ([`aula-04.md`](aula-04.md), bloco 1). O dot voting incide sobre eles.
 ## Leituras que o instrutor pode oferecer no debrief da Aula 4
 
 Não anuncie nada disto no bloco 1 — o silêncio ali é deliberado. Estas leituras servem ao **debrief
-do bloco 2**, quando o ranking do dot voting for confrontado com o ranking estruturado por GUT e
-Governabilidade.
+do bloco 2**, quando o ranking do dot voting for confrontado com o ranking estruturado por GUT.
 
 1. **A turma mediu a si mesma, não a sociedade.** Dos 8 clusters, 4 tratam de condições de trabalho
    do próprio efetivo — carreira, escalas, gratificações e pessoal — e concentram mais da metade das
    dores. Nenhuma dor menciona o cidadão atendido. Isso não desqualifica nada, mas é exatamente o
    ponto do bloco 2: *o que mais incomoda a tropa não é necessariamente o que mais impacta a
    sociedade.*
-2. **Boa parte do que mais dói é de baixa governabilidade.** Previdência, auxílio moradia, fundo
-   constitucional e ingerência política não se resolvem por decisão do Comandante-Geral. Vão para o
-   quadrante **ARTICULE** — agenda de negociação com stakeholder, retomando a Aula 2 — e não para o
-   **AJA AGORA**.
+2. **Boa parte do que mais dói não se resolve por decisão do CBMDF.** Previdência, auxílio moradia,
+   fundo constitucional e ingerência política dependem de terceiros — GDF, Câmara Legislativa,
+   União. A GUT vai pontuar alto essas dores, e com razão: elas são graves, urgentes e pioram
+   sozinhas. Mas, na hora de o grupo eleger a dor que levará até o fim da disciplina, cabe a
+   pergunta: *existe um indicador com dono dentro do CBMDF para isso?* Quando não existe, o produto
+   possível é agenda de negociação com stakeholder — retomando a Aula 2 —, não painel de gestão.
 3. **Há ciclos reforçadores explícitos na parede.** "Falta viatura, só não falta mais porque falta
    gente" é um ciclo inteiro escrito em uma frase. "Gestores sobrecarregados: não conseguem pensar
    estrategicamente, apenas apagar incêndios" é outro: a ausência de gestão estratégica produz as
