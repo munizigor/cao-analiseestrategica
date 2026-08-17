@@ -17,6 +17,13 @@
     var step = 0;
     var timers = {};   // índice do slide -> estado do cronômetro
 
+    var TIMER_STEP = 30;      // passo de ajuste, em segundos
+    var TIMER_MIN = 30;       // 00:30
+    var TIMER_MAX = 99 * 60 + 30;  // 99:30, mantém o formato MM:SS
+    var TIMER_FALLBACK = 5 * 60;   // usado se o data-t faltar ou for inválido
+    var TIMER_KEY = 'deck:timers:' +
+        ((location.pathname || '').split('/').pop() || 'deck');
+
     /* ---------- escala do palco ---------- */
 
     function fit() {
@@ -87,18 +94,47 @@
 
     /* ---------- cronômetros ---------- */
 
-    function timerEl() {
-        return slides[cur].querySelector('.timer');
+    function timerEl(i) {
+        return slides[(i === undefined) ? cur : i].querySelector('.timer');
     }
 
-    function timerState() {
-        var el = timerEl();
-        if (!el) return null;
-        if (!timers[cur]) {
-            var total = parseFloat(el.getAttribute('data-t')) * 60;
-            timers[cur] = { total: total, left: total, running: false };
+    /* durações personalizadas ficam salvas no navegador, por deck e por slide */
+
+    function loadCustom() {
+        try {
+            return JSON.parse(localStorage.getItem(TIMER_KEY)) || {};
+        } catch (err) {
+            return {};
         }
-        return timers[cur];
+    }
+
+    function saveCustom(i, st) {
+        try {
+            var all = loadCustom();
+            if (st.total === st.base) delete all[i];
+            else all[i] = { base: st.base, total: st.total };
+            localStorage.setItem(TIMER_KEY, JSON.stringify(all));
+        } catch (err) { /* file:// ou janela anônima: segue sem persistir */ }
+    }
+
+    function timerState(i) {
+        if (i === undefined) i = cur;
+        var el = timerEl(i);
+        if (!el) return null;
+        if (!timers[i]) {
+            var base = parseFloat(el.getAttribute('data-t')) * 60;
+            if (!isFinite(base) || base <= 0) base = TIMER_FALLBACK;
+            var total = base;
+            // só aproveita o valor salvo se ele foi gravado sobre este mesmo data-t;
+            // assim uma reordenação de slides ou uma edição do HTML não herda tempo errado
+            var saved = loadCustom()[i];
+            if (saved && saved.base === base &&
+                isFinite(saved.total) && saved.total >= TIMER_MIN && saved.total <= TIMER_MAX) {
+                total = saved.total;
+            }
+            timers[i] = { base: base, total: total, left: total, running: false };
+        }
+        return timers[i];
     }
 
     function fmt(sec) {
@@ -107,8 +143,9 @@
         return (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
     }
 
-    function paintTimer() {
-        var el = timerEl(), st = timerState();
+    function paintTimer(i) {
+        if (i === undefined) i = cur;
+        var el = timerEl(i), st = timerState(i);
         if (!el || !st) return;
         el.querySelector('.timer__time').textContent = fmt(st.left);
         el.classList.toggle('is-running', st.running && st.left > 0);
@@ -116,8 +153,9 @@
         el.classList.toggle('is-done', st.left <= 0);
         var hint = el.querySelector('.timer__hint');
         if (st.left <= 0) hint.textContent = 'tempo esgotado';
-        else if (st.running) hint.textContent = 'T pausa · R zera';
-        else hint.textContent = 'T inicia · R zera';
+        else if (st.running) hint.textContent = 'T pausa · R zera · ± 30s';
+        else hint.textContent = 'T inicia · R zera · ± 30s';
+        if (st.total !== st.base) hint.textContent += ' · ajustado';
     }
 
     function toggleTimer() {
@@ -133,6 +171,33 @@
         if (!st) return;
         st.left = st.total;
         st.running = false;
+        paintTimer();
+    }
+
+    /* + e − esticam ou encurtam o cronômetro de 30 em 30 segundos.
+       O ajuste vale para a rodada em andamento e também vira a nova duração
+       do slide, então o R passa a zerar no tempo ajustado. */
+
+    function adjustTimer(delta) {
+        var st = timerState();
+        if (!st) return;
+        var total = Math.min(TIMER_MAX, Math.max(TIMER_MIN, st.total + delta));
+        var applied = total - st.total;
+        if (!applied) return;
+        st.total = total;
+        st.left = Math.min(TIMER_MAX, Math.max(0, st.left + applied));
+        if (st.left <= 0) { st.left = 0; st.running = false; }
+        saveCustom(cur, st);
+        paintTimer();
+    }
+
+    function restoreTimer() {
+        var st = timerState();
+        if (!st) return;
+        st.total = st.base;
+        st.left = st.base;
+        st.running = false;
+        saveCustom(cur, st);
         paintTimer();
     }
 
@@ -190,9 +255,16 @@
         if (k === 'Home') { e.preventDefault(); go(0); return; }
         if (k === 'End') { e.preventDefault(); go(slides.length - 1); return; }
 
+        if (k === '+' || k === '=' || k === 'Add') {
+            e.preventDefault(); adjustTimer(TIMER_STEP); return;
+        }
+        if (k === '-' || k === '_' || k === 'Subtract') {
+            e.preventDefault(); adjustTimer(-TIMER_STEP); return;
+        }
+
         switch (k.toLowerCase()) {
             case 't': toggleTimer(); break;
-            case 'r': resetTimer(); break;
+            case 'r': e.shiftKey ? restoreTimer() : resetTimer(); break;
             case 'p': notes.classList.toggle('open'); break;
             case 'o': help.classList.remove('open'); overview.classList.toggle('open'); break;
             case 'b': blackout.classList.toggle('open'); break;
@@ -232,6 +304,10 @@
 
     buildOverview();
     fit();
+
+    // pinta todos os cronômetros de uma vez, para que os slides ainda não visitados
+    // já mostrem a duração salva em vez do número escrito no HTML
+    slides.forEach(function (_, i) { paintTimer(i); });
 
     // permite saltar editando a URL (#12) e faz voltar/avançar do navegador funcionar
     window.addEventListener('hashchange', function () {
